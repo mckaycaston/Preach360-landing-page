@@ -34,9 +34,8 @@ export default function Home() {
                 <span className="flex h-2 w-2 rounded-full bg-brand-500 mr-2 animate-pulse"></span>
                 The 4-Hour Workflow
               </div>
-              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white mb-4 leading-[1.1]">
-                Prep in less than <br />
-                <span className="font-drama text-brand-500">half the time.</span>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-4 leading-[1.1]">
+                Prep in less than half the time.
               </h1>
               
               <div className="mb-8 max-w-xl">

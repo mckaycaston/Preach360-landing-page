@@ -3,13 +3,13 @@ import { Button } from "@/components/ui/button";
 
 export function Navbar() {
   return (
-    <div className="fixed top-6 left-0 right-0 z-50 flex justify-center px-4">
-      <nav className="bg-background/80 backdrop-blur-md border border-border/50 shadow-sm rounded-full px-6 py-3 flex items-center justify-between w-full max-w-4xl transition-all duration-300">
+    <div className="fixed top-0 left-0 right-0 z-50 flex justify-center px-0">
+      <nav className="bg-background/95 backdrop-blur-md border-b border-border/50 shadow-sm px-6 py-4 flex items-center justify-between w-full transition-all duration-300">
         <Link href="/" className="flex items-center gap-2">
           <img 
-            src="https://preach360.edgestack.space/images/preach360-logo.png" 
+            src="https://preach360.edgestack.space/images/preach360-logo-transparent-for-light-background.png" 
             alt="Preach360 Logo" 
-            className="h-8"
+            className="h-16 md:h-20 w-auto"
           />
         </Link>
 

@@ -24,9 +24,9 @@ export default function Login() {
       <div className="absolute top-0 left-0 w-full p-6 flex justify-between items-center z-10">
         <Link href="/" className="inline-block">
           <img 
-            src="https://preach360.edgestack.space/images/preach360-logo.png" 
+            src="https://preach360.edgestack.space/images/preach360-logo-transparent-for-light-background.png" 
             alt="Preach360 Logo" 
-            className="h-10 md:h-14 w-auto"
+            className="h-16 md:h-20 w-auto drop-shadow-md"
           />
         </Link>
         <Link href="/">

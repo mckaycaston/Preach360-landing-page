@@ -35,13 +35,13 @@ export default function Home() {
                 The 4-Hour Workflow
               </div>
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white mb-4 leading-[1.1]">
-                Sermon prep is the <br />
-                <span className="font-drama text-brand-500">Grind no more.</span>
+                Prep in less than <br />
+                <span className="font-drama text-brand-500">half the time.</span>
               </h1>
               
               <div className="mb-8 max-w-xl">
                  <h2 className="text-2xl md:text-3xl font-drama text-brand-100 mb-3">
-                   Prep in less than half the time. Preach with twice the impact.
+                   Preach with twice the impact.
                  </h2>
                  <p className="text-lg text-brand-200/80">
                    Craft gospel-rich sermons in an afternoon. Join the free community of pastors discovering a repeatable system.

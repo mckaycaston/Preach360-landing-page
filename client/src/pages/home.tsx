@@ -172,36 +172,36 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-3 gap-8">
-            <div className="group relative bg-card border border-border hover:border-brand-300 transition-colors duration-300 rounded-3xl p-8 shadow-sm hover:shadow-xl hover:shadow-brand-500/5">
+          <div className="grid md:grid-cols-3 gap-8 items-stretch">
+            <div className="group relative bg-card border border-border hover:border-brand-300 transition-colors duration-300 rounded-3xl p-8 shadow-sm hover:shadow-xl hover:shadow-brand-500/5 flex flex-col h-full">
               <div className="text-brand-500 mb-6 bg-brand-50 w-16 h-16 rounded-2xl flex items-center justify-center shadow-sm">
                 <BookOpen size={32} />
               </div>
               <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOUR 1</div>
               <h3 className="text-2xl font-bold mb-4 text-foreground">Exegesis Guide</h3>
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground flex-1">
                 Accurately unpack the biblical text to uncover its original meaning and point directly to the cross.
               </p>
             </div>
 
-            <div className="group relative bg-card border border-border hover:border-brand-300 transition-colors duration-300 rounded-3xl p-8 shadow-sm hover:shadow-xl hover:shadow-brand-500/5 lg:translate-y-8">
+            <div className="group relative bg-card border border-border hover:border-brand-300 transition-colors duration-300 rounded-3xl p-8 shadow-sm hover:shadow-xl hover:shadow-brand-500/5 flex flex-col h-full">
               <div className="text-brand-500 mb-6 bg-brand-50 w-16 h-16 rounded-2xl flex items-center justify-center shadow-sm">
                 <Layers size={32} />
               </div>
               <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOUR 2</div>
               <h3 className="text-2xl font-bold mb-4 text-foreground">Relevance Bridge</h3>
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground flex-1">
                 Connect the specific details of your passage to the grand, redemptive storyline of Scripture.
               </p>
             </div>
 
-            <div className="group relative bg-card border border-border hover:border-brand-300 transition-colors duration-300 rounded-3xl p-8 shadow-sm hover:shadow-xl hover:shadow-brand-500/5 lg:translate-y-16">
+            <div className="group relative bg-card border border-border hover:border-brand-300 transition-colors duration-300 rounded-3xl p-8 shadow-sm hover:shadow-xl hover:shadow-brand-500/5 flex flex-col h-full">
               <div className="text-brand-500 mb-6 bg-brand-50 w-16 h-16 rounded-2xl flex items-center justify-center shadow-sm">
                 <Zap size={32} />
               </div>
               <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOURS 3 & 4</div>
               <h3 className="text-2xl font-bold mb-4 text-foreground">PPGR Movements</h3>
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground flex-1">
                 Anchor every message in the clear progression of Principle, Problem, Gospel, and Response.
               </p>
             </div>

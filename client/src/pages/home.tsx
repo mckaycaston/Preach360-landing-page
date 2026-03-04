@@ -339,29 +339,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* TESTIMONIALS */}
-      <section className="py-24 bg-background relative" id="testimonials">
-        <div className="container mx-auto px-4 max-w-6xl">
-          <div className="text-center mb-16">
-             <h2 className="text-3xl md:text-5xl font-bold font-drama text-foreground">A Healthy Rhythm For Your Ministry</h2>
-          </div>
-          
-          <div className="grid md:grid-cols-3 gap-6 items-start">
-             <div className="flex justify-center transition-transform hover:scale-105 duration-300">
-               <img src="/images/testimonial-rodney.png" alt="Testimonial from Rodney B." className="max-w-full h-auto drop-shadow-md rounded-3xl" />
-             </div>
-
-             <div className="flex justify-center transition-transform hover:scale-105 duration-300">
-               <img src="/images/testimonial-john.png" alt="Testimonial from John G." className="max-w-full h-auto drop-shadow-md rounded-3xl" />
-             </div>
-
-             <div className="flex justify-center transition-transform hover:scale-105 duration-300">
-               <img src="/images/testimonial-mark.png" alt="Testimonial from Mark A." className="max-w-full h-auto drop-shadow-md rounded-3xl" />
-             </div>
-          </div>
-        </div>
-      </section>
-
       {/* PRICING */}
       <section className="py-24 bg-background" id="pricing">
         <div className="container mx-auto px-4 max-w-6xl">

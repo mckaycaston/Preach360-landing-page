@@ -309,7 +309,7 @@ export default function Home() {
                   McKay Caston is a pastor with over 30 years of preaching experience.
                 </p>
                 <p>
-                  Having taught homiletics in seminary for ten years, he poured his PhD research into Preach360 to help solo pastors both preach the gospel clearly and experience relief from weekly sermon prep pressure.
+                  Having taught homiletics in seminary for ten years, he poured his PhD research into Preach360 to help solo pastors both preach the gospel clearly and experience relief from the weekly weekly pressure of sermon prep.
                 </p>
                 <p className="text-brand-900 font-medium text-2xl font-drama mt-8">
                   His ultimate goal? To help you live a sustainable life for a long-term, gospel preaching ministry.

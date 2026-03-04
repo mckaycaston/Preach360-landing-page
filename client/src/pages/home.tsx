@@ -294,10 +294,6 @@ export default function Home() {
                   <h4 className="font-bold text-lg mb-2 text-foreground">Roadmap progress tracker</h4>
                   <p className="text-muted-foreground text-sm leading-relaxed">A clear, step-by-step visual indicator that keeps your sermon prep moving forward, eliminating guesswork so you stay on pace.</p>
                 </div>
-                <div className="bg-white p-6 rounded-2xl border border-border shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="font-bold text-lg mb-2 text-foreground">Light and dark mode</h4>
-                  <p className="text-muted-foreground text-sm leading-relaxed">An interface designed to reduce eye strain and fit your environment, whether you are working early in the morning or reviewing notes in the evening.</p>
-                </div>
               </div>
             </div>
 

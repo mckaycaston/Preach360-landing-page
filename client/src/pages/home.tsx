@@ -60,6 +60,13 @@ export default function Home() {
               <p className="text-sm text-brand-200/60 max-w-md">
                 Join a community of pastors from over 20 countries across 6 continents who are discovering the relief and freedom of Preach360.
               </p>
+
+              <div className="mt-8 border-l-2 border-brand-500/50 pl-4 py-1">
+                <p className="text-brand-100 italic text-sm md:text-base leading-relaxed">
+                  "I have received more comments about the sermons being helpful than in all my previous years of preaching combined."
+                </p>
+                <p className="text-brand-400 text-xs font-bold mt-2">— Rodney B.</p>
+              </div>
             </motion.div>
 
             <motion.div 
@@ -172,11 +179,8 @@ export default function Home() {
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="mb-16 text-center">
             <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-brand-950">The Preach360 Roadmap</h2>
-            <p className="text-xl text-brand-600 font-medium mb-4">
+            <p className="text-xl text-brand-600 font-medium">
               Preach360 provides the path. You trust the process.
-            </p>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              A clear, step-by-step visual indicator that keeps your sermon prep moving forward, eliminating guesswork.
             </p>
           </div>
 

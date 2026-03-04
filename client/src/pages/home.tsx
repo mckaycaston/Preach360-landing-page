@@ -188,7 +188,7 @@ export default function Home() {
             <img src={roadmapProgress} alt="Roadmap Progress Tracker" className="max-w-full h-auto w-full md:w-3/4 shadow-sm rounded-xl border border-border/50" />
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 items-stretch">
+          <div className="grid md:grid-cols-3 gap-8 items-stretch mb-16">
             <div className="group relative bg-card border border-border hover:border-brand-300 transition-colors duration-300 rounded-3xl p-8 shadow-sm hover:shadow-xl hover:shadow-brand-500/5 flex flex-col h-full">
               <div className="text-brand-500 mb-6 bg-brand-50 w-16 h-16 rounded-2xl flex items-center justify-center shadow-sm">
                 <BookOpen size={32} />
@@ -221,6 +221,13 @@ export default function Home() {
                 A repeatable framework that structurally anchors every message in the clear redemptive progression of Principle, Problem, Gospel, and Response.
               </p>
             </div>
+          </div>
+          
+          <div className="max-w-3xl mx-auto text-center border-t border-brand-200/50 pt-12">
+            <p className="text-xl md:text-2xl text-brand-900 font-drama italic mb-4">
+              "Sermon prep was occupying most if not all of my agenda. I now have a healthy rhythm for my family and the church. Thank you so much!"
+            </p>
+            <p className="text-brand-600 font-bold">— John G.</p>
           </div>
         </div>
       </section>

@@ -5,6 +5,7 @@ import { ArrowRight, Clock, BookOpen, Layers, ShieldCheck, Zap, Lock } from "luc
 import { Link } from "wouter";
 import roadmapProgress from "@assets/image_1772636322550.png";
 import aboutCreatorImage from "@assets/image_1772656745459.png";
+import allInOneSermonOs from "@assets/image_1772659804934.png";
 
 export default function Home() {
   return (
@@ -320,33 +321,16 @@ export default function Home() {
         </div>
       </section>
 
-      {/* PRODUCT FEATURES & PILLARS */}
-      <section className="py-24 bg-brand-50/50 relative" id="pillars">
-        <div className="container mx-auto px-4 max-w-6xl">
-          <div className="text-center mb-16">
-            <div className="inline-flex items-center rounded-full border border-brand-200 bg-brand-100 px-3 py-1 text-sm text-brand-700 mb-6 font-medium">
-              Product Features
-            </div>
-            <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-brand-950">Your All-in-One Sermon OS</h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              A comprehensive toolkit. No other prep tools needed.
-            </p>
-          </div>
+      {/* PRODUCT FEATURES & PILLARS - REMOVED */}
 
-          <div className="w-full flex justify-center">
-            <img src="/images/featuresImage.png" alt="Preach360 Features Pillars" className="max-w-full h-auto w-full md:w-3/4 shadow-lg rounded-2xl border border-border" />
-          </div>
-        </div>
-      </section>
 
       {/* PRICING */}
       <section className="py-24 bg-background" id="pricing">
         <div className="container mx-auto px-4 max-w-6xl">
            <div className="text-center mb-16">
-             <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-foreground">Pricing</h2>
-             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-               Sustainable plans for sustainable ministry.
-             </p>
+             <div className="w-full flex justify-center mb-6">
+               <img src={allInOneSermonOs} alt="Your All-in-One Sermon OS" className="max-w-full h-auto" />
+             </div>
            </div>
            
            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">

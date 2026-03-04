@@ -268,9 +268,9 @@ export default function Home() {
             <div className="inline-flex items-center rounded-full border border-brand-200 bg-brand-100 px-3 py-1 text-sm text-brand-700 mb-6 font-medium">
               Product Features
             </div>
-            <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-brand-950">Everything you need. Nothing you don't.</h2>
+            <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-brand-950">Your All-in-One Sermon OS</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              A comprehensive toolkit built on three core pillars to transform your sermon prep.
+              A comprehensive toolkit. No other prep tools needed.
             </p>
           </div>
 

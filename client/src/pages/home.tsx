@@ -231,6 +231,10 @@ export default function Home() {
              </p>
           </div>
           
+          <div className="w-full flex justify-center mb-16">
+            <img src="/images/appInterface.png" alt="Preach360 App Interface" className="max-w-full h-auto w-full md:w-5/6 shadow-2xl rounded-2xl border border-border" />
+          </div>
+
           <div className="grid md:grid-cols-3 gap-6 items-stretch">
              {/* vs Complexity */}
              <div className="bg-card border border-border p-8 rounded-2xl shadow-sm flex flex-col h-full">

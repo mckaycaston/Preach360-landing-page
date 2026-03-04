@@ -420,7 +420,7 @@ export default function Home() {
                  {"★★★★★".split("").map((star, i) => <span key={i}>{star}</span>)}
                </div>
                <p className="text-muted-foreground mb-6 text-sm italic leading-relaxed">
-                 "This will revolutionize the mission work in the 10-40 window! Preaching with movements helps my Buddhist audience because it's like a story telling."
+                 "This will revolutionize the mission work in the 10-40 window! Preaching with movements helps my Buddhist audience because it's like telling a story."
                </p>
                <div className="font-bold text-foreground">Mark A.</div>
              </div>

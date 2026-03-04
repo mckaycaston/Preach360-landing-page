@@ -5,7 +5,6 @@ import { ArrowRight, Clock, BookOpen, Layers, ShieldCheck, Zap, Lock } from "luc
 import { Link } from "wouter";
 import roadmapProgress from "@assets/image_1772636322550.png";
 import aboutCreatorImage from "@assets/image_1772656745459.png";
-import allInOneSermonOs from "@assets/image_1772659804934.png";
 
 export default function Home() {
   return (
@@ -328,9 +327,10 @@ export default function Home() {
       <section className="py-24 bg-background" id="pricing">
         <div className="container mx-auto px-4 max-w-6xl">
            <div className="text-center mb-16">
-             <div className="w-full flex justify-center mb-6">
-               <img src={allInOneSermonOs} alt="Your All-in-One Sermon OS" className="max-w-full h-auto" />
-             </div>
+             <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-foreground">Your All-in-One Sermon OS</h2>
+             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+               A comprehensive toolkit. No other prep tools needed.
+             </p>
            </div>
            
            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">

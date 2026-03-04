@@ -288,7 +288,7 @@ export default function Home() {
       <section className="py-24 md:py-32 bg-brand-50/50" id="about">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="text-center mb-16">
-             <h2 className="text-3xl md:text-5xl font-bold font-drama text-brand-950">About the Creator</h2>
+             <h2 className="text-3xl md:text-5xl font-bold font-drama text-brand-950">About the Creator—McKay Caston, PhD</h2>
           </div>
           
           <div className="flex flex-col md:flex-row gap-12 lg:gap-16 items-center max-w-5xl mx-auto">
@@ -303,7 +303,6 @@ export default function Home() {
             </div>
             
             <div className="w-full md:w-1/2">
-              <h3 className="text-3xl md:text-4xl font-bold mb-6 font-drama text-foreground">McKay Caston, PhD</h3>
               <div className="space-y-6 text-xl text-muted-foreground leading-relaxed">
                 <p>
                   McKay Caston is a pastor with over 30 years of preaching experience.

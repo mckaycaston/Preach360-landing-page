@@ -286,7 +286,7 @@ export default function Home() {
           </div>
 
           <div className="w-full flex justify-center">
-            <img src="/images/featuresImage.png" alt="Preach360 Features Pillars" className="max-w-full h-auto w-full md:w-3/4 shadow-lg rounded-2xl border border-border" />
+            <img src="/images/featuresImage.png" alt="Preach360 Features Pillars" className="max-w-full h-auto w-full md:w-5/6" />
           </div>
         </div>
       </section>

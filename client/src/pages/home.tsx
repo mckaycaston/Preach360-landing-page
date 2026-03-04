@@ -289,6 +289,86 @@ export default function Home() {
         </div>
       </section>
 
+      {/* TESTIMONIALS */}
+      <section className="py-24 bg-background relative" id="testimonials">
+        <div className="container mx-auto px-4 max-w-6xl">
+          <div className="text-center mb-16">
+             <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-foreground">A Healthy Rhythm For Your Ministry</h2>
+             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+               Hear how Preach360 is transforming the workflow and impact of pastors around the world.
+             </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 items-start">
+             {/* Testimonial 1 */}
+             <div className="bg-card border border-border p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+               <div className="flex text-brand-500 mb-4">
+                 {"★★★★★".split("").map((star, i) => <span key={i}>{star}</span>)}
+               </div>
+               <p className="text-muted-foreground mb-6 text-sm italic leading-relaxed">
+                 "Prior to using Preach360, I spent over 20 hours developing a single sermon... Now that I have been using this process for over a year, my sermon prep has transformed. I have received more comments about the sermons being helpful than in all my previous years of preaching combined."
+               </p>
+               <div className="font-bold text-foreground">Rodney B.</div>
+             </div>
+
+             {/* Testimonial 2 */}
+             <div className="bg-card border border-border p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+               <div className="flex text-brand-500 mb-4">
+                 {"★★★★★".split("").map((star, i) => <span key={i}>{star}</span>)}
+               </div>
+               <p className="text-muted-foreground mb-6 text-sm italic leading-relaxed">
+                 "Preach360 has been a game-changer for me. I was chronically finishing my sermon early Sunday mornings, but now have it completed between Tuesday and Thursday every week. I really look forward to both sermon prep and preaching more than ever."
+               </p>
+               <div className="font-bold text-foreground">Chris T.</div>
+             </div>
+
+             {/* Testimonial 3 */}
+             <div className="bg-card border border-border p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+               <div className="flex text-brand-500 mb-4">
+                 {"★★★★★".split("").map((star, i) => <span key={i}>{star}</span>)}
+               </div>
+               <p className="text-muted-foreground mb-6 text-sm italic leading-relaxed">
+                 "I have noticed an increase in members wanting to talk about the message and how it is hitting them... They express a deeper conviction of sin and a greater appreciation of Grace. I am grateful for finding this model, even at this late stage in my ministry."
+               </p>
+               <div className="font-bold text-foreground">Scott N.</div>
+             </div>
+
+             {/* Testimonial 4 */}
+             <div className="bg-card border border-border p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+               <div className="flex text-brand-500 mb-4">
+                 {"★★★★★".split("").map((star, i) => <span key={i}>{star}</span>)}
+               </div>
+               <p className="text-muted-foreground mb-6 text-sm italic leading-relaxed">
+                 "Preach360 has been a huge blessing. Sermon prep was basically occupying most if not all of my agenda. I now have a healthy rhythm for my family and the church."
+               </p>
+               <div className="font-bold text-foreground">John G.</div>
+             </div>
+
+             {/* Testimonial 5 */}
+             <div className="bg-card border border-border p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+               <div className="flex text-brand-500 mb-4">
+                 {"★★★★★".split("").map((star, i) => <span key={i}>{star}</span>)}
+               </div>
+               <p className="text-muted-foreground mb-6 text-sm italic leading-relaxed">
+                 "This will revolutionize the mission work in the 10-40 window! Preaching with movements helps my Buddhist audience because it's like a story telling."
+               </p>
+               <div className="font-bold text-foreground">Mark A.</div>
+             </div>
+
+             {/* Testimonial 6 */}
+             <div className="bg-card border border-border p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+               <div className="flex text-brand-500 mb-4">
+                 {"★★★★★".split("").map((star, i) => <span key={i}>{star}</span>)}
+               </div>
+               <p className="text-muted-foreground mb-6 text-sm italic leading-relaxed">
+                 "The focus and simplicity of PPGR have helped me preach Christ with a tangible connection to real spiritual struggles people are facing."
+               </p>
+               <div className="font-bold text-foreground">David H.</div>
+             </div>
+          </div>
+        </div>
+      </section>
+
       {/* PRICING */}
       <section className="py-24 bg-background" id="pricing">
         <div className="container mx-auto px-4 max-w-6xl">

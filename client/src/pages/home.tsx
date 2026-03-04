@@ -312,9 +312,9 @@ export default function Home() {
                   <h4 className="font-bold text-lg mb-2 text-foreground">Expository mapping</h4>
                   <p className="text-muted-foreground text-sm leading-relaxed">A visual pathway that turns your exegetical study into a homiletical outline.</p>
                 </div>
-                <div className="bg-white p-6 rounded-2xl border border-border shadow-sm hover:shadow-md transition-shadow lg:col-span-2">
+                <div className="bg-white p-6 rounded-2xl border border-border shadow-sm hover:shadow-md transition-shadow">
                   <h4 className="font-bold text-lg mb-2 text-foreground">Worldview Analysis</h4>
-                  <p className="text-muted-foreground text-sm leading-relaxed">A diagnostic that helps identify the cultural narratives competing for your congregation's hearts, allowing you to effectively engage them with the truth of the gospel.</p>
+                  <p className="text-muted-foreground text-sm leading-relaxed">Identify the cultural narratives competing for your congregation's hearts, with an analysis to effectively engage them with the truth of the gospel.</p>
                 </div>
               </div>
             </div>

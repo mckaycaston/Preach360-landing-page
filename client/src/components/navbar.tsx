@@ -14,8 +14,8 @@ export function Navbar() {
         </Link>
 
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
-          <a href="#system" className="hover:text-foreground transition-colors">The System</a>
-          <a href="#community" className="hover:text-foreground transition-colors">Community</a>
+          <a href="#roadmap" className="hover:text-foreground transition-colors">Discover the Roadmap</a>
+          <a href="#about" className="hover:text-foreground transition-colors">Meet the Creator</a>
           <a href="#pricing" className="hover:text-foreground transition-colors">Pricing</a>
         </div>
 

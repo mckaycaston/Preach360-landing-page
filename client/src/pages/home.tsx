@@ -44,11 +44,11 @@ export default function Home() {
                    Preach with twice the impact.
                  </h2>
                  <p className="text-lg text-brand-200/80">
-                   Helping solo pastors on 6 continents craft gospel-rich sermons in an afternoon.
+                   Helping solo pastors craft gospel-rich sermons in an afternoon.
                  </p>
               </div>
               
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-4 mb-6">
                 <Button size="lg" className="rounded-full bg-brand-500 hover:bg-brand-600 text-white h-14 px-8 text-base shadow-lg shadow-brand-500/25">
                   Start 4-Hour Prep <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
@@ -56,6 +56,10 @@ export default function Home() {
                   Join the Free Community
                 </Button>
               </div>
+              
+              <p className="text-sm text-brand-200/60 max-w-md">
+                Join a community of pastors from over 20 countries across 6 continents who are discovering the relief and freedom of Preach360.
+              </p>
             </motion.div>
 
             <motion.div 

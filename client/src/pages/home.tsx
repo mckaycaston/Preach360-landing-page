@@ -352,7 +352,8 @@ export default function Home() {
            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <div className="bg-card border border-border p-8 rounded-3xl flex flex-col">
                 <h3 className="text-xl font-bold mb-2">Basic Sermon Studio</h3>
-                <div className="text-3xl font-bold mb-4 font-mono">$35<span className="text-base font-normal text-muted-foreground">/mo</span></div>
+                <div className="text-3xl font-bold mb-2 font-mono">$35<span className="text-base font-normal text-muted-foreground">/mo</span></div>
+                <p className="text-sm font-medium text-brand-600 mb-4">per user, or $350/yr (2 mos free)</p>
                 <p className="text-sm text-muted-foreground mb-6">The core sermon preparation operating system designed to fit standard pastoral continuing education budgets.</p>
                 <div className="mt-auto pt-6 border-t border-border">
                   <Button className="w-full" variant="outline">Choose Basic</Button>
@@ -364,17 +365,18 @@ export default function Home() {
                   <span className="bg-brand-950 text-brand-100 text-xs font-bold px-3 py-1 rounded-full">RECOMMENDED</span>
                 </div>
                 <h3 className="text-xl font-bold mb-2 text-brand-50">Premium Upgrade</h3>
-                <div className="text-3xl font-bold mb-4 font-mono">$70<span className="text-base font-normal text-brand-200">/mo</span></div>
-                <p className="text-sm text-brand-100 mb-6">Includes video training library, PPGR360 Video Course, full suite of apps, and weekly live group coaching.</p>
+                <div className="text-3xl font-bold mb-2 font-mono">$70<span className="text-base font-normal text-brand-200">/mo</span></div>
+                <p className="text-sm font-medium text-brand-100 mb-4">per user, or $700/yr (2 mos free)</p>
+                <p className="text-sm text-brand-100 mb-6">Includes the complete video training library, the comprehensive Preach360 Video Course, the full suite of specialized sermon prep apps, and weekly live group coaching via Zoom with Preach360 creator, McKay Caston.</p>
                 <div className="mt-auto pt-6 border-t border-brand-400">
                   <Button className="w-full bg-white text-brand-600 hover:bg-brand-50">Choose Premium</Button>
                 </div>
               </div>
               
               <div className="bg-card border border-border p-8 rounded-3xl flex flex-col">
-                <h3 className="text-xl font-bold mb-2">Volume Pricing</h3>
-                <div className="text-3xl font-bold mb-4 font-mono">$15<span className="text-base font-normal text-muted-foreground">/mo per user</span></div>
-                <p className="text-sm text-muted-foreground mb-6">Equip your entire network. Annual only at $180/user for bulk licensing of the basic studio.</p>
+                <h3 className="text-xl font-bold mb-2">Volume Pricing <span className="text-sm font-normal text-muted-foreground block mt-1">(Networks/Denominations)</span></h3>
+                <div className="text-2xl font-bold mb-4 font-mono">$15-$25<span className="text-base font-normal text-muted-foreground">/mo</span></div>
+                <p className="text-sm text-muted-foreground mb-6">Those who purchase a basic or premium subscription may purchase additional seats at the volume price for staffs, church planting networks, mission organizations, seminaries, etc. Volume pricing is $15/mo (billed annually) for the basic studio and $25/mo for premium.</p>
                 <div className="mt-auto pt-6 border-t border-border">
                   <Button className="w-full" variant="outline">Contact Sales</Button>
                 </div>

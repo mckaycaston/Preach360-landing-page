@@ -396,7 +396,7 @@ export default function Home() {
                   Having taught homiletics in seminary for ten years, he poured his PhD research into Preach360 to help solo pastors both preach the gospel clearly and experience relief from weekly sermon prep pressure.
                 </p>
                 <p className="text-brand-900 font-medium">
-                  His ultimate goal? To help you live a sustainable life for a long-term ministry.
+                  His ultimate goal? To help you live a sustainable life for a long-term, gospel preaching ministry.
                 </p>
               </div>
             </div>

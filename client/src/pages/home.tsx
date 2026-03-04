@@ -91,9 +91,6 @@ export default function Home() {
         <div className="container mx-auto px-4 max-w-6xl relative z-10">
           <div className="text-center mb-16 max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground font-drama">4 hours of deep work beats 12 hours of fragmented prep every time.</h2>
-            <p className="text-lg text-muted-foreground">
-              The "Sermon Grind" is destroying pastors. It's time to escape the 18-hour weeks and avoid pastoral burnout.
-            </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12">

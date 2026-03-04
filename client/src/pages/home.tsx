@@ -317,7 +317,7 @@ export default function Home() {
                   <p>The Preach360 web app was designed in collaboration with</p>
                   <ul className="list-disc list-inside mt-2 pl-2 space-y-1">
                     <li>Michael Byrd, professional developer</li>
-                    <li>Rich Cannon, tech specialist</li>
+                    <li>Rich Cannon, product specialist</li>
                   </ul>
                 </div>
               </div>

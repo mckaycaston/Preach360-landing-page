@@ -325,14 +325,10 @@ export default function Home() {
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-brand-500 text-white text-sm font-bold">3</span>
                 Optimization, Evaluation, and Presentation
               </h3>
-              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div className="bg-white p-6 rounded-2xl border border-border shadow-sm hover:shadow-md transition-shadow">
                   <h4 className="font-bold text-lg mb-2 text-foreground">Outline mode</h4>
                   <p className="text-muted-foreground text-sm leading-relaxed">A workspace that condenses your full manuscript into a clear pulpit outline.</p>
-                </div>
-                <div className="bg-white p-6 rounded-2xl border border-border shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="font-bold text-lg mb-2 text-foreground">Audience optimization</h4>
-                  <p className="text-muted-foreground text-sm leading-relaxed">A refinement tool to ensure your language and illustrations connect the grace of Jesus directly to the specific issues and struggles for the unique issues your congregation is facing.</p>
                 </div>
                 <div className="bg-white p-6 rounded-2xl border border-border shadow-sm hover:shadow-md transition-shadow">
                   <h4 className="font-bold text-lg mb-2 text-foreground">Podium mode</h4>

@@ -303,13 +303,13 @@ export default function Home() {
             </div>
             
             <div className="w-full md:w-1/2">
-              <h3 className="text-3xl md:text-4xl font-bold mb-6 font-drama text-foreground">McKay Caston</h3>
+              <h3 className="text-3xl md:text-4xl font-bold mb-6 font-drama text-foreground">McKay Caston, PhD</h3>
               <div className="space-y-6 text-xl text-muted-foreground leading-relaxed">
                 <p>
                   McKay Caston is a pastor with over 30 years of preaching experience.
                 </p>
                 <p>
-                  Having taught homiletics in seminary for ten years, he poured his PhD research into Preach360 to help solo pastors both preach the gospel clearly and experience relief from the weekly weekly pressure of sermon prep.
+                  Having taught homiletics in seminary for ten years, he poured his doctoral research into Preach360 to help solo pastors both preach the gospel clearly and experience relief from the weekly weekly pressure of sermon prep.
                 </p>
                 <p className="text-brand-900 font-medium text-2xl font-drama mt-8">
                   His ultimate goal? To help you live a sustainable life for a long-term, gospel preaching ministry.
@@ -367,7 +367,7 @@ export default function Home() {
                 <h3 className="text-xl font-bold mb-2 text-brand-50">Premium Upgrade</h3>
                 <div className="text-3xl font-bold mb-2 font-mono">$70<span className="text-base font-normal text-brand-200">/mo</span></div>
                 <p className="text-sm font-medium text-brand-100 mb-4">per user, or $700/yr (2 mos free)</p>
-                <p className="text-sm text-brand-100 mb-6">Includes the complete video training library, the comprehensive Preach360 Video Course, the full suite of specialized sermon prep apps, and weekly live group coaching via Zoom with Preach360 creator, McKay Caston.</p>
+                <p className="text-sm text-brand-100 mb-6">Includes the complete video training library, the comprehensive Preach360 Video Course, the full suite of specialized sermon prep apps, and weekly live group coaching via Zoom with Preach360 creator, McKay Caston, PhD.</p>
                 <div className="mt-auto pt-6 border-t border-brand-400">
                   <Button className="w-full bg-white text-brand-600 hover:bg-brand-50">Choose Premium</Button>
                 </div>

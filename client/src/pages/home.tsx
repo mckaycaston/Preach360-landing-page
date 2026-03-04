@@ -185,7 +185,7 @@ export default function Home() {
               <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOUR 1</div>
               <h3 className="text-2xl font-bold mb-4 text-foreground">Exegesis Guide</h3>
               <p className="text-muted-foreground flex-1">
-                Accurately unpack the biblical text to uncover its original meaning and point directly to the cross.
+                A tool that helps you produce an in-depth exegetical analysis of the text from a redemptive framework.
               </p>
             </div>
 
@@ -194,9 +194,9 @@ export default function Home() {
                 <Layers size={32} />
               </div>
               <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOUR 2</div>
-              <h3 className="text-2xl font-bold mb-4 text-foreground">Relevance Bridge</h3>
+              <h3 className="text-2xl font-bold mb-4 text-foreground">The Relevance Bridge</h3>
               <p className="text-muted-foreground flex-1">
-                Connect the specific details of your passage to the grand, redemptive storyline of Scripture.
+                The contexual connection between the original recipients and modern listeners that reveals the present day need for the text.
               </p>
             </div>
 
@@ -207,7 +207,7 @@ export default function Home() {
               <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOURS 3 & 4</div>
               <h3 className="text-2xl font-bold mb-4 text-foreground">PPGR Movements</h3>
               <p className="text-muted-foreground flex-1">
-                Anchor every message in the clear progression of Principle, Problem, Gospel, and Response.
+                A repeatable framework that structurally anchors every message in the clear redemptive progression of Principle, Problem, Gospel, and Response.
               </p>
             </div>
           </div>

@@ -179,10 +179,9 @@ export default function Home() {
               </div>
               <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOUR 1</div>
               <h3 className="text-2xl font-bold mb-4 text-foreground">Exegesis Guide</h3>
-              <p className="text-muted-foreground mb-6">
+              <p className="text-muted-foreground">
                 Accurately unpack the biblical text to uncover its original meaning and point directly to the cross.
               </p>
-              <img src="https://preach360.edgestack.space/images/preach360-screenshot-exegesis-guide.png" alt="Exegesis Guide" className="rounded-xl border border-border/50 group-hover:scale-105 transition-transform duration-500" />
             </div>
 
             <div className="group relative bg-card border border-border hover:border-brand-300 transition-colors duration-300 rounded-3xl p-8 shadow-sm hover:shadow-xl hover:shadow-brand-500/5 lg:translate-y-8">
@@ -191,10 +190,9 @@ export default function Home() {
               </div>
               <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOUR 2</div>
               <h3 className="text-2xl font-bold mb-4 text-foreground">Relevance Bridge</h3>
-              <p className="text-muted-foreground mb-6">
+              <p className="text-muted-foreground">
                 Connect the specific details of your passage to the grand, redemptive storyline of Scripture.
               </p>
-              <img src="https://preach360.edgestack.space/images/preach360-screenshot-expository-mapping.png" alt="Expository Mapping" className="rounded-xl border border-border/50 group-hover:scale-105 transition-transform duration-500" />
             </div>
 
             <div className="group relative bg-card border border-border hover:border-brand-300 transition-colors duration-300 rounded-3xl p-8 shadow-sm hover:shadow-xl hover:shadow-brand-500/5 lg:translate-y-16">
@@ -203,10 +201,9 @@ export default function Home() {
               </div>
               <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOURS 3 & 4</div>
               <h3 className="text-2xl font-bold mb-4 text-foreground">PPGR Movements</h3>
-              <p className="text-muted-foreground mb-6">
+              <p className="text-muted-foreground">
                 Anchor every message in the clear progression of Principle, Problem, Gospel, and Response.
               </p>
-              <img src="https://preach360.edgestack.space/images/ppgr-blueprint.png" alt="PPGR Blueprint" className="rounded-xl border border-border/50 bg-white group-hover:scale-105 transition-transform duration-500" />
             </div>
           </div>
         </div>

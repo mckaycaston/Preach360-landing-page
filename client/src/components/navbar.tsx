@@ -7,7 +7,7 @@ export function Navbar() {
       <nav className="bg-background/95 backdrop-blur-md border-b border-border/50 shadow-sm px-6 py-4 flex items-center justify-between w-full transition-all duration-300">
         <Link href="/" className="flex items-center gap-2">
           <img 
-            src="https://preach360.edgestack.space/images/preach360-logo-transparent-for-light-background.png" 
+            src="https://preach360.edgestack.space/images/preach360-logo-transparent-dark-background.png" 
             alt="Preach360 Logo" 
             className="h-16 md:h-20 w-auto"
           />

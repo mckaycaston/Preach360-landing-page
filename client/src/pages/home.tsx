@@ -428,9 +428,9 @@ export default function Home() {
       <footer className="bg-background border-t border-border text-muted-foreground py-12 text-sm text-center">
         <div className="container mx-auto px-4 flex flex-col items-center">
           <img 
-            src="https://preach360.edgestack.space/images/preach360-logo.png" 
+            src="https://preach360.edgestack.space/images/preach360-logo-transparent-dark-background.png" 
             alt="Preach360 Logo" 
-            className="h-8 mb-6 opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
+            className="h-16 mb-6 opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
           />
           <p>© {new Date().getFullYear()} Preach360. All rights reserved.</p>
         </div>

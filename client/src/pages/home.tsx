@@ -313,7 +313,7 @@ export default function Home() {
                   <p className="text-muted-foreground text-sm leading-relaxed">A visual pathway that turns your exegetical study into a homiletical outline.</p>
                 </div>
                 <div className="bg-white p-6 rounded-2xl border border-border shadow-sm hover:shadow-md transition-shadow lg:col-span-2">
-                  <h4 className="font-bold text-lg mb-2 text-foreground">Worldview and Moral Framework Analysis</h4>
+                  <h4 className="font-bold text-lg mb-2 text-foreground">Worldview Analysis</h4>
                   <p className="text-muted-foreground text-sm leading-relaxed">A diagnostic tool that helps you identify the cultural narratives and false saviors competing for your congregation's hearts, allowing you to effectively dismantle them with the truth of the gospel.</p>
                 </div>
               </div>

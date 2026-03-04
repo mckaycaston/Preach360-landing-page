@@ -344,30 +344,19 @@ export default function Home() {
         </div>
       </section>
 
-      {/* THE MANIFESTO (Philosophy) */}
-      <section className="py-32 bg-brand-50 relative overflow-hidden">
+      {/* THE MODERN CLOISTER / PRIVACY WALL */}
+      <section className="py-24 md:py-32 bg-brand-50 relative overflow-hidden">
         <div className="absolute right-0 top-0 opacity-[0.03] w-1/2 h-full bg-[url('https://preach360.edgestack.space/images/ppgr-blueprint.png')] bg-contain bg-no-repeat bg-right" />
         <div className="container mx-auto px-4 max-w-4xl relative z-10 text-center">
-          <ShieldCheck className="w-16 h-16 text-brand-500 mx-auto mb-8" />
-          <h2 className="text-3xl md:text-5xl font-bold mb-10 text-brand-950 font-drama">The Modern Cloister</h2>
+          <ShieldCheck className="w-16 h-16 text-brand-500 mx-auto mb-6 md:mb-8" />
+          <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-10 text-brand-950 font-drama">The Modern Cloister</h2>
           
           <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl shadow-brand-900/5 border border-brand-100">
-            <div className="space-y-8 text-xl md:text-2xl font-medium text-brand-900">
-              <p className="text-muted-foreground line-through decoration-brand-500/30 decoration-2">
-                Most AI focuses on replacing the speaker.
-              </p>
-              <p className="text-brand-600 font-bold scale-105 transform">
-                Preach360 focuses on retaining your authentic voice.
-              </p>
-            </div>
-            
-            <div className="mt-12 pt-8 border-t border-brand-100">
-              <h4 className="text-lg font-bold text-brand-900 mb-2">The Privacy Wall</h4>
-              <p className="text-muted-foreground">
-                Sermon prep requires deep vulnerability. Preach360 operates behind a strict Privacy Wall, 
-                assuring that your unpolished drafts, prayers, and brainstorming are protected from employer or elder board oversight.
-              </p>
-            </div>
+            <h3 className="text-2xl font-bold text-brand-900 mb-4">The Privacy Wall</h3>
+            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+              Sermon prep requires deep vulnerability. Preach360 operates behind a strict Privacy Wall, 
+              assuring that your unpolished drafts, prayers, and brainstorming are protected from employer or elder board oversight.
+            </p>
           </div>
         </div>
       </section>

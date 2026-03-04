@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, Clock, BookOpen, Layers, ShieldCheck, Zap, Lock } from "lucide-react";
 import { Link } from "wouter";
 import roadmapProgress from "@assets/image_1772636322550.png";
+import featuresImage from "@assets/image_1772654820269.png";
 
 export default function Home() {
   return (
@@ -281,72 +282,8 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="space-y-16">
-            {/* Pillar 1 */}
-            <div>
-              <h3 className="text-2xl font-bold mb-8 text-brand-950 flex items-center gap-3 border-b border-brand-200 pb-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-brand-500 text-white text-sm font-bold">1</span>
-                Sermon Prep Roadmap
-              </h3>
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div className="bg-white p-6 rounded-2xl border border-border shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="font-bold text-lg mb-2 text-foreground">The 4-hour process</h4>
-                  <p className="text-muted-foreground text-sm leading-relaxed">A sustainable, step-by-step workflow designed to take you from a blank page to a finished sermon without sacrificing your family or burning out.</p>
-                </div>
-                <div className="bg-white p-6 rounded-2xl border border-border shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="font-bold text-lg mb-2 text-foreground">The PPGR blueprint</h4>
-                  <p className="text-muted-foreground text-sm leading-relaxed">A repeatable framework that structurally anchors every message in the clear redemptive progression of Principle, Problem, Gospel, and Response.</p>
-                </div>
-                <div className="bg-white p-6 rounded-2xl border border-border shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="font-bold text-lg mb-2 text-foreground">Roadmap progress tracker</h4>
-                  <p className="text-muted-foreground text-sm leading-relaxed">A clear, step-by-step visual indicator that keeps your sermon prep moving forward, eliminating guesswork so you stay on pace.</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Pillar 2 */}
-            <div>
-              <h3 className="text-2xl font-bold mb-8 text-brand-950 flex items-center gap-3 border-b border-brand-200 pb-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-brand-500 text-white text-sm font-bold">2</span>
-                Theological Depth
-              </h3>
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div className="bg-white p-6 rounded-2xl border border-border shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="font-bold text-lg mb-2 text-foreground">Exegesis guide</h4>
-                  <p className="text-muted-foreground text-sm leading-relaxed">A tool that helps you produce an in-depth exegetical analysis of the text from a redemptive framework.</p>
-                </div>
-                <div className="bg-white p-6 rounded-2xl border border-border shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="font-bold text-lg mb-2 text-foreground">Expository mapping</h4>
-                  <p className="text-muted-foreground text-sm leading-relaxed">A visual pathway that turns your exegetical study into a homiletical outline.</p>
-                </div>
-                <div className="bg-white p-6 rounded-2xl border border-border shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="font-bold text-lg mb-2 text-foreground">Worldview Analysis</h4>
-                  <p className="text-muted-foreground text-sm leading-relaxed">Identify the cultural narratives competing for your congregation's hearts, with an analysis to effectively engage them with the truth of the gospel.</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Pillar 3 */}
-            <div>
-              <h3 className="text-2xl font-bold mb-8 text-brand-950 flex items-center gap-3 border-b border-brand-200 pb-4">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-brand-500 text-white text-sm font-bold">3</span>
-                Optimization, Evaluation, and Presentation
-              </h3>
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div className="bg-white p-6 rounded-2xl border border-border shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="font-bold text-lg mb-2 text-foreground">Outline mode</h4>
-                  <p className="text-muted-foreground text-sm leading-relaxed">A workspace that condenses your full manuscript into a clear pulpit outline.</p>
-                </div>
-                <div className="bg-white p-6 rounded-2xl border border-border shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="font-bold text-lg mb-2 text-foreground">Podium mode</h4>
-                  <p className="text-muted-foreground text-sm leading-relaxed">A distraction-free, easy-to-read presentation view designed specifically for the pulpit.</p>
-                </div>
-                <div className="bg-white p-6 rounded-2xl border border-border shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="font-bold text-lg mb-2 text-foreground">Manuscript optimization</h4>
-                  <p className="text-muted-foreground text-sm leading-relaxed">A final polishing step to enhance clarity, tighten wording, and clarify gospel focus for a confident, conversational delivery.</p>
-                </div>
-              </div>
-            </div>
+          <div className="w-full flex justify-center">
+            <img src={featuresImage} alt="Preach360 Features Pillars" className="max-w-full h-auto" />
           </div>
         </div>
       </section>

@@ -316,21 +316,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* THE PRIVACY WALL */}
-      <section className="py-24 md:py-32 bg-brand-50 relative overflow-hidden">
-        <div className="absolute right-0 top-0 opacity-[0.03] w-1/2 h-full bg-[url('https://preach360.edgestack.space/images/ppgr-blueprint.png')] bg-contain bg-no-repeat bg-right" />
-        <div className="container mx-auto px-4 max-w-4xl relative z-10 text-center">
-          <Lock className="w-16 h-16 text-brand-500 mx-auto mb-6 md:mb-8" />
-          <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-10 text-brand-950 font-drama">The Privacy Wall</h2>
-          
-          <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl shadow-brand-900/5 border border-brand-100">
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-              Sermon prep requires deep vulnerability. Preach360 operates behind a strict Privacy Wall, assuring that your drafts, notes, and thoughts are protected.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* TESTIMONIALS */}
       <section className="py-24 bg-background relative" id="testimonials">
         <div className="container mx-auto px-4 max-w-6xl">
@@ -395,6 +380,22 @@ export default function Home() {
                 </div>
               </div>
            </div>
+        </div>
+      </section>
+
+      {/* THE PRIVACY WALL (Moved to below pricing) */}
+      <section className="py-24 md:py-32 bg-brand-50 relative overflow-hidden">
+        <div className="absolute right-0 top-0 opacity-[0.03] w-1/2 h-full bg-[url('https://preach360.edgestack.space/images/ppgr-blueprint.png')] bg-contain bg-no-repeat bg-right" />
+        <div className="container mx-auto px-4 max-w-4xl relative z-10 text-center">
+          
+          <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl shadow-brand-900/5 border border-brand-100 relative mt-12">
+            <div className="absolute -top-8 left-1/2 -translate-x-1/2 bg-white rounded-full p-4 shadow-sm border border-brand-50">
+              <Lock className="w-10 h-10 text-brand-500" />
+            </div>
+            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mt-4">
+              Sermon prep requires deep vulnerability. Preach360 operates behind a strict Privacy Wall, assuring that your drafts, notes, and thoughts are protected.
+            </p>
+          </div>
         </div>
       </section>
 

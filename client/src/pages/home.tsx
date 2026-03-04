@@ -392,7 +392,7 @@ export default function Home() {
         <div className="container mx-auto px-4 relative z-10">
           <h2 className="text-4xl md:text-6xl font-bold font-drama mb-6">Reclaim your weekend.</h2>
           <p className="text-xl md:text-2xl text-brand-200 mb-10 max-w-2xl mx-auto opacity-90">
-            Join the global community of pastors discovering the relief and freedom of Preach360.
+            Join a global community of pastors discovering the relief and freedom of Preach360.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
              <Link href="/login">

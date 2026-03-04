@@ -33,7 +33,7 @@ export default function Home() {
             >
               <div className="inline-flex items-center rounded-full border border-brand-500/30 bg-brand-500/10 px-3 py-1 text-sm text-brand-200 mb-6 font-medium backdrop-blur-sm">
                 <span className="flex h-2 w-2 rounded-full bg-brand-500 mr-2 animate-pulse"></span>
-                The 4-Hour Workflow
+                Is sermon prep taking all week?
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-4 leading-[1.1]">
                 Prep in less than half the time.
@@ -172,6 +172,9 @@ export default function Home() {
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="mb-16 text-center">
             <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-brand-950">The Preach360 Roadmap</h2>
+            <p className="text-xl text-brand-600 font-medium mb-4">
+              Preach360 provides the path. You trust the process.
+            </p>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               A clear, step-by-step visual indicator that keeps your sermon prep moving forward, eliminating guesswork.
             </p>
@@ -223,8 +226,8 @@ export default function Home() {
         <div className="container mx-auto px-4 max-w-5xl">
           <div className="text-center mb-16">
              <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-foreground">Why Preach360?</h2>
-             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-               Built specifically for the needs of solo pastors. We stripped away the bloat and focused on what actually helps you preach the Gospel.
+             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+               Preach360 guides you down a redemptive path from exegesis to a complete draft in 4 hours or less without using complicated Bible software or generic AI.
              </p>
           </div>
           

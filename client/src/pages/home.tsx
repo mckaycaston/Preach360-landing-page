@@ -224,11 +224,11 @@ export default function Home() {
              </p>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-3 gap-6 items-stretch">
              {/* vs Complexity */}
-             <div className="bg-card border border-border p-8 rounded-2xl shadow-sm">
+             <div className="bg-card border border-border p-8 rounded-2xl shadow-sm flex flex-col h-full">
                <h3 className="text-xl font-bold mb-4">No Bloated Bible Software</h3>
-               <p className="text-muted-foreground mb-4">
+               <p className="text-muted-foreground mb-4 flex-1">
                  Logos and Accordance are powerful, but they require a steep learning curve and drown you in too much data.
                </p>
                <div className="bg-brand-50/50 text-brand-900 p-4 rounded-xl text-sm font-medium border border-brand-100">
@@ -237,13 +237,24 @@ export default function Home() {
              </div>
              
              {/* vs Soulless AI */}
-             <div className="bg-card border border-border p-8 rounded-2xl shadow-sm">
+             <div className="bg-card border border-border p-8 rounded-2xl shadow-sm flex flex-col h-full">
                <h3 className="text-xl font-bold mb-4">No Soulless, Generic AI</h3>
-               <p className="text-muted-foreground mb-4">
+               <p className="text-muted-foreground mb-4 flex-1">
                  Generic AI tools bypass the Holy Spirit and outsource your study, your heart, and your voice.
                </p>
                <div className="bg-brand-50/50 text-brand-900 p-4 rounded-xl text-sm font-medium border border-brand-100">
                  Preach360 acts as a true assistant that helps you dig into the text, and retain your unique pastoral voice and heart.
+               </div>
+             </div>
+
+             {/* vs Empty Editors */}
+             <div className="bg-card border border-border p-8 rounded-2xl shadow-sm flex flex-col h-full">
+               <h3 className="text-xl font-bold mb-4">The Redemptive Framework</h3>
+               <p className="text-muted-foreground mb-4 flex-1">
+                 Tools like Sermonary provide a drag-and-drop editor but lack the deep, theological foundation that actually helps you preach.
+               </p>
+               <div className="bg-brand-50/50 text-brand-900 p-4 rounded-xl text-sm font-medium border border-brand-100">
+                 Preach360 is built on the proven PPGR framework, ensuring every sermon points clearly to the gospel.
                </div>
              </div>
           </div>

@@ -1,0 +1,437 @@
+commit 86bd1979e51c3819afd764a647ee104253b35650
+Author: richcannon70 <53650388-richcannon70@users.noreply.replit.com>
+Date:   Wed Mar 4 20:34:17 2026 +0000
+
+    Remove the privacy wall section from the home page
+    
+    Removes the "Privacy Wall" section, including its associated background image, heading, and content, from the client/src/pages/home.tsx file.
+    
+    Replit-Commit-Author: Agent
+    Replit-Commit-Session-Id: b40ebc65-716c-42ff-8a29-f355e8ec55d6
+    Replit-Commit-Checkpoint-Type: full_checkpoint
+    Replit-Commit-Event-Id: d61d1891-41be-4bbd-bffb-58d482a16451
+    Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/52b2e9a9-1aca-4f31-b761-2a0e85fbc987/b40ebc65-716c-42ff-8a29-f355e8ec55d6/3l4GUqC
+    Replit-Helium-Checkpoint-Created: true
+
+diff --git a/client/src/pages/home.tsx b/client/src/pages/home.tsx
+index 19c2c38..91d3052 100644
+--- a/client/src/pages/home.tsx
++++ b/client/src/pages/home.tsx
+@@ -302,21 +302,6 @@ export default function Home() {
+         </div>
+       </section>
+ 
+-      {/* THE PRIVACY WALL */}
+-      <section className="py-24 md:py-32 bg-brand-50 relative overflow-hidden">
+-        <div className="absolute right-0 top-0 opacity-[0.03] w-1/2 h-full bg-[url('https://preach360.edgestack.space/images/ppgr-blueprint.png')] bg-contain bg-no-repeat bg-right" />
+-        <div className="container mx-auto px-4 max-w-4xl relative z-10 text-center">
+-          <Lock className="w-16 h-16 text-brand-500 mx-auto mb-6 md:mb-8" />
+-          <h2 className="text-3xl md:text-5xl font-bold mb-8 md:mb-10 text-brand-950 font-drama">The Privacy Wall</h2>
+-          
+-          <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl shadow-brand-900/5 border border-brand-100">
+-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+-              Sermon prep requires deep vulnerability. Preach360 operates behind a strict Privacy Wall, assuring that your drafts, notes, and thoughts are protected.
+-            </p>
+-          </div>
+-        </div>
+-      </section>
+-
+       {/* TESTIMONIALS */}
+       <section className="py-24 bg-background relative" id="testimonials">
+         <div className="container mx-auto px-4 max-w-6xl">
+
+commit 828a9b2091b5da200a1f22b42f20c0a9fc31399d
+Author: richcannon70 <53650388-richcannon70@users.noreply.replit.com>
+Date:   Wed Mar 4 20:31:30 2026 +0000
+
+    Update ministry section to remove descriptive text
+    
+    Remove the subtitle "Hear how Preach360 is transforming the workflow and impact of pastors around the world." from the "A Healthy Rhythm For Your Ministry" section.
+    
+    Replit-Commit-Author: Agent
+    Replit-Commit-Session-Id: b40ebc65-716c-42ff-8a29-f355e8ec55d6
+    Replit-Commit-Checkpoint-Type: full_checkpoint
+    Replit-Commit-Event-Id: a7802ee0-2ba4-434a-aa0f-c6a054158495
+    Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/52b2e9a9-1aca-4f31-b761-2a0e85fbc987/b40ebc65-716c-42ff-8a29-f355e8ec55d6/3l4GUqC
+    Replit-Helium-Checkpoint-Created: true
+
+diff --git a/client/src/pages/home.tsx b/client/src/pages/home.tsx
+index 1ed7cb9..19c2c38 100644
+--- a/client/src/pages/home.tsx
++++ b/client/src/pages/home.tsx
+@@ -321,10 +321,7 @@ export default function Home() {
+       <section className="py-24 bg-background relative" id="testimonials">
+         <div className="container mx-auto px-4 max-w-6xl">
+           <div className="text-center mb-16">
+-             <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-foreground">A Healthy Rhythm For Your Ministry</h2>
+-             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+-               Hear how Preach360 is transforming the workflow and impact of pastors around the world.
+-             </p>
++             <h2 className="text-3xl md:text-5xl font-bold font-drama text-foreground">A Healthy Rhythm For Your Ministry</h2>
+           </div>
+           
+           <div className="grid md:grid-cols-3 gap-6 items-start">
+
+commit f7f45526ccb13aaceae15fb630c9863a5075b927
+Author: richcannon70 <53650388-richcannon70@users.noreply.replit.com>
+Date:   Wed Mar 4 20:30:59 2026 +0000
+
+    Replace text-based testimonials with images
+    
+    Replaces static text testimonials with dynamically loaded image assets for testimonials.
+    
+    Replit-Commit-Author: Agent
+    Replit-Commit-Session-Id: b40ebc65-716c-42ff-8a29-f355e8ec55d6
+    Replit-Commit-Checkpoint-Type: full_checkpoint
+    Replit-Commit-Event-Id: f3bfba40-ca25-470e-bc77-a95cebfd704e
+    Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/52b2e9a9-1aca-4f31-b761-2a0e85fbc987/b40ebc65-716c-42ff-8a29-f355e8ec55d6/3l4GUqC
+    Replit-Helium-Checkpoint-Created: true
+
+diff --git a/client/src/pages/home.tsx b/client/src/pages/home.tsx
+index 2725ef5..1ed7cb9 100644
+--- a/client/src/pages/home.tsx
++++ b/client/src/pages/home.tsx
+@@ -327,71 +327,20 @@ export default function Home() {
+              </p>
+           </div>
+           
+-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 items-start">
++          <div className="grid md:grid-cols-3 gap-6 items-start">
+              {/* Testimonial 1 */}
+-             <div className="bg-card border border-border p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+-               <div className="flex text-brand-500 mb-4">
+-                 {"★★★★★".split("").map((star, i) => <span key={i}>{star}</span>)}
+-               </div>
+-               <p className="text-muted-foreground mb-6 text-sm italic leading-relaxed">
+-                 "Prior to using Preach360, I spent over 20 hours developing a single sermon... Now that I have been using this process for over a year, my sermon prep has transformed. I have received more comments about the sermons being helpful than in all my previous years of preaching combined."
+-               </p>
+-               <div className="font-bold text-foreground">Rodney B.</div>
++             <div className="flex justify-center transition-transform hover:scale-105 duration-300">
++               <img src="/images/testimonial-rodney.png" alt="Testimonial from Rodney B." className="max-w-full h-auto drop-shadow-md rounded-3xl" />
+              </div>
+ 
+              {/* Testimonial 2 */}
+-             <div className="bg-card border border-border p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+-               <div className="flex text-brand-500 mb-4">
+-                 {"★★★★★".split("").map((star, i) => <span key={i}>{star}</span>)}
+-               </div>
+-               <p className="text-muted-foreground mb-6 text-sm italic leading-relaxed">
+-                 "Preach360 has been a game-changer for me. I was chronically finishing my sermon early Sunday mornings, but now have it completed between Tuesday and Thursday every week. I really look forward to both sermon prep and preaching more than ever."
+-               </p>
+-               <div className="font-bold text-foreground">Chris T.</div>
++             <div className="flex justify-center transition-transform hover:scale-105 duration-300">
++               <img src="/images/testimonial-john.png" alt="Testimonial from John G." className="max-w-full h-auto drop-shadow-md rounded-3xl" />
+              </div>
+ 
+              {/* Testimonial 3 */}
+-             <div className="bg-card border border-border p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+-               <div className="flex text-brand-500 mb-4">
+-                 {"★★★★★".split("").map((star, i) => <span key={i}>{star}</span>)}
+-               </div>
+-               <p className="text-muted-foreground mb-6 text-sm italic leading-relaxed">
+-                 "I have noticed an increase in members wanting to talk about the message and how it is hitting them... They express a deeper conviction of sin and a greater appreciation of Grace. I am grateful for finding this model, even at this late stage in my ministry."
+-               </p>
+-               <div className="font-bold text-foreground">Scott N.</div>
+-             </div>
+-
+-             {/* Testimonial 4 */}
+-             <div className="bg-card border border-border p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+-               <div className="flex text-brand-500 mb-4">
+-                 {"★★★★★".split("").map((star, i) => <span key={i}>{star}</span>)}
+-               </div>
+-               <p className="text-muted-foreground mb-6 text-sm italic leading-relaxed">
+-                 "Preach360 has been a huge blessing. Sermon prep was basically occupying most if not all of my agenda. I now have a healthy rhythm for my family and the church."
+-               </p>
+-               <div className="font-bold text-foreground">John G.</div>
+-             </div>
+-
+-             {/* Testimonial 5 */}
+-             <div className="bg-card border border-border p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+-               <div className="flex text-brand-500 mb-4">
+-                 {"★★★★★".split("").map((star, i) => <span key={i}>{star}</span>)}
+-               </div>
+-               <p className="text-muted-foreground mb-6 text-sm italic leading-relaxed">
+-                 "This will revolutionize the mission work in the 10-40 window! Preaching with movements helps my Buddhist audience because it's like telling a story."
+-               </p>
+-               <div className="font-bold text-foreground">Mark A.</div>
+-             </div>
+-
+-             {/* Testimonial 6 */}
+-             <div className="bg-card border border-border p-8 rounded-2xl shadow-sm hover:shadow-md transition-shadow">
+-               <div className="flex text-brand-500 mb-4">
+-                 {"★★★★★".split("").map((star, i) => <span key={i}>{star}</span>)}
+-               </div>
+-               <p className="text-muted-foreground mb-6 text-sm italic leading-relaxed">
+-                 "The focus and simplicity of PPGR have helped me preach Christ with a tangible connection to real spiritual struggles people are facing."
+-               </p>
+-               <div className="font-bold text-foreground">David H.</div>
++             <div className="flex justify-center transition-transform hover:scale-105 duration-300">
++               <img src="/images/testimonial-mark.png" alt="Testimonial from Mark A." className="max-w-full h-auto drop-shadow-md rounded-3xl" />
+              </div>
+           </div>
+         </div>
+
+commit a186826819fdbb8f202fded6c4f5790f6940383a
+Author: richcannon70 <53650388-richcannon70@users.noreply.replit.com>
+Date:   Wed Mar 4 20:27:47 2026 +0000
+
+    Move customer quote to a more prominent position in the hero section
+    
+    Move Rodney B.'s testimonial quote from the initial hero section layout to a more emphasized position directly under the "4 hours of deep work..." headline, improving its visibility and impact.
+    
+    Replit-Commit-Author: Agent
+    Replit-Commit-Session-Id: b40ebc65-716c-42ff-8a29-f355e8ec55d6
+    Replit-Commit-Checkpoint-Type: full_checkpoint
+    Replit-Commit-Event-Id: 85c01f91-bf0b-4bf2-97c8-c6acb5f238f5
+    Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/52b2e9a9-1aca-4f31-b761-2a0e85fbc987/b40ebc65-716c-42ff-8a29-f355e8ec55d6/3l4GUqC
+    Replit-Helium-Checkpoint-Created: true
+
+diff --git a/client/src/pages/home.tsx b/client/src/pages/home.tsx
+index de6a2c2..2725ef5 100644
+--- a/client/src/pages/home.tsx
++++ b/client/src/pages/home.tsx
+@@ -60,13 +60,6 @@ export default function Home() {
+               <p className="text-sm text-brand-200/60 max-w-md">
+                 Join a community of pastors from over 20 countries across 6 continents who are discovering the relief and freedom of Preach360.
+               </p>
+-
+-              <div className="mt-8 border-l-2 border-brand-500/50 pl-4 py-1">
+-                <p className="text-brand-100 italic text-sm md:text-base leading-relaxed">
+-                  "I have received more comments about the sermons being helpful than in all my previous years of preaching combined."
+-                </p>
+-                <p className="text-brand-400 text-xs font-bold mt-2">— Rodney B.</p>
+-              </div>
+             </motion.div>
+ 
+             <motion.div 
+@@ -103,6 +96,13 @@ export default function Home() {
+         <div className="container mx-auto px-4 max-w-6xl relative z-10">
+           <div className="text-center mb-16 max-w-3xl mx-auto">
+             <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground font-drama">4 hours of deep work beats 12 hours of distracted prep every time.</h2>
++            
++            <div className="mt-8 border-l-2 border-brand-500/50 pl-6 py-2 mx-auto text-left">
++              <p className="text-muted-foreground italic text-lg leading-relaxed mb-2">
++                "I have received more comments about the sermons being helpful than in all my previous years of preaching combined."
++              </p>
++              <p className="text-brand-600 font-bold">— Rodney B.</p>
++            </div>
+           </div>
+ 
+           <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
+
+commit 76ba15b4d127da6777bc61b48228da8f78e7ceb0
+Author: richcannon70 <53650388-richcannon70@users.noreply.replit.com>
+Date:   Wed Mar 4 20:26:26 2026 +0000
+
+    Add a user testimonial to the bottom of the homepage
+    
+    Add a new testimonial quote and author to the bottom of the homepage component in client/src/pages/home.tsx.
+    
+    Replit-Commit-Author: Agent
+    Replit-Commit-Session-Id: b40ebc65-716c-42ff-8a29-f355e8ec55d6
+    Replit-Commit-Checkpoint-Type: full_checkpoint
+    Replit-Commit-Event-Id: c18e8398-9e90-4f14-83e8-bec45db778ad
+    Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/52b2e9a9-1aca-4f31-b761-2a0e85fbc987/b40ebc65-716c-42ff-8a29-f355e8ec55d6/3l4GUqC
+    Replit-Helium-Checkpoint-Created: true
+
+diff --git a/client/src/pages/home.tsx b/client/src/pages/home.tsx
+index ffdde7e..de6a2c2 100644
+--- a/client/src/pages/home.tsx
++++ b/client/src/pages/home.tsx
+@@ -188,7 +188,7 @@ export default function Home() {
+             <img src={roadmapProgress} alt="Roadmap Progress Tracker" className="max-w-full h-auto w-full md:w-3/4 shadow-sm rounded-xl border border-border/50" />
+           </div>
+ 
+-          <div className="grid md:grid-cols-3 gap-8 items-stretch">
++          <div className="grid md:grid-cols-3 gap-8 items-stretch mb-16">
+             <div className="group relative bg-card border border-border hover:border-brand-300 transition-colors duration-300 rounded-3xl p-8 shadow-sm hover:shadow-xl hover:shadow-brand-500/5 flex flex-col h-full">
+               <div className="text-brand-500 mb-6 bg-brand-50 w-16 h-16 rounded-2xl flex items-center justify-center shadow-sm">
+                 <BookOpen size={32} />
+@@ -222,6 +222,13 @@ export default function Home() {
+               </p>
+             </div>
+           </div>
++          
++          <div className="max-w-3xl mx-auto text-center border-t border-brand-200/50 pt-12">
++            <p className="text-xl md:text-2xl text-brand-900 font-drama italic mb-4">
++              "Sermon prep was occupying most if not all of my agenda. I now have a healthy rhythm for my family and the church. Thank you so much!"
++            </p>
++            <p className="text-brand-600 font-bold">— John G.</p>
++          </div>
+         </div>
+       </section>
+ 
+
+commit 0b292c29d6b8d26d0c11f6a5fd29522c29cb647b
+Author: richcannon70 <53650388-richcannon70@users.noreply.replit.com>
+Date:   Wed Mar 4 20:23:53 2026 +0000
+
+    Add a helpful quote to the hero section and remove roadmap description
+    
+    Update hero section to include a quote from Rodney B. and remove descriptive text from The Preach360 Roadmap section.
+    
+    Replit-Commit-Author: Agent
+    Replit-Commit-Session-Id: b40ebc65-716c-42ff-8a29-f355e8ec55d6
+    Replit-Commit-Checkpoint-Type: full_checkpoint
+    Replit-Commit-Event-Id: c581a2bc-4859-46c6-81b2-3a5323dac910
+    Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/52b2e9a9-1aca-4f31-b761-2a0e85fbc987/b40ebc65-716c-42ff-8a29-f355e8ec55d6/3l4GUqC
+    Replit-Helium-Checkpoint-Created: true
+
+diff --git a/client/src/pages/home.tsx b/client/src/pages/home.tsx
+index 4693d45..ffdde7e 100644
+--- a/client/src/pages/home.tsx
++++ b/client/src/pages/home.tsx
+@@ -60,6 +60,13 @@ export default function Home() {
+               <p className="text-sm text-brand-200/60 max-w-md">
+                 Join a community of pastors from over 20 countries across 6 continents who are discovering the relief and freedom of Preach360.
+               </p>
++
++              <div className="mt-8 border-l-2 border-brand-500/50 pl-4 py-1">
++                <p className="text-brand-100 italic text-sm md:text-base leading-relaxed">
++                  "I have received more comments about the sermons being helpful than in all my previous years of preaching combined."
++                </p>
++                <p className="text-brand-400 text-xs font-bold mt-2">— Rodney B.</p>
++              </div>
+             </motion.div>
+ 
+             <motion.div 
+@@ -172,12 +179,9 @@ export default function Home() {
+         <div className="container mx-auto px-4 max-w-6xl">
+           <div className="mb-16 text-center">
+             <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-brand-950">The Preach360 Roadmap</h2>
+-            <p className="text-xl text-brand-600 font-medium mb-4">
++            <p className="text-xl text-brand-600 font-medium">
+               Preach360 provides the path. You trust the process.
+             </p>
+-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+-              A clear, step-by-step visual indicator that keeps your sermon prep moving forward, eliminating guesswork.
+-            </p>
+           </div>
+ 
+           <div className="mb-12 flex justify-center w-full">
+
+commit 72e1f0759c06a7543afa45d552ad9cedb6ec8227
+Author: richcannon70 <53650388-richcannon70@users.noreply.replit.com>
+Date:   Wed Mar 4 20:19:55 2026 +0000
+
+    Update image styling for product features section
+    
+    Modify the styling of the features image in the home page component, adding shadow and rounded borders.
+    
+    Replit-Commit-Author: Agent
+    Replit-Commit-Session-Id: b40ebc65-716c-42ff-8a29-f355e8ec55d6
+    Replit-Commit-Checkpoint-Type: full_checkpoint
+    Replit-Commit-Event-Id: 98d2e389-7cd7-44cf-8aee-6922bbe959dc
+    Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/52b2e9a9-1aca-4f31-b761-2a0e85fbc987/b40ebc65-716c-42ff-8a29-f355e8ec55d6/3l4GUqC
+    Replit-Helium-Checkpoint-Created: true
+
+diff --git a/client/src/pages/home.tsx b/client/src/pages/home.tsx
+index 34bcd63..4693d45 100644
+--- a/client/src/pages/home.tsx
++++ b/client/src/pages/home.tsx
+@@ -286,7 +286,7 @@ export default function Home() {
+           </div>
+ 
+           <div className="w-full flex justify-center">
+-            <img src="/images/featuresImage.png" alt="Preach360 Features Pillars" className="max-w-full h-auto w-full md:w-5/6" />
++            <img src="/images/featuresImage.png" alt="Preach360 Features Pillars" className="max-w-full h-auto w-full md:w-3/4 shadow-lg rounded-2xl border border-border" />
+           </div>
+         </div>
+       </section>
+
+commit fba6489adde3c334971157b60b508e0f4ab8eeb9
+Author: richcannon70 <53650388-richcannon70@users.noreply.replit.com>
+Date:   Wed Mar 4 20:19:04 2026 +0000
+
+    Update product feature image and adjust its display size
+    
+    Update the product feature image and modify its container width in the home page component.
+    
+    Replit-Commit-Author: Agent
+    Replit-Commit-Session-Id: b40ebc65-716c-42ff-8a29-f355e8ec55d6
+    Replit-Commit-Checkpoint-Type: full_checkpoint
+    Replit-Commit-Event-Id: f6996826-0db0-4191-a689-a50e451e944f
+    Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/52b2e9a9-1aca-4f31-b761-2a0e85fbc987/b40ebc65-716c-42ff-8a29-f355e8ec55d6/UCy4gA7
+    Replit-Helium-Checkpoint-Created: true
+
+diff --git a/client/src/pages/home.tsx b/client/src/pages/home.tsx
+index 4693d45..34bcd63 100644
+--- a/client/src/pages/home.tsx
++++ b/client/src/pages/home.tsx
+@@ -286,7 +286,7 @@ export default function Home() {
+           </div>
+ 
+           <div className="w-full flex justify-center">
+-            <img src="/images/featuresImage.png" alt="Preach360 Features Pillars" className="max-w-full h-auto w-full md:w-3/4 shadow-lg rounded-2xl border border-border" />
++            <img src="/images/featuresImage.png" alt="Preach360 Features Pillars" className="max-w-full h-auto w-full md:w-5/6" />
+           </div>
+         </div>
+       </section>
+
+commit fb133c5a64b818260bbdfa8076cca6fe04ec3241
+Author: richcannon70 <53650388-richcannon70@users.noreply.replit.com>
+Date:   Wed Mar 4 20:16:31 2026 +0000
+
+    Add a visual representation of the app interface to the homepage
+    
+    Add the app interface image to the home page component.
+    
+    Replit-Commit-Author: Agent
+    Replit-Commit-Session-Id: b40ebc65-716c-42ff-8a29-f355e8ec55d6
+    Replit-Commit-Checkpoint-Type: full_checkpoint
+    Replit-Commit-Event-Id: 935c33d1-f2e8-4fff-9f9b-1494008710fa
+    Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/52b2e9a9-1aca-4f31-b761-2a0e85fbc987/b40ebc65-716c-42ff-8a29-f355e8ec55d6/UCy4gA7
+    Replit-Helium-Checkpoint-Created: true
+
+diff --git a/client/src/pages/home.tsx b/client/src/pages/home.tsx
+index 6d6918e..4693d45 100644
+--- a/client/src/pages/home.tsx
++++ b/client/src/pages/home.tsx
+@@ -231,6 +231,10 @@ export default function Home() {
+              </p>
+           </div>
+           
++          <div className="w-full flex justify-center mb-16">
++            <img src="/images/appInterface.png" alt="Preach360 App Interface" className="max-w-full h-auto w-full md:w-5/6 shadow-2xl rounded-2xl border border-border" />
++          </div>
++
+           <div className="grid md:grid-cols-3 gap-6 items-stretch">
+              {/* vs Complexity */}
+              <div className="bg-card border border-border p-8 rounded-2xl shadow-sm flex flex-col h-full">
+
+commit 953be667ade4d9f9ff118e0f7504a63ea6db9f76
+Author: richcannon70 <53650388-richcannon70@users.noreply.replit.com>
+Date:   Wed Mar 4 20:10:58 2026 +0000
+
+    Update sermon preparation feature visuals on the homepage
+    
+    Replace old feature image with a new one and update its path in the home page component.
+    
+    Replit-Commit-Author: Agent
+    Replit-Commit-Session-Id: b40ebc65-716c-42ff-8a29-f355e8ec55d6
+    Replit-Commit-Checkpoint-Type: full_checkpoint
+    Replit-Commit-Event-Id: caf8b72b-5adb-4cf7-ad99-99b5870a4ecc
+    Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/52b2e9a9-1aca-4f31-b761-2a0e85fbc987/b40ebc65-716c-42ff-8a29-f355e8ec55d6/UCy4gA7
+    Replit-Helium-Checkpoint-Created: true
+
+diff --git a/client/src/pages/home.tsx b/client/src/pages/home.tsx
+index 2c12e1d..6d6918e 100644
+--- a/client/src/pages/home.tsx
++++ b/client/src/pages/home.tsx
+@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
+ import { ArrowRight, Clock, BookOpen, Layers, ShieldCheck, Zap, Lock } from "lucide-react";
+ import { Link } from "wouter";
+ import roadmapProgress from "@assets/image_1772636322550.png";
+-import featuresImage from "@assets/image_1772654820269.png";
+ 
+ export default function Home() {
+   return (
+@@ -283,7 +282,7 @@ export default function Home() {
+           </div>
+ 
+           <div className="w-full flex justify-center">
+-            <img src={featuresImage} alt="Preach360 Features Pillars" className="max-w-full h-auto" />
++            <img src="/images/featuresImage.png" alt="Preach360 Features Pillars" className="max-w-full h-auto w-full md:w-3/4 shadow-lg rounded-2xl border border-border" />
+           </div>
+         </div>
+       </section>

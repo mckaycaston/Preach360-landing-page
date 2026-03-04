@@ -354,8 +354,7 @@ export default function Home() {
           <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl shadow-brand-900/5 border border-brand-100">
             <h3 className="text-2xl font-bold text-brand-900 mb-4">The Privacy Wall</h3>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-              Sermon prep requires deep vulnerability. Preach360 operates behind a strict Privacy Wall, 
-              assuring that your unpolished drafts, prayers, and brainstorming are protected from employer or elder board oversight.
+              Sermon prep requires deep vulnerability. Preach360 operates behind a strict Privacy Wall, assuring that your drafts, notes, and thoughts are protected.
             </p>
           </div>
         </div>

@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { ArrowRight, Clock, BookOpen, Layers, ShieldCheck, Zap, Lock } from "lucide-react";
 import { Link } from "wouter";
 import roadmapProgress from "@assets/image_1772636322550.png";
-import featuresImage from "@assets/image_1772654820269.png";
 
 export default function Home() {
   return (
@@ -283,7 +282,7 @@ export default function Home() {
           </div>
 
           <div className="w-full flex justify-center">
-            <img src={featuresImage} alt="Preach360 Features Pillars" className="max-w-full h-auto" />
+            <img src="/images/featuresImage.png" alt="Preach360 Features Pillars" className="max-w-full h-auto w-full md:w-3/4 shadow-lg rounded-2xl border border-border" />
           </div>
         </div>
       </section>

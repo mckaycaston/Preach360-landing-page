@@ -313,6 +313,11 @@ export default function Home() {
                 <p className="text-brand-900 font-medium text-2xl font-drama mt-8">
                   His ultimate goal? To help you live a sustainable life for a long-term, gospel preaching ministry.
                 </p>
+                <div className="mt-8 pt-8 border-t border-border/50 text-sm text-muted-foreground/70">
+                  <p>Created along with</p>
+                  <p>Michael Byrd, professional developer</p>
+                  <p>Rich Cannon, tech specialist</p>
+                </div>
               </div>
             </div>
           </div>

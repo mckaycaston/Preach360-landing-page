@@ -298,10 +298,6 @@ export default function Home() {
                   <h4 className="font-bold text-lg mb-2 text-foreground">Light and dark mode</h4>
                   <p className="text-muted-foreground text-sm leading-relaxed">An interface designed to reduce eye strain and fit your environment, whether you are working early in the morning or reviewing notes in the evening.</p>
                 </div>
-                <div className="bg-white p-6 rounded-2xl border border-border shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="font-bold text-lg mb-2 text-foreground">Podium mode</h4>
-                  <p className="text-muted-foreground text-sm leading-relaxed">A distraction-free, easy-to-read presentation view designed specifically for the pulpit.</p>
-                </div>
               </div>
             </div>
 
@@ -347,8 +343,8 @@ export default function Home() {
                   <p className="text-muted-foreground text-sm leading-relaxed">A refinement tool to ensure your language and illustrations connect the grace of Jesus directly to the specific issues and struggles for the unique issues your congregation is facing.</p>
                 </div>
                 <div className="bg-white p-6 rounded-2xl border border-border shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="font-bold text-lg mb-2 text-foreground">Time/length optimization</h4>
-                  <p className="text-muted-foreground text-sm leading-relaxed">Easily expand or shorten your manuscript to fit your allotted presentation time window.</p>
+                  <h4 className="font-bold text-lg mb-2 text-foreground">Podium mode</h4>
+                  <p className="text-muted-foreground text-sm leading-relaxed">A distraction-free, easy-to-read presentation view designed specifically for the pulpit.</p>
                 </div>
                 <div className="bg-white p-6 rounded-2xl border border-border shadow-sm hover:shadow-md transition-shadow">
                   <h4 className="font-bold text-lg mb-2 text-foreground">Manuscript optimization</h4>

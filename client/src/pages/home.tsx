@@ -60,13 +60,6 @@ export default function Home() {
               <p className="text-sm text-brand-200/60 max-w-md">
                 Join a community of pastors from over 20 countries across 6 continents who are discovering the relief and freedom of Preach360.
               </p>
-
-              <div className="mt-8 border-l-2 border-brand-500/50 pl-4 py-1">
-                <p className="text-brand-100 italic text-sm md:text-base leading-relaxed">
-                  "I have received more comments about the sermons being helpful than in all my previous years of preaching combined."
-                </p>
-                <p className="text-brand-400 text-xs font-bold mt-2">— Rodney B.</p>
-              </div>
             </motion.div>
 
             <motion.div 
@@ -103,6 +96,13 @@ export default function Home() {
         <div className="container mx-auto px-4 max-w-6xl relative z-10">
           <div className="text-center mb-16 max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground font-drama">4 hours of deep work beats 12 hours of distracted prep every time.</h2>
+            
+            <div className="mt-8 border-l-2 border-brand-500/50 pl-6 py-2 mx-auto text-left">
+              <p className="text-muted-foreground italic text-lg leading-relaxed mb-2">
+                "I have received more comments about the sermons being helpful than in all my previous years of preaching combined."
+              </p>
+              <p className="text-brand-600 font-bold">— Rodney B.</p>
+            </div>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12">

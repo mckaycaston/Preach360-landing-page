@@ -309,10 +309,6 @@ export default function Home() {
                   <p className="text-muted-foreground text-sm leading-relaxed">A tool that helps you produce an in-depth exegetical analysis of the text from a redemptive framework.</p>
                 </div>
                 <div className="bg-white p-6 rounded-2xl border border-border shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="font-bold text-lg mb-2 text-foreground">The Relevance Bridge</h4>
-                  <p className="text-muted-foreground text-sm leading-relaxed">The contextual connection between the original recipients and modern listeners that reveals the present day need for the text.</p>
-                </div>
-                <div className="bg-white p-6 rounded-2xl border border-border shadow-sm hover:shadow-md transition-shadow">
                   <h4 className="font-bold text-lg mb-2 text-foreground">Expository mapping</h4>
                   <p className="text-muted-foreground text-sm leading-relaxed">A visual pathway that turns your exegetical study into a homiletical outline.</p>
                 </div>

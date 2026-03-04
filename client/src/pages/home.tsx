@@ -104,22 +104,22 @@ export default function Home() {
                 <li className="flex gap-4">
                   <div className="mt-1 min-w-6 text-destructive">✕</div>
                   <div>
-                    <strong className="block text-foreground mb-1">The Sermon Grind</strong>
-                    <p className="text-sm text-muted-foreground">10-18 hours spent drowning in commentaries and bloated Bible software.</p>
+                    <strong className="block text-foreground mb-1">STRESS</strong>
+                    <p className="text-sm text-muted-foreground">Constantly feeling behind, struggling to finish, and rewriting your sermon on Saturdays.</p>
                   </div>
                 </li>
                 <li className="flex gap-4">
                   <div className="mt-1 min-w-6 text-destructive">✕</div>
                   <div>
-                    <strong className="block text-foreground mb-1">Steep Learning Curves</strong>
-                    <p className="text-sm text-muted-foreground">Complicated tools that require a seminary degree just to operate.</p>
+                    <strong className="block text-foreground mb-1">UNCERTAINTY</strong>
+                    <p className="text-sm text-muted-foreground">Struggling with structure and forcing artificial outlines onto the text, never sure if the outline is right.</p>
                   </div>
                 </li>
                 <li className="flex gap-4">
                   <div className="mt-1 min-w-6 text-destructive">✕</div>
                   <div>
-                    <strong className="block text-foreground mb-1">Generic AI</strong>
-                    <p className="text-sm text-muted-foreground">Soulless ChatGPT outputs that bypass the Holy Spirit and your authentic voice.</p>
+                    <strong className="block text-foreground mb-1">SILENCE</strong>
+                    <p className="text-sm text-muted-foreground">Wishing for a spiritual response to your sermons, but usually just getting the familiar "See you next week, Pastor."</p>
                   </div>
                 </li>
               </ul>
@@ -138,22 +138,22 @@ export default function Home() {
                 <li className="flex gap-4">
                   <div className="mt-1 min-w-6 text-brand-500">✓</div>
                   <div>
-                    <strong className="block text-brand-950 mb-1">The 4-Hour Workflow</strong>
-                    <p className="text-brand-800/70 text-sm">A sustainable, step-by-step process taking you from blank page to finished sermon.</p>
+                    <strong className="block text-brand-950 mb-1">MARGIN</strong>
+                    <p className="text-brand-800/70 text-sm">You'll finish your message by noon on Wednesday—in hours, not days—with margin for ministry and and a real day off.</p>
                   </div>
                 </li>
                 <li className="flex gap-4">
                   <div className="mt-1 min-w-6 text-brand-500">✓</div>
                   <div>
-                    <strong className="block text-brand-950 mb-1">Systematized Focus</strong>
-                    <p className="text-brand-800/70 text-sm">A repeatable framework (PPGR) that gives you confidence in your process.</p>
+                    <strong className="block text-brand-950 mb-1">CONFIDENCE</strong>
+                    <p className="text-brand-800/70 text-sm">Rather than invent an artificial outline, you'll simply unfold the gospel organically from the text using the PPGR framework.</p>
                   </div>
                 </li>
                 <li className="flex gap-4">
                   <div className="mt-1 min-w-6 text-brand-500">✓</div>
                   <div>
-                    <strong className="block text-brand-950 mb-1">AI as an Assistant</strong>
-                    <p className="text-brand-800/70 text-sm">A brainstorming partner that doesn't do the work for you, it does it <em>with</em> you.</p>
+                    <strong className="block text-brand-950 mb-1">IMPACT</strong>
+                    <p className="text-brand-800/70 text-sm">You'll preach grace as fuel for new life, not just as a fallback for failure—and start to see people change from the inside out.</p>
                   </div>
                 </li>
               </ul>

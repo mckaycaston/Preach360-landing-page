@@ -324,10 +324,6 @@ export default function Home() {
                   <h4 className="font-bold text-lg mb-2 text-foreground">Expository mapping</h4>
                   <p className="text-muted-foreground text-sm leading-relaxed">A visual pathway that turns your exegetical study into a homiletical outline.</p>
                 </div>
-                <div className="bg-white p-6 rounded-2xl border border-border shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="font-bold text-lg mb-2 text-foreground">Outline mode</h4>
-                  <p className="text-muted-foreground text-sm leading-relaxed">A workspace that condenses your full manuscript into a clear pulpit outline.</p>
-                </div>
                 <div className="bg-white p-6 rounded-2xl border border-border shadow-sm hover:shadow-md transition-shadow lg:col-span-2">
                   <h4 className="font-bold text-lg mb-2 text-foreground">Worldview and Moral Framework Analysis</h4>
                   <p className="text-muted-foreground text-sm leading-relaxed">A diagnostic tool that helps you identify the cultural narratives and false saviors competing for your congregation's hearts, allowing you to effectively dismantle them with the truth of the gospel.</p>
@@ -339,9 +335,13 @@ export default function Home() {
             <div>
               <h3 className="text-2xl font-bold mb-8 text-brand-950 flex items-center gap-3 border-b border-brand-200 pb-4">
                 <span className="flex items-center justify-center w-8 h-8 rounded-full bg-brand-500 text-white text-sm font-bold">3</span>
-                Optimization and Evaluation
+                Optimization, Evaluation, and Presentation
               </h3>
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div className="bg-white p-6 rounded-2xl border border-border shadow-sm hover:shadow-md transition-shadow">
+                  <h4 className="font-bold text-lg mb-2 text-foreground">Outline mode</h4>
+                  <p className="text-muted-foreground text-sm leading-relaxed">A workspace that condenses your full manuscript into a clear pulpit outline.</p>
+                </div>
                 <div className="bg-white p-6 rounded-2xl border border-border shadow-sm hover:shadow-md transition-shadow">
                   <h4 className="font-bold text-lg mb-2 text-foreground">Audience optimization</h4>
                   <p className="text-muted-foreground text-sm leading-relaxed">A refinement tool to ensure your language and illustrations connect the grace of Jesus directly to the specific issues and struggles for the unique issues your congregation is facing.</p>

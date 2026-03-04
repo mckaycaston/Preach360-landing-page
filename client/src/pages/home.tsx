@@ -314,7 +314,7 @@ export default function Home() {
                   His ultimate goal? To help you live a sustainable life for a long-term, gospel preaching ministry.
                 </p>
                 <div className="mt-8 pt-8 border-t border-border/50 text-sm text-muted-foreground/70">
-                  <p>Created along with</p>
+                  <p>The Preach360 web app was designed in collaboration with</p>
                   <p>Michael Byrd, professional developer</p>
                   <p>Rich Cannon, tech specialist</p>
                 </div>

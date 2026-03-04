@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { ArrowRight, Clock, BookOpen, Layers, ShieldCheck, Zap } from "lucide-react";
 import { Link } from "wouter";
+import roadmapProgress from "@assets/image_1772636322550.png";
 
 export default function Home() {
   return (
@@ -170,6 +171,10 @@ export default function Home() {
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               A clear, step-by-step visual indicator that keeps your sermon prep moving forward, eliminating guesswork.
             </p>
+          </div>
+
+          <div className="mb-12 flex justify-center w-full">
+            <img src={roadmapProgress} alt="Roadmap Progress Tracker" className="max-w-full h-auto w-full md:w-3/4 shadow-sm rounded-xl border border-border/50" />
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 items-stretch">

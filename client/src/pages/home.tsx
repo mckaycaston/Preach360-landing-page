@@ -285,14 +285,37 @@ export default function Home() {
       </section>
 
       {/* ABOUT THE CREATOR */}
-      <section className="py-24 bg-brand-50/50" id="about">
-        <div className="container mx-auto px-4 max-w-5xl">
-          <div className="flex justify-center">
-            <img 
-              src={aboutCreatorImage} 
-              alt="About McKay Caston" 
-              className="w-full max-w-4xl h-auto drop-shadow-sm rounded-xl"
-            />
+      <section className="py-24 md:py-32 bg-brand-50/50" id="about">
+        <div className="container mx-auto px-4 max-w-6xl">
+          <div className="text-center mb-16">
+             <h2 className="text-3xl md:text-5xl font-bold font-drama text-brand-950">About the Creator</h2>
+          </div>
+          
+          <div className="flex flex-col md:flex-row gap-12 lg:gap-16 items-center max-w-5xl mx-auto">
+            <div className="w-full md:w-1/2">
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-brand-900/10 border-4 border-white transform -rotate-2 hover:rotate-0 transition-transform duration-500">
+                <img 
+                  src="https://preach360.edgestack.space/images/mckay-family.jpeg" 
+                  alt="McKay Caston and Family" 
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+            </div>
+            
+            <div className="w-full md:w-1/2">
+              <h3 className="text-3xl md:text-4xl font-bold mb-6 font-drama text-foreground">McKay Caston</h3>
+              <div className="space-y-6 text-xl text-muted-foreground leading-relaxed">
+                <p>
+                  McKay Caston is a pastor with over 30 years of preaching experience.
+                </p>
+                <p>
+                  Having taught homiletics in seminary for ten years, he poured his PhD research into Preach360 to help solo pastors both preach the gospel clearly and experience relief from weekly sermon prep pressure.
+                </p>
+                <p className="text-brand-900 font-medium text-2xl font-drama mt-8">
+                  His ultimate goal? To help you live a sustainable life for a long-term, gospel preaching ministry.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

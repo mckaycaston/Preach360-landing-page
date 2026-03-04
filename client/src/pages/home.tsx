@@ -44,7 +44,7 @@ export default function Home() {
                    Preach with twice the impact.
                  </h2>
                  <p className="text-lg text-brand-200/80">
-                   Craft gospel-rich sermons in an afternoon. Join the free community of pastors discovering a repeatable system.
+                   Helping solo pastors on 6 continents craft gospel-rich sermons in an afternoon.
                  </p>
               </div>
               

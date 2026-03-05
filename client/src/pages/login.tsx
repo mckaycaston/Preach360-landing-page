@@ -44,7 +44,7 @@ export default function Login() {
           <div className="absolute inset-0 bg-gradient-to-t from-brand-950 via-brand-950/80 to-transparent" />
           
           <div className="relative z-10 max-w-lg mt-auto">
-            <h2 className="text-4xl font-bold text-brand-50 font-drama mb-4">Prep in less than half the time.</h2>
+            <h2 className="text-4xl font-bold text-brand-50 font-drama mb-4">Prep in half the time.</h2>
             <p className="text-xl text-brand-200/80">
               Your sermon studio awaits. Step out of the grind and back into your calling.
             </p>

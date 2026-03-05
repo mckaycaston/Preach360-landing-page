@@ -37,7 +37,7 @@ export default function Home() {
                 Is sermon prep taking all week?
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-4 leading-[1.1]">
-                Prep in less than half the time.
+                Prep in half the time.
               </h1>
               
               <div className="mb-8 max-w-xl">

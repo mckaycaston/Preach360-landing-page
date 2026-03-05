@@ -352,7 +352,7 @@ export default function Home() {
               
               <div className="bg-brand-500 text-white p-8 rounded-3xl flex flex-col relative shadow-xl shadow-brand-500/20 transform scale-105">
                 <div className="absolute top-0 right-0 transform translate-x-2 -translate-y-2">
-                  <span className="bg-brand-950 text-brand-100 text-xs font-bold px-3 py-1 rounded-full">RECOMMENDED</span>
+                  <span className="bg-brand-950 text-brand-100 text-xs font-bold px-3 py-1 rounded-full">MOST POPULAR</span>
                 </div>
                 <h3 className="text-xl font-bold mb-2 text-brand-50">Premium Upgrade</h3>
                 <div className="text-3xl font-bold mb-2 font-mono">$70<span className="text-base font-normal text-brand-200">/mo</span></div>

@@ -17,7 +17,7 @@ export function Navbar() {
           <a href="#system" className="hover:text-foreground transition-colors">The Philosophy</a>
           <a href="#roadmap" className="hover:text-foreground transition-colors">The Roadmap</a>
           <a href="#features" className="hover:text-foreground transition-colors">Why Preach360?</a>
-          <a href="#about" className="hover:text-foreground transition-colors">Meet the Creator</a>
+          <a href="#about" className="hover:text-foreground transition-colors">About</a>
           <a href="#pricing" className="hover:text-foreground transition-colors">Pricing</a>
         </div>
 

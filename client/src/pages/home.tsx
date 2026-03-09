@@ -95,7 +95,6 @@ export default function Home() {
             </div>
             <div className="text-lg md:text-xl space-y-6 text-left md:text-center text-muted-foreground">
               <p>Preach360 is a web application that serves as a complete sermon-building operating system.</p>
-              <p>Unlike standard AI, you don't prompt it. It prompts you.</p>
               <p>As a Socratic preaching coach, Preach360 doesn't do the work for you. It does the work with you, guiding you down a pre-cleared path from raw exegesis to a complete draft in 4 hours or less.</p>
               
               <div className="mt-12 relative rounded-2xl overflow-hidden shadow-2xl border border-border bg-white p-2">
@@ -127,7 +126,7 @@ export default function Home() {
                  Generic AI tools bypass the Holy Spirit and outsource your study, your heart, and your voice.
                </p>
                <div className="bg-brand-50/50 text-brand-900 p-4 rounded-xl text-sm font-medium border border-brand-100">
-                 Preach360 acts as a true assistant that helps you dig into the text with integrity for a sermon that preserves your unique pastoral voice.
+                 Unlike standard AI, you don't prompt it. It prompts you.
                </div>
              </div>
 

@@ -135,6 +135,13 @@ export default function Home() {
                </div>
              </div>
           </div>
+          
+          <div className="mt-16 max-w-3xl mx-auto text-center border-l-2 border-r-2 border-brand-500/30 px-6 py-2">
+            <p className="text-xl md:text-2xl text-brand-900 font-drama italic mb-4">
+              "I look forward to sermon prep for the first time in 18 years. Thank you!"
+            </p>
+            <p className="text-brand-600 font-bold">— Kelly C.</p>
+          </div>
         </div>
       </section>
 
@@ -199,6 +206,13 @@ export default function Home() {
                 Refine and review. Polish the manuscript, add finishing touches, and prepare for delivery.
               </p>
             </div>
+          </div>
+
+          <div className="mt-16 max-w-3xl mx-auto text-center border-l-2 border-r-2 border-brand-500/30 px-6 py-2">
+            <p className="text-xl md:text-2xl text-brand-900 font-drama italic mb-4">
+              "I've had more positive comments on my sermons this year than all my years of preaching combined."
+            </p>
+            <p className="text-brand-600 font-bold">— Rodney B.</p>
           </div>
         </div>
       </section>
@@ -355,6 +369,13 @@ export default function Home() {
                 </div>
               </div>
            </div>
+
+           <div className="mt-16 max-w-3xl mx-auto text-center border-l-2 border-r-2 border-brand-500/30 px-6 py-2">
+            <p className="text-xl md:text-2xl text-brand-900 font-drama italic mb-4">
+              "As a planter, sermon prep was occupying most if not all of my time. I now have a healthy rhythm for my family and the church. Thank you so much!"
+            </p>
+            <p className="text-brand-600 font-bold">— John G.</p>
+          </div>
         </div>
       </section>
 
@@ -370,16 +391,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FOOTER */}
-      <div className="bg-background pt-12 pb-4">
-        <div className="max-w-3xl mx-auto text-center border-t border-brand-200/50 pt-12 px-4">
-          <p className="text-xl md:text-2xl text-brand-900 font-drama italic mb-4">
-            "Sermon prep was occupying most if not all of my agenda. I now have a healthy rhythm for my family and the church. Thank you so much!"
-          </p>
-          <p className="text-brand-600 font-bold">— John G.</p>
-        </div>
-      </div>
-      
       <footer className="bg-background border-t border-border text-muted-foreground py-12 text-sm text-center">
         <div className="container mx-auto px-4 flex flex-col items-center">
           <img 

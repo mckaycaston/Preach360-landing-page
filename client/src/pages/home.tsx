@@ -194,7 +194,7 @@ export default function Home() {
       <section className="py-24 bg-brand-50/50 relative" id="roadmap">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="mb-16 text-center">
-            <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-brand-950">The Preach360 Roadmap</h2>
+            <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-brand-950">The Preach360 4-Hour Roadmap</h2>
             <p className="text-xl text-brand-600 font-medium">
               Preach360 provides the path. You trust the process.
             </p>
@@ -204,37 +204,48 @@ export default function Home() {
             <img src={roadmapProgress} alt="Roadmap Progress Tracker" className="max-w-full h-auto w-full md:w-3/4 shadow-sm rounded-xl border border-border/50" />
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 items-stretch mb-16">
-            <div className="group relative bg-card border border-border hover:border-brand-300 transition-colors duration-300 rounded-3xl p-8 shadow-sm hover:shadow-xl hover:shadow-brand-500/5 flex flex-col h-full">
-              <div className="text-brand-500 mb-6 bg-brand-50 w-16 h-16 rounded-2xl flex items-center justify-center shadow-sm">
-                <BookOpen size={32} />
+          <div className="grid md:grid-cols-4 gap-6 items-stretch mb-16">
+            <div className="group relative bg-card border border-border hover:border-brand-300 transition-colors duration-300 rounded-3xl p-6 shadow-sm hover:shadow-xl hover:shadow-brand-500/5 flex flex-col h-full">
+              <div className="text-brand-500 mb-6 bg-brand-50 w-14 h-14 rounded-2xl flex items-center justify-center shadow-sm">
+                <BookOpen size={28} />
               </div>
               <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOUR 1</div>
-              <h3 className="text-2xl font-bold mb-4 text-foreground">Exegesis Guide</h3>
-              <p className="text-muted-foreground flex-1">
-                A tool that helps you produce an in-depth exegetical analysis of the text from a redemptive framework.
+              <h3 className="text-xl font-bold mb-4 text-foreground">Exegesis Guide</h3>
+              <p className="text-muted-foreground flex-1 text-sm">
+                Generate the Exegesis Guide. A tool that helps you produce an in-depth exegetical analysis of the text from a redemptive framework.
               </p>
             </div>
 
-            <div className="group relative bg-card border border-border hover:border-brand-300 transition-colors duration-300 rounded-3xl p-8 shadow-sm hover:shadow-xl hover:shadow-brand-500/5 flex flex-col h-full">
-              <div className="text-brand-500 mb-6 bg-brand-50 w-16 h-16 rounded-2xl flex items-center justify-center shadow-sm">
-                <Layers size={32} />
+            <div className="group relative bg-card border border-border hover:border-brand-300 transition-colors duration-300 rounded-3xl p-6 shadow-sm hover:shadow-xl hover:shadow-brand-500/5 flex flex-col h-full">
+              <div className="text-brand-500 mb-6 bg-brand-50 w-14 h-14 rounded-2xl flex items-center justify-center shadow-sm">
+                <Layers size={28} />
               </div>
               <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOUR 2</div>
-              <h3 className="text-2xl font-bold mb-4 text-foreground">The Relevance Bridge</h3>
-              <p className="text-muted-foreground flex-1">
-                The contexual connection between the original recipients and modern listeners that reveals the present day need for the text.
+              <h3 className="text-xl font-bold mb-4 text-foreground">Relevance Bridge</h3>
+              <p className="text-muted-foreground flex-1 text-sm">
+                Build the Relevance Bridge. The contexual connection between the original recipients and modern listeners that reveals the present day need for the text.
               </p>
             </div>
 
-            <div className="group relative bg-card border border-border hover:border-brand-300 transition-colors duration-300 rounded-3xl p-8 shadow-sm hover:shadow-xl hover:shadow-brand-500/5 flex flex-col h-full">
-              <div className="text-brand-500 mb-6 bg-brand-50 w-16 h-16 rounded-2xl flex items-center justify-center shadow-sm">
-                <Zap size={32} />
+            <div className="group relative bg-card border border-border hover:border-brand-300 transition-colors duration-300 rounded-3xl p-6 shadow-sm hover:shadow-xl hover:shadow-brand-500/5 flex flex-col h-full">
+              <div className="text-brand-500 mb-6 bg-brand-50 w-14 h-14 rounded-2xl flex items-center justify-center shadow-sm">
+                <Zap size={28} />
               </div>
-              <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOURS 3 & 4</div>
-              <h3 className="text-2xl font-bold mb-4 text-foreground">PPGR Movements</h3>
-              <p className="text-muted-foreground flex-1">
-                A repeatable framework that structurally anchors every message in the clear redemptive progression of Principle, Problem, Gospel, and Response.
+              <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOUR 3</div>
+              <h3 className="text-xl font-bold mb-4 text-foreground">PPGR Movements</h3>
+              <p className="text-muted-foreground flex-1 text-sm">
+                Develop the Four Movements (PPGR). A repeatable framework that structurally anchors every message in the clear redemptive progression.
+              </p>
+            </div>
+
+            <div className="group relative bg-card border border-border hover:border-brand-300 transition-colors duration-300 rounded-3xl p-6 shadow-sm hover:shadow-xl hover:shadow-brand-500/5 flex flex-col h-full">
+              <div className="text-brand-500 mb-6 bg-brand-50 w-14 h-14 rounded-2xl flex items-center justify-center shadow-sm">
+                <ShieldCheck size={28} />
+              </div>
+              <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOUR 4</div>
+              <h3 className="text-xl font-bold mb-4 text-foreground">Refine & Review</h3>
+              <p className="text-muted-foreground flex-1 text-sm">
+                Refine and review. Polish the manuscript, add finishing touches, and prepare for delivery.
               </p>
             </div>
           </div>

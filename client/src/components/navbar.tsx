@@ -14,7 +14,6 @@ export function Navbar() {
         </Link>
 
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
-          <a href="#system" className="hover:text-foreground transition-colors">The Philosophy</a>
           <a href="#roadmap" className="hover:text-foreground transition-colors">The Roadmap</a>
           <a href="#features" className="hover:text-foreground transition-colors">Why Preach360?</a>
           <a href="#about" className="hover:text-foreground transition-colors">About</a>

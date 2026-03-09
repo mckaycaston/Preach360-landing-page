@@ -219,8 +219,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12 bg-brand-50/30 p-8 md:p-12 rounded-[2.5rem] border border-brand-100/50">
             {/* The Old Way */}
             <div className="bg-transparent rounded-3xl p-4 lg:p-6">
-              <h3 className="text-2xl font-semibold mb-8 flex items-center gap-4 text-brand-800">
-                <span className="w-10 h-10 rounded-full bg-brand-100 flex items-center justify-center text-base font-mono font-bold text-brand-600">01</span>
+              <h3 className="text-3xl font-bold mb-8 font-drama text-brand-800">
                 The Old Way
               </h3>
               <ul className="space-y-8">
@@ -253,8 +252,7 @@ export default function Home() {
               <div className="absolute top-0 right-8 -translate-y-1/2 bg-brand-500 text-white px-5 py-1.5 rounded-full text-sm font-bold shadow-lg">
                 The Solution
               </div>
-              <h3 className="text-2xl font-semibold mb-8 flex items-center gap-4 text-brand-600">
-                <span className="w-10 h-10 rounded-full bg-brand-50 flex items-center justify-center text-base font-mono font-bold text-brand-500">02</span>
+              <h3 className="text-3xl font-bold mb-8 font-drama text-brand-600">
                 The Preach360 Way
               </h3>
               <ul className="space-y-8">

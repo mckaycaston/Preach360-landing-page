@@ -86,17 +86,17 @@ export default function Home() {
         <div className="container mx-auto px-4 max-w-6xl text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-8 font-drama text-foreground">Is Sermon Prep Taking You All Week?</h2>
           
-          <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-4xl mx-auto">
-            <p className="mb-6 font-medium text-foreground">
+          <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-4xl mx-auto space-y-6">
+            <p className="font-medium text-foreground">
               Sermon prep that feels like cutting a new trail through a dense forest inevitably leads to mental pressure, emotional stress, and pastoral burnout.
             </p>
-            <p className="mb-6">
+            <p>
               Without a clear path, it is easy to default to bloated, complicated Bible software, drown in stacks of physical commentaries, or fall back on soulless, generic AI.
             </p>
-            <p className="mb-6 font-drama text-2xl text-brand-800">
+            <p className="font-drama text-3xl md:text-4xl font-bold text-brand-800 py-4">
               What if there were a pre-cleared path to follow?
             </p>
-            <p className="mb-8 font-bold text-foreground text-xl">
+            <p className="font-bold text-foreground text-2xl">
               Now, there is.
             </p>
             <p className="text-base md:text-lg">

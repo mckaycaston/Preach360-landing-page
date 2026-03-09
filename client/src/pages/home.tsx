@@ -95,7 +95,7 @@ export default function Home() {
               <p className="mt-4">With Preach360, you'll craft theologically deep, gospel-focused sermons in an afternoon.</p>
             </div>
             <div className="text-lg md:text-xl space-y-6 text-left md:text-center text-muted-foreground">
-              <p>Introducing Preach360, a web application that serves as a complete sermon-building operating system.</p>
+              <p>Preach360 is a web application that serves as a complete sermon-building operating system.</p>
               <p>Unlike standard AI, you don't prompt it. It prompts you.</p>
               <p>As a Socratic preaching coach, Preach360 doesn't do the work for you. It does the work with you, guiding you down a pre-cleared path from raw exegesis to a complete draft in 4 hours or less.</p>
               

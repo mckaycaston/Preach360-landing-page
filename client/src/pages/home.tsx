@@ -126,7 +126,7 @@ export default function Home() {
                  Generic AI tools bypass the Holy Spirit and outsource your study, your heart, and your voice.
                </p>
                <div className="bg-brand-50/50 text-brand-900 p-4 rounded-xl text-sm font-medium border border-brand-100">
-                 Preach360 acts as a true assistant that helps you dig into the text, and retain your unique pastoral voice and heart.
+                 Preach360 acts as a true assistant that helps you dig into the text with integrity for a sermon that preserves your unique pastoral voice.
                </div>
              </div>
 

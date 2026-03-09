@@ -41,7 +41,7 @@ export default function Home() {
                    Preach with twice the impact.
                  </h2>
                  <p className="text-lg text-brand-200/80">
-                   Helping solo pastors craft gospel-rich sermons in an afternoon.
+                   Helping solo pastors and church planters craft gospel-rich sermons in an afternoon.
                  </p>
               </div>
               
@@ -305,7 +305,7 @@ export default function Home() {
                   McKay Caston is a pastor with over 30 years of preaching experience.
                 </p>
                 <p>
-                  Having taught homiletics in seminary for ten years, he poured his doctoral research into Preach360 to help solo pastors preach the gospel clearly and experience relief from the weekly weekly pressure of sermon prep.
+                  Having taught homiletics in seminary for ten years, he poured his doctoral research into Preach360 to help solo pastors and church planters preach the gospel clearly and experience relief from the weekly weekly pressure of sermon prep.
                 </p>
                 <p className="text-brand-900 font-medium text-2xl font-drama mt-8">
                   His ultimate goal? To help you live a sustainable life for a long-term, gospel preaching ministry.

@@ -100,7 +100,7 @@ export default function Home() {
             <p className="font-drama text-2xl md:text-3xl font-bold text-brand-800 py-4">
               There's a better way.
             </p>
-            <div className="text-base md:text-lg space-y-4 text-left md:text-center">
+            <div className="text-lg md:text-xl space-y-6 text-left md:text-center text-muted-foreground">
               <p>Introducing Preach360, a web application that serves as a complete sermon-building operating system.</p>
               <p>Unlike standard AI, you don't prompt it. It prompts you.</p>
               <p>As a Socratic preaching coach, Preach360 doesn't do the work for you. It does the work with you, guiding you down a pre-cleared path from raw exegesis to a complete draft in 4 hours or less.</p>

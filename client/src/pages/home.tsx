@@ -94,7 +94,7 @@ export default function Home() {
               <p className="mt-4">This leads to perpetual stress, Saturday rewrites, and eventually, pastoral burnout.</p>
             </div>
             <p>
-              Without a clear path, it is easy to default to bloated, complicated Bible software, drown in stacks of physical commentaries, or fall back on soulless, generic AI.
+              Without a clear path, it is easy to default to complicated Bible software, drown in stacks of commentaries, or fall back on soulless, generic AI.
             </p>
             <p className="font-drama text-2xl md:text-3xl font-bold text-brand-800 py-4">
               What if there were a pre-cleared path to follow?

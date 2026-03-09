@@ -195,7 +195,7 @@ export default function Home() {
               <div className="font-mono text-lg text-brand-500 mb-2 font-bold tracking-wider">HOUR 2</div>
               <h3 className="text-xl font-bold mb-4 text-foreground">Relevance Bridge</h3>
               <p className="text-muted-foreground flex-1 text-sm">
-                Build the Relevance Bridge. The contexual connection between the original recipients and modern listeners that reveals the present day need for the text.
+                Build the Relevance Bridge. The contextual connection between the original recipients and modern listeners that reveals the present day need for the text.
               </p>
             </div>
 
@@ -377,7 +377,7 @@ export default function Home() {
                   McKay Caston is a pastor with over 30 years of preaching experience.
                 </p>
                 <p>
-                  Having taught homiletics in seminary for ten years, he poured his PhD research into Preach360 to help solo pastors and church planters preach the gospel clearly and experience relief from the weekly weekly pressure of sermon prep.
+                  Having taught homiletics in seminary for ten years, he poured his PhD research into Preach360 to help solo pastors and church planters preach the gospel clearly and experience relief from the weekly pressure of sermon prep.
                 </p>
                 <p className="text-brand-900 font-medium text-2xl font-drama mt-8">
                   His ultimate goal? To help you live a sustainable life for a long-term, gospel preaching ministry.

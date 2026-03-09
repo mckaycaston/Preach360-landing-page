@@ -128,7 +128,7 @@ export default function Home() {
              <div className="bg-card border border-border p-8 rounded-2xl shadow-sm flex flex-col h-full">
                <h3 className="text-xl font-bold mb-4">A Redemptive Framework</h3>
                <p className="text-muted-foreground mb-4 flex-1">
-                 Tools like Sermonary provide a drag-and-drop editor but lack a distinctively theological foundation.
+                 Some tools highlight drag-and-drop editors but lack a distinctively theological foundation.
                </p>
                <div className="bg-brand-50/50 text-brand-900 p-4 rounded-xl text-sm font-medium border border-brand-100">
                  Preach360 is built with the proven PPGR theological framework, ensuring every sermon preaches to and through the cross.

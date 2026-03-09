@@ -224,10 +224,13 @@ export default function Home() {
       <section className="py-16 md:py-24 bg-brand-50/50">
         <div className="container mx-auto px-4 max-w-5xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold font-drama text-foreground mb-6">The Engine</h2>
+            <h2 className="text-3xl md:text-5xl font-bold font-drama text-foreground mb-6">The Preach360 Engine</h2>
             <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-4xl mx-auto space-y-6">
+              <p className="text-foreground">
+                The core of our web app is built on a distinctively theological foundation called the PPGR Preaching System® (Principle, Problem, Gospel, Response).
+              </p>
               <p>
-                The core of our web app is built on a distinctively theological foundation called the PPGR Preaching System® (Principle, Problem, Gospel, Response). We have turned a proven, redemptive framework into an intuitive software experience.
+                We have turned a proven, redemptive framework into an intuitive software experience.
               </p>
               <p>
                 Rather than forcing your text into an artificial outline, you'll simply unfold the organic outline that's already there.

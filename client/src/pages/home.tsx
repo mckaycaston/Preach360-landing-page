@@ -154,8 +154,8 @@ export default function Home() {
       {/* 2. ROADMAP & PROTOCOL */}
       <section className="py-16 md:py-20 bg-brand-50/50 relative" id="roadmap">
         <div className="container mx-auto px-4 max-w-6xl">
-          <div className="mb-12 text-center">
-            <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-brand-950">The Preach360 4-Hour Roadmap</h2>
+          <div className="text-center">
+            <h2 className="text-3xl md:text-5xl font-bold mb-2 font-drama text-brand-950">The Preach360 4-Hour Roadmap</h2>
           </div>
 
           <div className="text-center mb-10 max-w-3xl mx-auto">

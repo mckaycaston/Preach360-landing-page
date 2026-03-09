@@ -158,10 +158,6 @@ export default function Home() {
             <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-brand-950">The Preach360 4-Hour Roadmap</h2>
           </div>
 
-          <div className="mb-8 flex justify-center w-full">
-            <img src={roadmapProgress} alt="Roadmap Progress Tracker" className="max-w-full h-auto w-full md:w-3/4 shadow-sm rounded-xl border border-border/50" />
-          </div>
-
           <div className="text-center mb-10 max-w-3xl mx-auto">
             <h2 className="text-lg md:text-xl font-medium text-foreground font-sans">
               <span className="text-brand-600">Preach360 provides the path. You just trust the process.</span><br className="hidden md:block" /> Because 4 hours of focused work beats 12 hours of distracted prep every time.

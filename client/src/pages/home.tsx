@@ -126,7 +126,7 @@ export default function Home() {
                  Generic AI tools bypass the Holy Spirit and outsource your study, your heart, and your voice.
                </p>
                <div className="bg-brand-50/50 text-brand-900 p-4 rounded-xl text-sm font-medium border border-brand-100">
-                 Unlike standard AI, you don't prompt it. It prompts you.
+                 Preach360 acts as a true assistant. Unlike standard AI, you don't prompt it. It prompts you.
                </div>
              </div>
 

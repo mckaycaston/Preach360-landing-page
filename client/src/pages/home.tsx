@@ -149,7 +149,6 @@ export default function Home() {
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="mb-12 text-center">
             <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-brand-950">The Preach360 4-Hour Roadmap</h2>
-            <p className="text-xl text-brand-600 font-medium">Preach360 provides the path. You just trust the process.</p>
           </div>
 
           <div className="mb-8 flex justify-center w-full">
@@ -157,7 +156,8 @@ export default function Home() {
           </div>
 
           <div className="text-center mb-10">
-            <h2 className="text-lg md:text-xl font-medium text-muted-foreground font-sans">4 hours of deep work beats 12 hours of distracted prep every time.</h2>
+            <h2 className="text-lg md:text-xl font-medium text-muted-foreground font-sans mb-2">4 hours of deep work beats 12 hours of distracted prep every time.</h2>
+            <p className="text-lg md:text-xl text-brand-600 font-medium mt-4">Preach360 provides the path. You just trust the process.</p>
           </div>
 
           <div className="grid md:grid-cols-4 gap-6 items-stretch">

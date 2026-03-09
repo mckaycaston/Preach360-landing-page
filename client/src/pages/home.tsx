@@ -101,11 +101,22 @@ export default function Home() {
             <div className="text-xl text-muted-foreground leading-relaxed mb-8 max-w-3xl mx-auto space-y-4">
               <p>Sermon prep can feel like cutting a new trail through a dense forest. The norm of spending 12 to 18 hours preparing a single sermon inevitably leads to mental pressure, stress, and pastoral burnout.</p>
               <p>Without a clear path, it is easy to:</p>
-              <ul className="list-disc pl-8 space-y-2">
-                <li>default to bloated, complicated Bible software,</li>
-                <li>drown in stacks of physical commentaries, or</li>
-                <li>fall back on soulless, generic AI.</li>
-              </ul>
+              <div className="flex justify-center my-6">
+                <ul className="space-y-4 text-brand-600 font-medium text-xl">
+                  <li className="flex items-center gap-6">
+                    <span className="w-1.5 h-1.5 rounded-full bg-brand-500 flex-shrink-0"></span>
+                    <span>default to bloated, complicated Bible software,</span>
+                  </li>
+                  <li className="flex items-center gap-6">
+                    <span className="w-1.5 h-1.5 rounded-full bg-brand-500 flex-shrink-0"></span>
+                    <span>drown in stacks of physical commentaries, or</span>
+                  </li>
+                  <li className="flex items-center gap-6">
+                    <span className="w-1.5 h-1.5 rounded-full bg-brand-500 flex-shrink-0"></span>
+                    <span>fall back on soulless, generic AI.</span>
+                  </li>
+                </ul>
+              </div>
               <p>What if there were a pre-cleared path to follow? <br/><strong>Now, there is.</strong></p>
             </div>
 

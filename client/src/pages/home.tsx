@@ -289,21 +289,21 @@ export default function Home() {
                 <li className="flex gap-4 opacity-70">
                   <div className="mt-1 min-w-6 text-brand-400 font-light">✕</div>
                   <div>
-                    <strong className="block text-foreground mb-2 text-lg">STRESS</strong>
+                    <strong className="block text-foreground mb-2 text-2xl font-bold">STRESS</strong>
                     <p className="text-base text-muted-foreground">Constantly feeling behind, struggling to finish, and rewriting your sermon on Saturdays.</p>
                   </div>
                 </li>
                 <li className="flex gap-4 opacity-70">
                   <div className="mt-1 min-w-6 text-brand-400 font-light">✕</div>
                   <div>
-                    <strong className="block text-foreground mb-2 text-lg">UNCERTAINTY</strong>
+                    <strong className="block text-foreground mb-2 text-2xl font-bold">UNCERTAINTY</strong>
                     <p className="text-base text-muted-foreground">Struggling with structure and forcing artificial outlines onto the text, never sure if the outline is right.</p>
                   </div>
                 </li>
                 <li className="flex gap-4 opacity-70">
                   <div className="mt-1 min-w-6 text-brand-400 font-light">✕</div>
                   <div>
-                    <strong className="block text-foreground mb-2 text-lg">SILENCE</strong>
+                    <strong className="block text-foreground mb-2 text-2xl font-bold">SILENCE</strong>
                     <p className="text-base text-muted-foreground">Wishing for a spiritual response to your sermons, but usually just getting the familiar "See you next week, Pastor."</p>
                   </div>
                 </li>
@@ -322,21 +322,21 @@ export default function Home() {
                 <li className="flex gap-4">
                   <div className="mt-1 min-w-6 text-brand-500 font-bold">✓</div>
                   <div>
-                    <strong className="block text-brand-950 mb-2 text-lg">MARGIN</strong>
+                    <strong className="block text-brand-950 mb-2 text-2xl font-bold">MARGIN</strong>
                     <p className="text-brand-950/80 text-base">Finish your message by noon on Wednesday—in hours, not days. Preach360 returns over 10 hours of margin to your week for a real day off and long-term ministry sustainability.</p>
                   </div>
                 </li>
                 <li className="flex gap-4">
                   <div className="mt-1 min-w-6 text-brand-500 font-bold">✓</div>
                   <div>
-                    <strong className="block text-brand-950 mb-2 text-lg">CONFIDENCE</strong>
+                    <strong className="block text-brand-950 mb-2 text-2xl font-bold">CONFIDENCE</strong>
                     <p className="text-brand-950/80 text-base">Rather than invent an artificial outline, you'll simply unfold the gospel organically from the text using the PPGR framework.</p>
                   </div>
                 </li>
                 <li className="flex gap-4">
                   <div className="mt-1 min-w-6 text-brand-500 font-bold">✓</div>
                   <div>
-                    <strong className="block text-brand-950 mb-2 text-lg">IMPACT</strong>
+                    <strong className="block text-brand-950 mb-2 text-2xl font-bold">IMPACT</strong>
                     <p className="text-brand-950/80 text-base">You'll preach grace as fuel for new life, not just as a fallback for failure—and start to see people change from the inside out.</p>
                   </div>
                 </li>

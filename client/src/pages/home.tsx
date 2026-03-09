@@ -106,7 +106,7 @@ export default function Home() {
              <div className="bg-card border border-border p-8 rounded-2xl shadow-sm flex flex-col h-full">
                <h3 className="text-xl font-bold mb-4">No Bloated Bible Software</h3>
                <p className="text-muted-foreground mb-4 flex-1">
-                 Logos and Accordance are powerful, but they require a steep learning curve and drown you in too much data.
+                 Logos is powerful, but requires a steep learning curve and drowns you in too much data.
                </p>
                <div className="bg-brand-50/50 text-brand-900 p-4 rounded-xl text-sm font-medium border border-brand-100">
                  Preach360 removes the need to wrestle with complicated software, giving you a streamlined path from exegesis to manuscript.

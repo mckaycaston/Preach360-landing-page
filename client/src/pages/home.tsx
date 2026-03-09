@@ -137,7 +137,7 @@ export default function Home() {
                  Tools like Sermonary provide a drag-and-drop editor but lack a distinctively theological foundation.
                </p>
                <div className="bg-brand-50/50 text-brand-900 p-4 rounded-xl text-sm font-medium border border-brand-100">
-                 Preach360 is built on the proven PPGR framework, ensuring every sermon preaches to and through the cross.
+                 Preach360 is built with the proven PPGR theological framework, ensuring every sermon preaches to and through the cross.
                </div>
              </div>
           </div>

@@ -380,9 +380,9 @@ export default function Home() {
       <section className="py-24 bg-background" id="pricing">
         <div className="container mx-auto px-4 max-w-6xl">
            <div className="text-center mb-16">
-             <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-foreground">Get Started Today</h2>
+             <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-foreground">Start Your 4-Hour Prep Today</h2>
              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-               Your all-in-one sermon OS. No other prep tools needed.
+               The all-in-one sermon OS. No other prep tools needed.
              </p>
            </div>
            

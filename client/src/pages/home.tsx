@@ -91,7 +91,6 @@ export default function Home() {
           <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-4xl mx-auto space-y-6">
             <div className="font-medium text-foreground">
               <p>You have meetings, counseling, hospital visits, etc. Not to mention crisis moments.</p>
-              <p className="mt-4">Thankfully, 4 hours of focused work beats 15 hours of distracted prep every time.</p>
               <p className="mt-4">With Preach360, you'll craft theologically deep, gospel-focused sermons in an afternoon.</p>
             </div>
             <div className="text-lg md:text-xl space-y-6 text-left md:text-center text-muted-foreground">

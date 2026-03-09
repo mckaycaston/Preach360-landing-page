@@ -49,9 +49,6 @@ export default function Home() {
                 <Button size="lg" className="rounded-full bg-brand-500 hover:bg-brand-600 text-white h-14 px-8 text-base shadow-lg shadow-brand-500/25">
                   Start 4-Hour Prep <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
-                <Button size="lg" variant="outline" className="rounded-full h-14 px-8 text-base border-brand-200/30 hover:bg-brand-500/10 text-white backdrop-blur-sm">
-                  Join the Free Community
-                </Button>
               </div>
             </motion.div>
 

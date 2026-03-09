@@ -5,6 +5,7 @@ import { ArrowRight, Clock, BookOpen, Layers, ShieldCheck, Zap, Lock } from "luc
 import { Link } from "wouter";
 import roadmapProgress from "@assets/image_1772636322550.png";
 import aboutCreatorImage from "@assets/image_1772656745459.png";
+import engineImage from "@assets/image_1773081813789.png";
 
 export default function Home() {
   return (
@@ -215,6 +216,51 @@ export default function Home() {
               "I've had more positive comments on my sermons this year than all my years of preaching combined."
             </p>
             <p className="text-brand-600 font-bold">— Rodney B.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* THE ENGINE */}
+      <section className="py-16 md:py-24 bg-brand-50/50">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-5xl font-bold font-drama text-foreground mb-6">The Engine</h2>
+            <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-4xl mx-auto space-y-6">
+              <p>
+                The core of our web app is built on a distinctively theological foundation called the PPGR Preaching System® (Principle, Problem, Gospel, Response). We have turned a proven, redemptive framework into an intuitive software experience.
+              </p>
+              <p>
+                Rather than forcing your text into an artificial outline, you'll simply unfold the organic outline that's already there.
+              </p>
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-12 items-center mt-16">
+            <div className="space-y-6">
+              <div className="bg-card border-l-4 border-blue-500 p-6 rounded-r-xl shadow-sm">
+                <h3 className="font-bold text-lg text-foreground mb-1">PRINCIPLE</h3>
+                <p className="text-muted-foreground">Creation—what is true</p>
+              </div>
+              <div className="bg-card border-l-4 border-green-500 p-6 rounded-r-xl shadow-sm">
+                <h3 className="font-bold text-lg text-foreground mb-1">PROBLEM</h3>
+                <p className="text-muted-foreground">Fall—how and why the flesh resists what is true</p>
+              </div>
+              <div className="bg-card border-l-4 border-lime-500 p-6 rounded-r-xl shadow-sm">
+                <h3 className="font-bold text-lg text-foreground mb-1">GOSPEL</h3>
+                <p className="text-muted-foreground">Redemption—how Jesus redeems our resistance</p>
+              </div>
+              <div className="bg-card border-l-4 border-yellow-500 p-6 rounded-r-xl shadow-sm">
+                <h3 className="font-bold text-lg text-foreground mb-1">RESPONSE</h3>
+                <p className="text-muted-foreground">Restoration—new life in the Spirit</p>
+              </div>
+            </div>
+            <div className="relative rounded-2xl overflow-hidden shadow-xl bg-white p-4">
+              <img 
+                src={engineImage} 
+                alt="PPGR Preaching System Framework" 
+                className="w-full h-auto object-contain"
+              />
+            </div>
           </div>
         </div>
       </section>

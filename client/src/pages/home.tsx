@@ -141,7 +141,7 @@ export default function Home() {
           
           <div className="mt-16 max-w-3xl mx-auto text-center border-l-2 border-r-2 border-brand-500/30 px-6 py-2">
             <p className="text-xl md:text-2xl text-brand-900 font-drama italic mb-4">
-              "I look forward to sermon prep for the first time in 18 years. Thank you!"
+              "I look forward to sermon prep for the first time in 18 years."
             </p>
             <p className="text-brand-600 font-bold">— Kelly C.</p>
           </div>

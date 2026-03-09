@@ -99,9 +99,11 @@ export default function Home() {
             <p className="font-drama text-2xl md:text-3xl font-bold text-brand-800 py-4">
               What if there were a pre-cleared path to follow?
             </p>
-            <p className="text-base md:text-lg">
-              There is. Preach360 guides you down a pre-cleared path from raw exegesis to a complete draft in 4 hours or less. Serving as a Socratic preaching coach, it doesn't do the work for you. It does the work with you, allowing you to retain your unique, authentic voice and pastoral heart.
-            </p>
+            <div className="text-base md:text-lg space-y-4 text-left md:text-center">
+              <p>Preach360 is a web application that serves as a complete sermon-building operating system.</p>
+              <p>Unlike standard AI, you don't prompt it. It prompts you.</p>
+              <p>As a Socratic preaching coach, Preach360 doesn't do the work for you. It does the work with you, guiding you down a pre-cleared path from raw exegesis to a complete draft in 4 hours or less.</p>
+            </div>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 items-stretch mt-16 text-left">

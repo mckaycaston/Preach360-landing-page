@@ -155,10 +155,10 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-12 mb-12 max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground font-drama">4 hours of deep work beats 12 hours of distracted prep every time.</h2>
+            <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground font-drama">Sermon prep can feel like cutting a new trail through a dense forest every week.</h2>
             
             <div className="text-xl text-muted-foreground leading-relaxed mb-8 max-w-3xl mx-auto space-y-4">
-              <p>Sermon prep can feel like cutting a new trail through a dense forest. The norm of spending 12 to 18 hours preparing a single sermon inevitably leads to mental pressure, stress, and pastoral burnout.</p>
+              <p>The norm of spending 12 to 18 hours preparing a single sermon inevitably leads to mental pressure, stress, and pastoral burnout.</p>
               <p>Without a clear path, it is easy to:</p>
               <div className="flex justify-center my-6">
                 <ul className="space-y-4 text-brand-600 font-medium text-xl text-left inline-block">
@@ -180,12 +180,6 @@ export default function Home() {
             </div>
           </div>
           
-          <div className="max-w-3xl mx-auto text-center border-t border-brand-200/50 pt-12">
-            <p className="text-xl md:text-2xl text-brand-900 font-drama italic mb-4">
-              "Sermon prep was occupying most if not all of my agenda. I now have a healthy rhythm for my family and the church. Thank you so much!"
-            </p>
-            <p className="text-brand-600 font-bold">— John G.</p>
-          </div>
         </div>
       </section>
 
@@ -483,6 +477,15 @@ export default function Home() {
       </section>
 
       {/* FOOTER */}
+      <div className="bg-background pt-12 pb-4">
+        <div className="max-w-3xl mx-auto text-center border-t border-brand-200/50 pt-12 px-4">
+          <p className="text-xl md:text-2xl text-brand-900 font-drama italic mb-4">
+            "Sermon prep was occupying most if not all of my agenda. I now have a healthy rhythm for my family and the church. Thank you so much!"
+          </p>
+          <p className="text-brand-600 font-bold">— John G.</p>
+        </div>
+      </div>
+      
       <footer className="bg-background border-t border-border text-muted-foreground py-12 text-sm text-center">
         <div className="container mx-auto px-4 flex flex-col items-center">
           <img 

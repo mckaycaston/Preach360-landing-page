@@ -95,7 +95,7 @@ export default function Home() {
       {/* THE ENEMY (Agitation Block) - MOVED DOWN */}
 
       {/* ROADMAP & PROTOCOL */}
-      <section className="py-24 bg-brand-50/50 relative" id="roadmap">
+      <section className="pt-24 pb-8 bg-brand-50/50 relative" id="roadmap">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="mb-16 text-center">
             <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-brand-950">The Preach360 4-Hour Roadmap</h2>
@@ -154,7 +154,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="text-center mt-12 mb-12 max-w-4xl mx-auto">
+          <div className="text-center mt-12 max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground font-drama">Sermon prep can feel like cutting a new trail through a dense forest every week.</h2>
             
             <div className="text-xl text-muted-foreground leading-relaxed mb-8 max-w-3xl mx-auto space-y-4">
@@ -176,7 +176,7 @@ export default function Home() {
                   </li>
                 </ul>
               </div>
-              <p className="text-2xl mt-8">What if there were a pre-cleared path to follow? <br/><strong className="text-brand-900 font-drama text-3xl mt-2 inline-block">Now, there is.</strong></p>
+              <p className="text-2xl mt-4 text-brand-600">What if there were a pre-cleared path to follow? <br/><strong className="text-brand-900 font-drama text-3xl mt-2 inline-block">Now, there is.</strong></p>
             </div>
           </div>
           
@@ -184,10 +184,10 @@ export default function Home() {
       </section>
 
       {/* THE KILL SHEET (Differentiation Grid) */}
-      <section className="py-24 mt-16 bg-background relative" id="features">
+      <section className="pb-16 bg-background relative" id="features">
         <div className="container mx-auto px-4 max-w-5xl">
           <div className="text-center mb-16">
-             <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-foreground">Why Preach360?</h2>
+             <h2 className="text-4xl md:text-6xl font-bold mb-6 font-drama text-foreground">Why Preach360?</h2>
              <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
                Preach360 guides you down a redemptive path from raw exegesis to a complete draft in 4 hours or less without complicated Bible software or generic AI. By replacing fragmented preparation cycles with a systematic focus, Preach360 serves as a Socratic preaching coach. It doesn't do the work for you. It does the work with you, allowing you to retain your unique, authentic voice and pastoral heart.
              </p>

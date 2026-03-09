@@ -119,13 +119,6 @@ export default function Home() {
               </div>
               <p>What if there were a pre-cleared path to follow? <br/><strong>Now, there is.</strong></p>
             </div>
-
-            <div className="border-l-2 border-brand-500/50 pl-6 py-2 mx-auto text-left max-w-3xl">
-              <p className="text-muted-foreground italic text-lg leading-relaxed mb-2">
-                "I have received more comments about the sermons being helpful than in all my previous years of preaching combined."
-              </p>
-              <p className="text-brand-600 font-bold">— Rodney B.</p>
-            </div>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
@@ -393,6 +386,13 @@ export default function Home() {
                   <Button className="w-full" variant="outline">Contact Sales</Button>
                 </div>
               </div>
+           </div>
+
+           <div className="mt-16 border-l-2 border-brand-500/50 pl-6 py-2 mx-auto text-left max-w-3xl">
+              <p className="text-muted-foreground italic text-lg leading-relaxed mb-2">
+                "I have received more comments about the sermons being helpful than in all my previous years of preaching combined."
+              </p>
+              <p className="text-brand-600 font-bold">— Rodney B.</p>
            </div>
         </div>
       </section>

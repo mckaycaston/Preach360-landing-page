@@ -97,7 +97,7 @@ export default function Home() {
               What if there were a pre-cleared path to follow?
             </p>
             <p className="text-base md:text-lg">
-              Preach360 guides you down a redemptive path from raw exegesis to a complete draft in 4 hours or less, serving as a Socratic preaching coach. It doesn't do the work for you. It does the work with you, allowing you to retain your unique, authentic voice and pastoral heart.
+              There is. Preach360 guides you down a pre-cleared path from raw exegesis to a complete draft in 4 hours or less, serving as a Socratic preaching coach. It doesn't do the work for you. It does the work with you, allowing you to retain your unique, authentic voice and pastoral heart.
             </p>
           </div>
 

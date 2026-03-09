@@ -32,10 +32,6 @@ export default function Home() {
               transition={{ duration: 0.6 }}
               className="max-w-2xl"
             >
-              <div className="inline-flex items-center rounded-full border border-brand-500/30 bg-brand-500/10 px-3 py-1 text-sm text-brand-200 mb-6 font-medium backdrop-blur-sm">
-                <span className="flex h-2 w-2 rounded-full bg-brand-500 mr-2 animate-pulse"></span>
-                Is sermon prep taking all week?
-              </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-4 leading-[1.1]">
                 Prep in half the time.
               </h1>
@@ -57,10 +53,6 @@ export default function Home() {
                   Join the Free Community
                 </Button>
               </div>
-              
-              <p className="text-sm text-brand-200/60 max-w-md">
-                Join a community of pastors from over 20 countries across 6 continents who are discovering the relief and freedom of Preach360.
-              </p>
             </motion.div>
 
             <motion.div 
@@ -427,7 +419,7 @@ export default function Home() {
           
           <h2 className="text-4xl md:text-6xl font-bold font-drama mb-6 mt-8">Reclaim your weekend.</h2>
           <p className="text-xl md:text-2xl text-brand-200 mb-10 max-w-2xl mx-auto opacity-90">
-            Join a global community of pastors discovering the relief and freedom of Preach360.
+            Join a community of pastors from over 20 countries across 6 continents who are discovering the relief and freedom of Preach360.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
              <Link href="/login">

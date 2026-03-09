@@ -6,6 +6,7 @@ import { Link } from "wouter";
 import roadmapProgress from "@assets/image_1772636322550.png";
 import aboutCreatorImage from "@assets/image_1772656745459.png";
 import engineImage from "@assets/image_1773081813789.png";
+import coachImage from "@assets/image_1773084579554.png";
 
 export default function Home() {
   return (
@@ -103,6 +104,14 @@ export default function Home() {
               <p>Preach360 is a web application that serves as a complete sermon-building operating system.</p>
               <p>Unlike standard AI, you don't prompt it. It prompts you.</p>
               <p>As a Socratic preaching coach, Preach360 doesn't do the work for you. It does the work with you, guiding you down a pre-cleared path from raw exegesis to a complete draft in 4 hours or less.</p>
+              
+              <div className="mt-12 relative rounded-2xl overflow-hidden shadow-2xl border border-border bg-white p-2">
+                <img 
+                  src={coachImage} 
+                  alt="Preach360 Coaching Interface" 
+                  className="w-full h-auto rounded-xl"
+                />
+              </div>
             </div>
           </div>
 

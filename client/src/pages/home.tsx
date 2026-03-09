@@ -88,7 +88,7 @@ export default function Home() {
           
           <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-4xl mx-auto space-y-6">
             <p className="font-medium text-foreground">
-              Sermon prep that feels like cutting a new trail through a dense forest inevitably leads to mental pressure, emotional stress, and pastoral burnout.
+              Sermon prep that feels like cutting a new trail through the woods is frustrating. And exhausting.
             </p>
             <p>
               Without a clear path, it is easy to default to bloated, complicated Bible software, drown in stacks of physical commentaries, or fall back on soulless, generic AI.

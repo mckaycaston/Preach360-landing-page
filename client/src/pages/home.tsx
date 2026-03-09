@@ -98,10 +98,10 @@ export default function Home() {
               Without a clear path, it is easy to default to complicated Bible software, drown in stacks of commentaries, or fall back on soulless, generic AI.
             </p>
             <p className="font-drama text-2xl md:text-3xl font-bold text-brand-800 py-4">
-              What if there were a pre-cleared path to follow?
+              There's a better way.
             </p>
             <div className="text-base md:text-lg space-y-4 text-left md:text-center">
-              <p>Preach360 is a web application that serves as a complete sermon-building operating system.</p>
+              <p>Introducing Preach360, a web application that serves as a complete sermon-building operating system.</p>
               <p>Unlike standard AI, you don't prompt it. It prompts you.</p>
               <p>As a Socratic preaching coach, Preach360 doesn't do the work for you. It does the work with you, guiding you down a pre-cleared path from raw exegesis to a complete draft in 4 hours or less.</p>
               

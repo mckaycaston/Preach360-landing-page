@@ -149,6 +149,7 @@ export default function Home() {
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="mb-12 text-center">
             <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-brand-950">The Preach360 4-Hour Roadmap</h2>
+            <p className="text-xl text-brand-600 font-medium">Preach360 provides the path. You just trust the process.</p>
           </div>
 
           <div className="mb-8 flex justify-center w-full">

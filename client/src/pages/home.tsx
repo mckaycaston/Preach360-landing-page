@@ -154,6 +154,21 @@ export default function Home() {
             </div>
           </div>
 
+          <div className="mt-16 max-w-3xl mx-auto text-lg md:text-xl text-muted-foreground leading-relaxed text-center">
+            <p className="mb-6 font-medium text-foreground">
+              Spending 12 to 18 hours preparing a single sermon inevitably leads to mental pressure, stress, and pastoral burnout.
+            </p>
+            <p className="mb-6">
+              Without a clear path, it is easy to default to bloated, complicated Bible software, drown in stacks of physical commentaries, or fall back on soulless, generic AI.
+            </p>
+            <p className="mb-6 font-drama text-2xl text-brand-800">
+              What if there were a pre-cleared path to follow?
+            </p>
+            <p className="font-bold text-foreground text-xl">
+              Now, there is.
+            </p>
+          </div>
+
           <div className="text-center mt-12 max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground font-drama">4 hours of deep work beats 12 hours of distracted prep every time.</h2>
           </div>
@@ -165,7 +180,7 @@ export default function Home() {
       <section className="pb-16 bg-background relative" id="features">
         <div className="container mx-auto px-4 max-w-5xl">
           <div className="text-center mb-16">
-             <h2 className="text-4xl md:text-6xl font-bold mb-6 font-drama text-foreground">Why Preach360?</h2>
+             <h2 className="text-4xl md:text-6xl font-bold mb-6 font-drama text-foreground">Introducing Preach360: the All-in-One Sermon OS</h2>
              <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
                Preach360 guides you down a redemptive path from raw exegesis to a complete draft in 4 hours or less without complicated Bible software or generic AI. By replacing fragmented preparation cycles with a systematic focus, Preach360 serves as a Socratic preaching coach. It doesn't do the work for you. It does the work with you, allowing you to retain your unique, authentic voice and pastoral heart.
              </p>

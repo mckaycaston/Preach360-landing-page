@@ -15,7 +15,7 @@ export function Navbar() {
 
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
           <a href="#roadmap" className="hover:text-foreground transition-colors">The 4-Hour Roadmap</a>
-          <a href="#features" className="hover:text-foreground transition-colors">Why Preach360?</a>
+          <a href="#features" className="hover:text-foreground transition-colors">Introducing Preach360: the All-in-One Sermon OS</a>
           <a href="#about" className="hover:text-foreground transition-colors">About</a>
           <a href="#pricing" className="hover:text-foreground transition-colors">Pricing</a>
         </div>

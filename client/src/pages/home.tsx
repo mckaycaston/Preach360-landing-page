@@ -155,9 +155,10 @@ export default function Home() {
             <img src={roadmapProgress} alt="Roadmap Progress Tracker" className="max-w-full h-auto w-full md:w-3/4 shadow-sm rounded-xl border border-border/50" />
           </div>
 
-          <div className="text-center mb-10">
-            <h2 className="text-lg md:text-xl font-medium text-muted-foreground font-sans mb-2">4 hours of deep work beats 12 hours of distracted prep every time.</h2>
-            <p className="text-lg md:text-xl text-brand-600 font-medium mt-4">Preach360 provides the path. You just trust the process.</p>
+          <div className="text-center mb-10 max-w-3xl mx-auto">
+            <h2 className="text-lg md:text-xl font-medium text-foreground font-sans">
+              <span className="text-brand-600">Preach360 provides the path. You just trust the process.</span><br className="hidden md:block" /> Because 4 hours of deep work beats 12 hours of distracted prep every time.
+            </h2>
           </div>
 
           <div className="grid md:grid-cols-4 gap-6 items-stretch">

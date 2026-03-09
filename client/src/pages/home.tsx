@@ -203,7 +203,7 @@ export default function Home() {
               <div className="font-mono text-lg text-brand-500 mb-2 font-bold tracking-wider">HOUR 4</div>
               <h3 className="text-xl font-bold mb-4 text-foreground">Refine & Review</h3>
               <p className="text-muted-foreground flex-1 text-sm">
-                Refine and review. Polish the manuscript, add finishing touches, and prepare for delivery.
+                Review the manuscript with our proprietary optimization tool for targeted editing as you prepare for delivery.
               </p>
             </div>
           </div>

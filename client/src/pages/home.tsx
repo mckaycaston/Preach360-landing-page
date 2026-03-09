@@ -104,8 +104,12 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="mb-12 flex justify-center w-full">
+          <div className="mb-8 flex justify-center w-full">
             <img src={roadmapProgress} alt="Roadmap Progress Tracker" className="max-w-full h-auto w-full md:w-3/4 shadow-sm rounded-xl border border-border/50" />
+          </div>
+
+          <div className="text-center mb-10">
+            <h2 className="text-lg md:text-xl font-medium text-muted-foreground font-sans">4 hours of deep work beats 12 hours of distracted prep every time.</h2>
           </div>
 
           <div className="grid md:grid-cols-4 gap-6 items-stretch mb-16">
@@ -167,11 +171,6 @@ export default function Home() {
             <p className="font-bold text-foreground text-xl">
               Now, there is.
             </p>
-          </div>
-
-          <div className="flex flex-col items-center mt-16 max-w-4xl mx-auto">
-            <img src="/images/progress-tracker-2.png" alt="Sermon Prep Progress Tracker" className="w-full max-w-2xl h-auto mb-6 shadow-sm rounded-xl border border-border" />
-            <h2 className="text-xl md:text-2xl font-bold text-foreground font-sans">4 hours of deep work beats 12 hours of distracted prep every time.</h2>
           </div>
           
         </div>

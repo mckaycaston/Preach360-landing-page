@@ -155,29 +155,7 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-12 max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground font-drama">Sermon prep can feel like cutting a new trail through a dense forest every week.</h2>
-            
-            <div className="text-xl text-muted-foreground leading-relaxed mb-8 max-w-3xl mx-auto space-y-4">
-              <p>The norm of spending 12 to 18 hours preparing a single sermon inevitably leads to mental pressure, stress, and pastoral burnout.</p>
-              <p>Without a clear path, it is easy to:</p>
-              <div className="flex justify-center my-6">
-                <ul className="space-y-4 text-brand-600 font-medium text-xl text-left inline-block">
-                  <li className="flex items-center gap-4">
-                    <span className="w-2 h-2 rounded-full bg-brand-500 flex-shrink-0"></span>
-                    <span>default to bloated, complicated Bible software,</span>
-                  </li>
-                  <li className="flex items-center gap-4">
-                    <span className="w-2 h-2 rounded-full bg-brand-500 flex-shrink-0"></span>
-                    <span>drown in stacks of physical commentaries, or</span>
-                  </li>
-                  <li className="flex items-center gap-4">
-                    <span className="w-2 h-2 rounded-full bg-brand-500 flex-shrink-0"></span>
-                    <span>fall back on soulless, generic AI.</span>
-                  </li>
-                </ul>
-              </div>
-              <p className="text-2xl mt-4 text-brand-600">What if there were a pre-cleared path to follow? <br/><strong className="text-brand-900 font-drama text-3xl mt-2 inline-block">Now, there is.</strong></p>
-            </div>
+            <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground font-drama">4 hours of deep work beats 12 hours of distracted prep every time.</h2>
           </div>
           
         </div>
@@ -237,31 +215,6 @@ export default function Home() {
       {/* THE ENEMY (Agitation Block) - MOVED HERE */}
       <section className="py-24 bg-background relative overflow-hidden" id="system">
         <div className="container mx-auto px-4 max-w-6xl relative z-10">
-          <div className="text-center mb-16 max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground font-drama">4 hours of deep work beats 12 hours of distracted prep every time.</h2>
-            
-            <div className="text-xl text-muted-foreground leading-relaxed mb-8 max-w-3xl mx-auto space-y-4">
-              <p>Sermon prep can feel like cutting a new trail through a dense forest. The norm of spending 12 to 18 hours preparing a single sermon inevitably leads to mental pressure, stress, and pastoral burnout.</p>
-              <p>Without a clear path, it is easy to:</p>
-              <div className="flex justify-center my-6">
-                <ul className="space-y-4 text-brand-600 font-medium text-xl">
-                  <li className="flex items-center gap-6">
-                    <span className="w-1.5 h-1.5 rounded-full bg-brand-500 flex-shrink-0"></span>
-                    <span>default to bloated, complicated Bible software,</span>
-                  </li>
-                  <li className="flex items-center gap-6">
-                    <span className="w-1.5 h-1.5 rounded-full bg-brand-500 flex-shrink-0"></span>
-                    <span>drown in stacks of physical commentaries, or</span>
-                  </li>
-                  <li className="flex items-center gap-6">
-                    <span className="w-1.5 h-1.5 rounded-full bg-brand-500 flex-shrink-0"></span>
-                    <span>fall back on soulless, generic AI.</span>
-                  </li>
-                </ul>
-              </div>
-              <p>What if there were a pre-cleared path to follow? <br/><strong>Now, there is.</strong></p>
-            </div>
-          </div>
 
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12 bg-brand-50/30 p-8 md:p-12 rounded-[2.5rem] border border-brand-100/50">
             {/* The Old Way */}

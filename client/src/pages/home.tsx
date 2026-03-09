@@ -169,8 +169,9 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="text-center mt-12 max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground font-drama">4 hours of deep work beats 12 hours of distracted prep every time.</h2>
+          <div className="flex flex-col items-center mt-16 max-w-4xl mx-auto">
+            <img src="/images/progress-tracker-2.png" alt="Sermon Prep Progress Tracker" className="w-full max-w-2xl h-auto mb-6 shadow-sm rounded-xl border border-border" />
+            <h2 className="text-xl md:text-2xl font-bold text-foreground font-sans">4 hours of deep work beats 12 hours of distracted prep every time.</h2>
           </div>
           
         </div>

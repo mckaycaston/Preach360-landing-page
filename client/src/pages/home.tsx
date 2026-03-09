@@ -90,16 +90,10 @@ export default function Home() {
           
           <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-4xl mx-auto space-y-6">
             <div className="font-medium text-foreground">
-              <p>Sermon prep that feels like cutting a new trail through the woods is frustrating.</p>
-              <p className="mt-4">And exhausting.</p>
-              <p className="mt-4">This leads to perpetual stress, Saturday rewrites, and eventually, pastoral burnout.</p>
+              <p>You have meetings, counseling, hospital visits, etc. Not to mention crisis moments.</p>
+              <p className="mt-4">Thankfully, 4 hours of focused work beats 15 hours of distracted prep every time.</p>
+              <p className="mt-4">With Preach360, you'll craft theologically deep, gospel-focused sermons in an afternoon.</p>
             </div>
-            <p>
-              Without a clear path, it is easy to default to complicated Bible software, drown in stacks of commentaries, or fall back on soulless, generic AI.
-            </p>
-            <p className="font-drama text-2xl md:text-3xl font-bold text-brand-800 py-4">
-              There's a better way.
-            </p>
             <div className="text-lg md:text-xl space-y-6 text-left md:text-center text-muted-foreground">
               <p>Introducing Preach360, a web application that serves as a complete sermon-building operating system.</p>
               <p>Unlike standard AI, you don't prompt it. It prompts you.</p>

@@ -93,7 +93,7 @@ export default function Home() {
             <p>
               Without a clear path, it is easy to default to bloated, complicated Bible software, drown in stacks of physical commentaries, or fall back on soulless, generic AI.
             </p>
-            <p className="font-drama text-3xl md:text-4xl font-bold text-brand-800 py-4">
+            <p className="font-drama text-2xl md:text-3xl font-bold text-brand-800 py-4">
               What if there were a pre-cleared path to follow?
             </p>
             <p className="text-base md:text-lg">

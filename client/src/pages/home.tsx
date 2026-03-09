@@ -160,7 +160,7 @@ export default function Home() {
               <div className="text-brand-500 mb-6 bg-brand-50 w-14 h-14 rounded-2xl flex items-center justify-center shadow-sm">
                 <BookOpen size={28} />
               </div>
-              <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOUR 1</div>
+              <div className="font-mono text-lg text-brand-500 mb-2 font-bold tracking-wider">HOUR 1</div>
               <h3 className="text-xl font-bold mb-4 text-foreground">Exegesis Guide</h3>
               <p className="text-muted-foreground flex-1 text-sm">
                 Generate the Exegesis Guide. A tool that helps you produce an in-depth exegetical analysis of the text from a redemptive framework.
@@ -171,7 +171,7 @@ export default function Home() {
               <div className="text-brand-500 mb-6 bg-brand-50 w-14 h-14 rounded-2xl flex items-center justify-center shadow-sm">
                 <Layers size={28} />
               </div>
-              <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOUR 2</div>
+              <div className="font-mono text-lg text-brand-500 mb-2 font-bold tracking-wider">HOUR 2</div>
               <h3 className="text-xl font-bold mb-4 text-foreground">Relevance Bridge</h3>
               <p className="text-muted-foreground flex-1 text-sm">
                 Build the Relevance Bridge. The contexual connection between the original recipients and modern listeners that reveals the present day need for the text.
@@ -182,7 +182,7 @@ export default function Home() {
               <div className="text-brand-500 mb-6 bg-brand-50 w-14 h-14 rounded-2xl flex items-center justify-center shadow-sm">
                 <Zap size={28} />
               </div>
-              <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOUR 3</div>
+              <div className="font-mono text-lg text-brand-500 mb-2 font-bold tracking-wider">HOUR 3</div>
               <h3 className="text-xl font-bold mb-4 text-foreground">PPGR Movements</h3>
               <p className="text-muted-foreground flex-1 text-sm">
                 Develop the Four Movements (PPGR). A repeatable framework that structurally anchors every message in the clear redemptive progression.
@@ -193,7 +193,7 @@ export default function Home() {
               <div className="text-brand-500 mb-6 bg-brand-50 w-14 h-14 rounded-2xl flex items-center justify-center shadow-sm">
                 <ShieldCheck size={28} />
               </div>
-              <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOUR 4</div>
+              <div className="font-mono text-lg text-brand-500 mb-2 font-bold tracking-wider">HOUR 4</div>
               <h3 className="text-xl font-bold mb-4 text-foreground">Refine & Review</h3>
               <p className="text-muted-foreground flex-1 text-sm">
                 Refine and review. Polish the manuscript, add finishing touches, and prepare for delivery.

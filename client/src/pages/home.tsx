@@ -113,7 +113,7 @@ export default function Home() {
       <section className="py-16 md:py-20 bg-brand-50/50 relative" id="roadmap">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="mb-12 text-center">
-            <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-brand-950">Discover the Preach360 4-Hour Roadmap</h2>
+            <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-brand-950">The Preach360 4-Hour Roadmap</h2>
           </div>
 
           <div className="mb-8 flex justify-center w-full">
@@ -175,32 +175,32 @@ export default function Home() {
       {/* 3. THE PREACH360 DIFFERENCE */}
       <section className="py-16 md:py-20 bg-background relative overflow-hidden" id="system">
         <div className="container mx-auto px-4 max-w-6xl relative z-10">
-          <div className="text-center mb-12">
-             <h2 className="text-3xl md:text-5xl font-bold font-drama text-foreground">Experience the Preach360 Difference</h2>
+          <div className="text-center mb-16">
+             <h2 className="text-3xl md:text-5xl font-bold font-drama text-foreground">The Preach360 Difference</h2>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 lg:gap-12 bg-brand-50/30 p-8 md:p-12 rounded-[2.5rem] border border-brand-100/50">
+          <div className="grid md:grid-cols-2 gap-8 lg:gap-12 relative">
             {/* The Old Way */}
-            <div className="bg-transparent rounded-3xl p-4 lg:p-6">
-              <h3 className="text-3xl font-bold mb-8 font-drama text-brand-800">
+            <div className="bg-white border-2 border-brand-100/50 rounded-[2.5rem] p-8 lg:p-12 shadow-xl shadow-brand-900/5">
+              <h3 className="text-3xl font-bold mb-8 font-drama text-brand-900 opacity-70">
                 The Old Way
               </h3>
               <ul className="space-y-8">
-                <li className="flex gap-4">
+                <li className="flex gap-4 opacity-70">
                   <div className="mt-1 min-w-6 text-brand-400 font-light">✕</div>
                   <div>
                     <strong className="block text-foreground mb-2 text-lg">STRESS</strong>
                     <p className="text-base text-muted-foreground">Constantly feeling behind, struggling to finish, and rewriting your sermon on Saturdays.</p>
                   </div>
                 </li>
-                <li className="flex gap-4">
+                <li className="flex gap-4 opacity-70">
                   <div className="mt-1 min-w-6 text-brand-400 font-light">✕</div>
                   <div>
                     <strong className="block text-foreground mb-2 text-lg">UNCERTAINTY</strong>
                     <p className="text-base text-muted-foreground">Struggling with structure and forcing artificial outlines onto the text, never sure if the outline is right.</p>
                   </div>
                 </li>
-                <li className="flex gap-4">
+                <li className="flex gap-4 opacity-70">
                   <div className="mt-1 min-w-6 text-brand-400 font-light">✕</div>
                   <div>
                     <strong className="block text-foreground mb-2 text-lg">SILENCE</strong>
@@ -211,11 +211,11 @@ export default function Home() {
             </div>
 
             {/* The Preach360 Way */}
-            <div className="bg-white border border-brand-100 rounded-3xl p-8 lg:p-10 relative shadow-xl shadow-brand-500/5">
+            <div className="bg-brand-50 border-2 border-brand-300 rounded-[2.5rem] p-8 lg:p-12 relative shadow-2xl shadow-brand-500/10 transform scale-105">
               <div className="absolute top-0 right-8 -translate-y-1/2 bg-brand-500 text-white px-5 py-1.5 rounded-full text-sm font-bold shadow-lg">
                 The Solution
               </div>
-              <h3 className="text-3xl font-bold mb-8 font-drama text-brand-600">
+              <h3 className="text-3xl font-bold mb-8 font-drama text-brand-700">
                 The Preach360 Way
               </h3>
               <ul className="space-y-8">
@@ -223,21 +223,21 @@ export default function Home() {
                   <div className="mt-1 min-w-6 text-brand-500 font-bold">✓</div>
                   <div>
                     <strong className="block text-brand-950 mb-2 text-lg">MARGIN</strong>
-                    <p className="text-muted-foreground text-base">Finish your message by noon on Wednesday—in hours, not days. Preach360 returns over 10 hours of margin to your week for a real day off and long-term ministry sustainability.</p>
+                    <p className="text-brand-950/80 text-base">Finish your message by noon on Wednesday—in hours, not days. Preach360 returns over 10 hours of margin to your week for a real day off and long-term ministry sustainability.</p>
                   </div>
                 </li>
                 <li className="flex gap-4">
                   <div className="mt-1 min-w-6 text-brand-500 font-bold">✓</div>
                   <div>
                     <strong className="block text-brand-950 mb-2 text-lg">CONFIDENCE</strong>
-                    <p className="text-muted-foreground text-base">Rather than invent an artificial outline, you'll simply unfold the gospel organically from the text using the PPGR framework.</p>
+                    <p className="text-brand-950/80 text-base">Rather than invent an artificial outline, you'll simply unfold the gospel organically from the text using the PPGR framework.</p>
                   </div>
                 </li>
                 <li className="flex gap-4">
                   <div className="mt-1 min-w-6 text-brand-500 font-bold">✓</div>
                   <div>
                     <strong className="block text-brand-950 mb-2 text-lg">IMPACT</strong>
-                    <p className="text-muted-foreground text-base">You'll preach grace as fuel for new life, not just as a fallback for failure—and start to see people change from the inside out.</p>
+                    <p className="text-brand-950/80 text-base">You'll preach grace as fuel for new life, not just as a fallback for failure—and start to see people change from the inside out.</p>
                   </div>
                 </li>
               </ul>
@@ -282,14 +282,14 @@ export default function Home() {
       </section>
 
       {/* 5. CTA SECTION */}
-      <section className="py-16 md:py-20 bg-brand-950 text-white text-center relative overflow-hidden" id="pricing">
+      <section className="py-16 md:py-20 bg-brand-950 text-white text-center relative overflow-hidden" id="get-started">
         <div className="absolute inset-0 bg-gradient-to-tr from-brand-950 to-brand-800" />
         <div className="absolute right-0 bottom-0 opacity-10 bg-[url('https://preach360.edgestack.space/images/solo_pastor.jpeg')] bg-cover w-full h-full mix-blend-luminosity pointer-events-none" />
         
         <div className="container mx-auto px-4 relative z-10">
           <h2 className="text-4xl md:text-6xl font-bold font-drama mb-6">Get Started Today</h2>
           <p className="text-xl md:text-2xl text-brand-200 mb-10 max-w-2xl mx-auto opacity-90">
-            Your all-in-one sermon OS. No other prep tools needed.
+            Join a community of pastors from over 20 countries across 6 continents who are discovering the relief and freedom of Preach360.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
              <Link href="/login">
@@ -298,6 +298,52 @@ export default function Home() {
                 </Button>
              </Link>
           </div>
+        </div>
+      </section>
+
+      {/* 6. PRICING */}
+      <section className="py-24 bg-background" id="pricing">
+        <div className="container mx-auto px-4 max-w-6xl">
+           <div className="text-center mb-16">
+             <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-foreground">Your All-in-One Sermon OS</h2>
+             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+               A comprehensive toolkit. No other prep tools needed.
+             </p>
+           </div>
+           
+           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
+              <div className="bg-card border border-border p-8 rounded-3xl flex flex-col">
+                <h3 className="text-xl font-bold mb-2">Basic Sermon Studio</h3>
+                <div className="text-3xl font-bold mb-2 font-mono">$35<span className="text-base font-normal text-muted-foreground">/mo</span></div>
+                <p className="text-sm font-medium text-brand-600 mb-4">per user, or $350/yr (2 mos free)</p>
+                <p className="text-sm text-muted-foreground mb-6">The core sermon preparation operating system designed to fit standard pastoral continuing education budgets.</p>
+                <div className="mt-auto pt-6 border-t border-border">
+                  <Button className="w-full" variant="outline">Choose Basic</Button>
+                </div>
+              </div>
+              
+              <div className="bg-brand-500 text-white p-8 rounded-3xl flex flex-col relative shadow-xl shadow-brand-500/20 transform scale-105">
+                <div className="absolute top-0 right-0 transform translate-x-2 -translate-y-2">
+                  <span className="bg-brand-950 text-brand-100 text-xs font-bold px-3 py-1 rounded-full">MOST POPULAR</span>
+                </div>
+                <h3 className="text-xl font-bold mb-2 text-brand-50">Premium Upgrade</h3>
+                <div className="text-3xl font-bold mb-2 font-mono">$70<span className="text-base font-normal text-brand-200">/mo</span></div>
+                <p className="text-sm font-medium text-brand-100 mb-4">per user, or $700/yr (2 mos free)</p>
+                <p className="text-sm text-brand-100 mb-6">Includes the complete video training library, the comprehensive Preach360 Video Course, the full suite of specialized sermon prep apps, and weekly live group coaching via Zoom with Preach360 creator, McKay Caston.</p>
+                <div className="mt-auto pt-6 border-t border-brand-400">
+                  <Button className="w-full bg-white text-brand-600 hover:bg-brand-50">Choose Premium</Button>
+                </div>
+              </div>
+              
+              <div className="bg-card border border-border p-8 rounded-3xl flex flex-col">
+                <h3 className="text-xl font-bold mb-2">Volume Pricing <span className="text-sm font-normal text-muted-foreground block mt-1">(Staffs/Networks/Organizations)</span></h3>
+                <div className="text-2xl font-bold mb-4 font-mono">$15-$25<span className="text-base font-normal text-muted-foreground">/mo</span></div>
+                <p className="text-sm text-muted-foreground mb-6">Those who purchase a basic or premium subscription may purchase additional seats at the volume price for staffs, church planting networks, mission organizations, seminaries, etc. Volume pricing is $15/mo (billed annually) for the basic studio and $25/mo for premium.</p>
+                <div className="mt-auto pt-6 border-t border-border">
+                  <Button className="w-full" variant="outline">Contact Sales</Button>
+                </div>
+              </div>
+           </div>
         </div>
       </section>
 

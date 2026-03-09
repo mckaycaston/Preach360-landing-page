@@ -95,10 +95,14 @@ export default function Home() {
       {/* THE ENEMY (Agitation Block) */}
       <section className="py-24 bg-background relative overflow-hidden" id="system">
         <div className="container mx-auto px-4 max-w-6xl relative z-10">
-          <div className="text-center mb-16 max-w-3xl mx-auto">
+          <div className="text-center mb-16 max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground font-drama">4 hours of deep work beats 12 hours of distracted prep every time.</h2>
             
-            <div className="mt-8 border-l-2 border-brand-500/50 pl-6 py-2 mx-auto text-left">
+            <p className="text-xl text-muted-foreground leading-relaxed mb-8 max-w-3xl mx-auto">
+              Sermon prep can feel like cutting a new trail through a dense forest. The norm of spending 12 to 18 hours preparing a single sermon inevitably leads to mental pressure, stress, and pastoral burnout. What if there were a pre-cleared path to follow?
+            </p>
+
+            <div className="border-l-2 border-brand-500/50 pl-6 py-2 mx-auto text-left max-w-3xl">
               <p className="text-muted-foreground italic text-lg leading-relaxed mb-2">
                 "I have received more comments about the sermons being helpful than in all my previous years of preaching combined."
               </p>
@@ -152,7 +156,7 @@ export default function Home() {
                   <div className="mt-1 min-w-6 text-brand-500">✓</div>
                   <div>
                     <strong className="block text-brand-950 mb-1">MARGIN</strong>
-                    <p className="text-brand-800/70 text-sm">You'll finish your message by noon on Wednesday—in hours, not days—with margin for ministry and and a real day off.</p>
+                    <p className="text-brand-800/70 text-sm">Finish your message by noon on Wednesday—in hours, not days. Preach360 returns over 10 hours of margin to your week for a real day off and long-term ministry sustainability.</p>
                   </div>
                 </li>
                 <li className="flex gap-4">
@@ -238,8 +242,8 @@ export default function Home() {
         <div className="container mx-auto px-4 max-w-5xl">
           <div className="text-center mb-16">
              <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-foreground">Why Preach360?</h2>
-             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-               Preach360 guides you down a redemptive path from exegesis to a complete draft in 4 hours or less without using complicated Bible software or generic AI.
+             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
+               Preach360 guides you down a redemptive path from raw exegesis to a complete draft in 4 hours or less without complicated Bible software or generic AI. By replacing fragmented preparation cycles with a systematic focus, Preach360 serves as a Socratic preaching coach. It doesn't do the work for you. It does the work with you, allowing you to retain your unique, authentic voice and pastoral heart.
              </p>
           </div>
           
@@ -397,7 +401,14 @@ export default function Home() {
         <div className="absolute right-0 bottom-0 opacity-10 bg-[url('https://preach360.edgestack.space/images/solo_pastor.jpeg')] bg-cover w-full h-full mix-blend-luminosity pointer-events-none" />
         
         <div className="container mx-auto px-4 relative z-10">
-          <h2 className="text-4xl md:text-6xl font-bold font-drama mb-6">Reclaim your weekend.</h2>
+          <div className="max-w-3xl mx-auto text-center mb-12">
+            <p className="text-xl md:text-2xl text-brand-200 font-drama italic mb-4">
+              "I can honestly say that for the first time in 18 years that I look forward to sermon prep."
+            </p>
+            <p className="text-brand-500 font-bold">— Kelly C.</p>
+          </div>
+          
+          <h2 className="text-4xl md:text-6xl font-bold font-drama mb-6 mt-8">Reclaim your weekend.</h2>
           <p className="text-xl md:text-2xl text-brand-200 mb-10 max-w-2xl mx-auto opacity-90">
             Join a global community of pastors discovering the relief and freedom of Preach360.
           </p>

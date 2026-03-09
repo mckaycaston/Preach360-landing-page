@@ -87,9 +87,10 @@ export default function Home() {
           <h2 className="text-3xl md:text-5xl font-bold mb-8 font-drama text-foreground">Is Sermon Prep Taking You All Week?</h2>
           
           <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-4xl mx-auto space-y-6">
-            <p className="font-medium text-foreground">
-              Sermon prep that feels like cutting a new trail through the woods is frustrating. And exhausting.
-            </p>
+            <div className="font-medium text-foreground">
+              <p>Sermon prep that feels like cutting a new trail through the woods is frustrating.</p>
+              <p className="mt-4">And exhausting.</p>
+            </div>
             <p>
               Without a clear path, it is easy to default to bloated, complicated Bible software, drown in stacks of physical commentaries, or fall back on soulless, generic AI.
             </p>

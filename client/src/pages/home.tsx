@@ -92,103 +92,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* THE ENEMY (Agitation Block) */}
-      <section className="py-24 bg-background relative overflow-hidden" id="system">
-        <div className="container mx-auto px-4 max-w-6xl relative z-10">
-          <div className="text-center mb-16 max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground font-drama">4 hours of deep work beats 12 hours of distracted prep every time.</h2>
-            
-            <div className="text-xl text-muted-foreground leading-relaxed mb-8 max-w-3xl mx-auto space-y-4">
-              <p>Sermon prep can feel like cutting a new trail through a dense forest. The norm of spending 12 to 18 hours preparing a single sermon inevitably leads to mental pressure, stress, and pastoral burnout.</p>
-              <p>Without a clear path, it is easy to:</p>
-              <div className="flex justify-center my-6">
-                <ul className="space-y-4 text-brand-600 font-medium text-xl">
-                  <li className="flex items-center gap-6">
-                    <span className="w-1.5 h-1.5 rounded-full bg-brand-500 flex-shrink-0"></span>
-                    <span>default to bloated, complicated Bible software,</span>
-                  </li>
-                  <li className="flex items-center gap-6">
-                    <span className="w-1.5 h-1.5 rounded-full bg-brand-500 flex-shrink-0"></span>
-                    <span>drown in stacks of physical commentaries, or</span>
-                  </li>
-                  <li className="flex items-center gap-6">
-                    <span className="w-1.5 h-1.5 rounded-full bg-brand-500 flex-shrink-0"></span>
-                    <span>fall back on soulless, generic AI.</span>
-                  </li>
-                </ul>
-              </div>
-              <p>What if there were a pre-cleared path to follow? <br/><strong>Now, there is.</strong></p>
-            </div>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
-            {/* The Old Way */}
-            <div className="bg-muted/50 border border-border/50 rounded-3xl p-8 lg:p-10">
-              <h3 className="text-2xl font-semibold mb-6 flex items-center gap-3 text-muted-foreground">
-                <span className="w-8 h-8 rounded-full bg-muted-foreground/10 flex items-center justify-center text-sm font-mono">01</span>
-                The Old Way
-              </h3>
-              <ul className="space-y-6">
-                <li className="flex gap-4">
-                  <div className="mt-1 min-w-6 text-destructive">✕</div>
-                  <div>
-                    <strong className="block text-foreground mb-1">STRESS</strong>
-                    <p className="text-sm text-muted-foreground">Constantly feeling behind, struggling to finish, and rewriting your sermon on Saturdays.</p>
-                  </div>
-                </li>
-                <li className="flex gap-4">
-                  <div className="mt-1 min-w-6 text-destructive">✕</div>
-                  <div>
-                    <strong className="block text-foreground mb-1">UNCERTAINTY</strong>
-                    <p className="text-sm text-muted-foreground">Struggling with structure and forcing artificial outlines onto the text, never sure if the outline is right.</p>
-                  </div>
-                </li>
-                <li className="flex gap-4">
-                  <div className="mt-1 min-w-6 text-destructive">✕</div>
-                  <div>
-                    <strong className="block text-foreground mb-1">SILENCE</strong>
-                    <p className="text-sm text-muted-foreground">Wishing for a spiritual response to your sermons, but usually just getting the familiar "See you next week, Pastor."</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-
-            {/* The Preach360 Way */}
-            <div className="bg-brand-50 border border-brand-200 rounded-3xl p-8 lg:p-10 relative shadow-2xl shadow-brand-500/5">
-              <div className="absolute top-0 right-8 -translate-y-1/2 bg-brand-500 text-white px-4 py-1 rounded-full text-sm font-bold shadow-lg">
-                The Solution
-              </div>
-              <h3 className="text-2xl font-semibold mb-6 flex items-center gap-3 text-brand-600">
-                <span className="w-8 h-8 rounded-full bg-brand-500/20 flex items-center justify-center text-sm font-mono text-brand-600">02</span>
-                The Preach360 Way
-              </h3>
-              <ul className="space-y-6">
-                <li className="flex gap-4">
-                  <div className="mt-1 min-w-6 text-brand-500">✓</div>
-                  <div>
-                    <strong className="block text-brand-950 mb-1">MARGIN</strong>
-                    <p className="text-brand-800/70 text-sm">Finish your message by noon on Wednesday—in hours, not days. Preach360 returns over 10 hours of margin to your week for a real day off and long-term ministry sustainability.</p>
-                  </div>
-                </li>
-                <li className="flex gap-4">
-                  <div className="mt-1 min-w-6 text-brand-500">✓</div>
-                  <div>
-                    <strong className="block text-brand-950 mb-1">CONFIDENCE</strong>
-                    <p className="text-brand-800/70 text-sm">Rather than invent an artificial outline, you'll simply unfold the gospel organically from the text using the PPGR framework.</p>
-                  </div>
-                </li>
-                <li className="flex gap-4">
-                  <div className="mt-1 min-w-6 text-brand-500">✓</div>
-                  <div>
-                    <strong className="block text-brand-950 mb-1">IMPACT</strong>
-                    <p className="text-brand-800/70 text-sm">You'll preach grace as fuel for new life, not just as a fallback for failure—and start to see people change from the inside out.</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* THE ENEMY (Agitation Block) - MOVED DOWN */}
 
       {/* ROADMAP & PROTOCOL */}
       <section className="py-24 bg-brand-50/50 relative" id="roadmap">
@@ -306,6 +210,104 @@ export default function Home() {
                  Preach360 is built on the proven PPGR framework, ensuring every sermon preaches to and through the cross.
                </div>
              </div>
+          </div>
+        </div>
+      </section>
+
+      {/* THE ENEMY (Agitation Block) - MOVED HERE */}
+      <section className="py-24 bg-background relative overflow-hidden" id="system">
+        <div className="container mx-auto px-4 max-w-6xl relative z-10">
+          <div className="text-center mb-16 max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground font-drama">4 hours of deep work beats 12 hours of distracted prep every time.</h2>
+            
+            <div className="text-xl text-muted-foreground leading-relaxed mb-8 max-w-3xl mx-auto space-y-4">
+              <p>Sermon prep can feel like cutting a new trail through a dense forest. The norm of spending 12 to 18 hours preparing a single sermon inevitably leads to mental pressure, stress, and pastoral burnout.</p>
+              <p>Without a clear path, it is easy to:</p>
+              <div className="flex justify-center my-6">
+                <ul className="space-y-4 text-brand-600 font-medium text-xl">
+                  <li className="flex items-center gap-6">
+                    <span className="w-1.5 h-1.5 rounded-full bg-brand-500 flex-shrink-0"></span>
+                    <span>default to bloated, complicated Bible software,</span>
+                  </li>
+                  <li className="flex items-center gap-6">
+                    <span className="w-1.5 h-1.5 rounded-full bg-brand-500 flex-shrink-0"></span>
+                    <span>drown in stacks of physical commentaries, or</span>
+                  </li>
+                  <li className="flex items-center gap-6">
+                    <span className="w-1.5 h-1.5 rounded-full bg-brand-500 flex-shrink-0"></span>
+                    <span>fall back on soulless, generic AI.</span>
+                  </li>
+                </ul>
+              </div>
+              <p>What if there were a pre-cleared path to follow? <br/><strong>Now, there is.</strong></p>
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 lg:gap-12 bg-brand-50/30 p-8 md:p-12 rounded-[2.5rem] border border-brand-100/50">
+            {/* The Old Way */}
+            <div className="bg-transparent rounded-3xl p-4 lg:p-6">
+              <h3 className="text-2xl font-semibold mb-8 flex items-center gap-4 text-brand-800">
+                <span className="w-10 h-10 rounded-full bg-brand-100 flex items-center justify-center text-base font-mono font-bold text-brand-600">01</span>
+                The Old Way
+              </h3>
+              <ul className="space-y-8">
+                <li className="flex gap-4">
+                  <div className="mt-1 min-w-6 text-brand-400 font-light">✕</div>
+                  <div>
+                    <strong className="block text-foreground mb-2 text-lg">STRESS</strong>
+                    <p className="text-base text-muted-foreground">Constantly feeling behind, struggling to finish, and rewriting your sermon on Saturdays.</p>
+                  </div>
+                </li>
+                <li className="flex gap-4">
+                  <div className="mt-1 min-w-6 text-brand-400 font-light">✕</div>
+                  <div>
+                    <strong className="block text-foreground mb-2 text-lg">UNCERTAINTY</strong>
+                    <p className="text-base text-muted-foreground">Struggling with structure and forcing artificial outlines onto the text, never sure if the outline is right.</p>
+                  </div>
+                </li>
+                <li className="flex gap-4">
+                  <div className="mt-1 min-w-6 text-brand-400 font-light">✕</div>
+                  <div>
+                    <strong className="block text-foreground mb-2 text-lg">SILENCE</strong>
+                    <p className="text-base text-muted-foreground">Wishing for a spiritual response to your sermons, but usually just getting the familiar "See you next week, Pastor."</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            {/* The Preach360 Way */}
+            <div className="bg-white border border-brand-100 rounded-3xl p-8 lg:p-10 relative shadow-xl shadow-brand-500/5">
+              <div className="absolute top-0 right-8 -translate-y-1/2 bg-brand-500 text-white px-5 py-1.5 rounded-full text-sm font-bold shadow-lg">
+                The Solution
+              </div>
+              <h3 className="text-2xl font-semibold mb-8 flex items-center gap-4 text-brand-600">
+                <span className="w-10 h-10 rounded-full bg-brand-50 flex items-center justify-center text-base font-mono font-bold text-brand-500">02</span>
+                The Preach360 Way
+              </h3>
+              <ul className="space-y-8">
+                <li className="flex gap-4">
+                  <div className="mt-1 min-w-6 text-brand-500 font-bold">✓</div>
+                  <div>
+                    <strong className="block text-brand-950 mb-2 text-lg">MARGIN</strong>
+                    <p className="text-muted-foreground text-base">Finish your message by noon on Wednesday—in hours, not days. Preach360 returns over 10 hours of margin to your week for a real day off and long-term ministry sustainability.</p>
+                  </div>
+                </li>
+                <li className="flex gap-4">
+                  <div className="mt-1 min-w-6 text-brand-500 font-bold">✓</div>
+                  <div>
+                    <strong className="block text-brand-950 mb-2 text-lg">CONFIDENCE</strong>
+                    <p className="text-muted-foreground text-base">Rather than invent an artificial outline, you'll simply unfold the gospel organically from the text using the PPGR framework.</p>
+                  </div>
+                </li>
+                <li className="flex gap-4">
+                  <div className="mt-1 min-w-6 text-brand-500 font-bold">✓</div>
+                  <div>
+                    <strong className="block text-brand-950 mb-2 text-lg">IMPACT</strong>
+                    <p className="text-muted-foreground text-base">You'll preach grace as fuel for new life, not just as a fallback for failure—and start to see people change from the inside out.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>

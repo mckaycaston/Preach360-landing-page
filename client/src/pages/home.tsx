@@ -86,10 +86,10 @@ export default function Home() {
 
       {/* 1. THE PROBLEM */}
       <section className="py-16 md:py-20 bg-background relative" id="problem">
-        <div className="container mx-auto px-4 max-w-4xl text-center">
+        <div className="container mx-auto px-4 max-w-6xl text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-8 font-drama text-foreground">Is Sermon Prep Taking You All Week?</h2>
           
-          <div className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+          <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-4xl mx-auto">
             <p className="mb-6 font-medium text-foreground">
               Sermon prep that feels like cutting a new trail through a dense forest inevitably leads to mental pressure, emotional stress, and pastoral burnout.
             </p>
@@ -105,6 +105,41 @@ export default function Home() {
             <p className="text-base md:text-lg">
               Preach360 guides you down a redemptive path from raw exegesis to a complete draft in 4 hours or less, serving as a Socratic preaching coach. It doesn't do the work for you. It does the work with you, allowing you to retain your unique, authentic voice and pastoral heart.
             </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6 items-stretch mt-16 text-left">
+             {/* vs Complexity */}
+             <div className="bg-card border border-border p-8 rounded-2xl shadow-sm flex flex-col h-full">
+               <h3 className="text-xl font-bold mb-4">No Bloated Bible Software</h3>
+               <p className="text-muted-foreground mb-4 flex-1">
+                 Logos and Accordance are powerful, but they require a steep learning curve and drown you in too much data.
+               </p>
+               <div className="bg-brand-50/50 text-brand-900 p-4 rounded-xl text-sm font-medium border border-brand-100">
+                 Preach360 removes the need to wrestle with complicated software, giving you a streamlined path from exegesis to manuscript.
+               </div>
+             </div>
+             
+             {/* vs Soulless AI */}
+             <div className="bg-card border border-border p-8 rounded-2xl shadow-sm flex flex-col h-full">
+               <h3 className="text-xl font-bold mb-4">No Soulless, Generic AI</h3>
+               <p className="text-muted-foreground mb-4 flex-1">
+                 Generic AI tools bypass the Holy Spirit and outsource your study, your heart, and your voice.
+               </p>
+               <div className="bg-brand-50/50 text-brand-900 p-4 rounded-xl text-sm font-medium border border-brand-100">
+                 Preach360 acts as a true assistant that helps you dig into the text, and retain your unique pastoral voice and heart.
+               </div>
+             </div>
+
+             {/* vs Empty Editors */}
+             <div className="bg-card border border-border p-8 rounded-2xl shadow-sm flex flex-col h-full">
+               <h3 className="text-xl font-bold mb-4">A Redemptive Framework</h3>
+               <p className="text-muted-foreground mb-4 flex-1">
+                 Tools like Sermonary provide a drag-and-drop editor but lack a distinctively theological foundation.
+               </p>
+               <div className="bg-brand-50/50 text-brand-900 p-4 rounded-xl text-sm font-medium border border-brand-100">
+                 Preach360 is built on the proven PPGR framework, ensuring every sermon preaches to and through the cross.
+               </div>
+             </div>
           </div>
         </div>
       </section>
@@ -281,33 +316,13 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 5. CTA SECTION */}
-      <section className="py-16 md:py-20 bg-brand-950 text-white text-center relative overflow-hidden" id="get-started">
-        <div className="absolute inset-0 bg-gradient-to-tr from-brand-950 to-brand-800" />
-        <div className="absolute right-0 bottom-0 opacity-10 bg-[url('https://preach360.edgestack.space/images/solo_pastor.jpeg')] bg-cover w-full h-full mix-blend-luminosity pointer-events-none" />
-        
-        <div className="container mx-auto px-4 relative z-10">
-          <h2 className="text-4xl md:text-6xl font-bold font-drama mb-6">Get Started Today</h2>
-          <p className="text-xl md:text-2xl text-brand-200 mb-10 max-w-2xl mx-auto opacity-90">
-            Join a community of pastors from over 20 countries across 6 continents who are discovering the relief and freedom of Preach360.
-          </p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-             <Link href="/login">
-                <Button size="lg" className="rounded-full bg-brand-500 text-white hover:bg-brand-600 h-14 px-8 text-lg w-full sm:w-auto shadow-xl shadow-brand-500/20">
-                  Get Started
-                </Button>
-             </Link>
-          </div>
-        </div>
-      </section>
-
       {/* 6. PRICING */}
       <section className="py-24 bg-background" id="pricing">
         <div className="container mx-auto px-4 max-w-6xl">
            <div className="text-center mb-16">
-             <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-foreground">Your All-in-One Sermon OS</h2>
+             <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-foreground">Get Started Today</h2>
              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-               A comprehensive toolkit. No other prep tools needed.
+               Your all-in-one sermon OS. No other prep tools needed.
              </p>
            </div>
            
@@ -344,6 +359,18 @@ export default function Home() {
                 </div>
               </div>
            </div>
+        </div>
+      </section>
+
+      {/* 5. CTA SECTION (BOTTOM BANNER) */}
+      <section className="py-16 md:py-20 bg-brand-950 text-white text-center relative overflow-hidden" id="get-started">
+        <div className="absolute inset-0 bg-gradient-to-tr from-brand-950 to-brand-800" />
+        <div className="absolute right-0 bottom-0 opacity-10 bg-[url('https://preach360.edgestack.space/images/solo_pastor.jpeg')] bg-cover w-full h-full mix-blend-luminosity pointer-events-none" />
+        
+        <div className="container mx-auto px-4 relative z-10">
+          <p className="text-2xl md:text-3xl text-brand-50 font-medium max-w-4xl mx-auto leading-relaxed">
+            Join a community of pastors from over 20 countries across 6 continents who are discovering the relief and freedom of Preach360.
+          </p>
         </div>
       </section>
 

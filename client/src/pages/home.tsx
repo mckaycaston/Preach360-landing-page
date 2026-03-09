@@ -90,6 +90,7 @@ export default function Home() {
             <div className="font-medium text-foreground">
               <p>Sermon prep that feels like cutting a new trail through the woods is frustrating.</p>
               <p className="mt-4">And exhausting.</p>
+              <p className="mt-4">This leads to Saturday stress, rewritten manuscripts, and eventual pastoral burnout.</p>
             </div>
             <p>
               Without a clear path, it is easy to default to bloated, complicated Bible software, drown in stacks of physical commentaries, or fall back on soulless, generic AI.

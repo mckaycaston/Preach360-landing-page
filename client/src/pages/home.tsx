@@ -210,7 +210,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-12 mb-0 max-w-3xl mx-auto text-center border-l-2 border-r-2 border-brand-500/30 px-6 py-2">
+          <div className="mt-16 mb-24 max-w-3xl mx-auto text-center border-l-2 border-r-2 border-brand-500/30 px-6 py-2">
             <p className="text-xl md:text-2xl text-brand-900 font-drama italic mb-4">
               "I've had more positive comments on my sermons this year than all my years of preaching combined."
             </p>
@@ -220,7 +220,7 @@ export default function Home() {
       </section>
 
       {/* THE ENGINE */}
-      <section className="pt-0 pb-16 md:pb-24 bg-brand-50/50" id="engine">
+      <section className="pt-16 md:pt-24 pb-16 md:pb-24 bg-brand-50/50" id="engine">
         <div className="container mx-auto px-4 max-w-5xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold font-drama text-foreground mb-6">The Theological Engine</h2>

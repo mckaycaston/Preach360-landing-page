@@ -40,7 +40,7 @@ export default function Home() {
               
               <div className="mb-8 max-w-xl">
                  <p className="text-xl md:text-2xl font-medium text-brand-100/90 leading-relaxed">
-                   With Preach360, you'll craft gospel-rich sermons in a single afternoon.
+                   With Preach360, you'll craft biblically faithful, gospel-rich messages in a single afternoon.
                  </p>
               </div>
               

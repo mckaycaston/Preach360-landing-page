@@ -147,7 +147,7 @@ export default function Home() {
       <section className="pt-16 md:pt-20 pb-0 bg-brand-50/50 relative" id="roadmap">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="text-center">
-            <h2 className="text-3xl md:text-5xl font-bold mb-2 font-drama text-brand-950">The Preach360™ 4-Hour Roadmap</h2>
+            <h2 className="text-3xl md:text-5xl font-bold mb-2 font-drama text-brand-950">The 4-Hour Sermon Roadmap</h2>
           </div>
 
           <div className="text-center mb-10 max-w-3xl mx-auto">

@@ -40,7 +40,7 @@ export default function Home() {
               
               <div className="mb-8 max-w-xl">
                  <p className="text-xl md:text-2xl font-medium text-brand-100/90 leading-relaxed">
-                   With Preach360, you'll craft biblically faithful, gospel-rich messages in a single afternoon.
+                   With Preach360™, you'll craft biblically faithful, gospel-rich messages in a single afternoon.
                  </p>
               </div>
               
@@ -83,11 +83,11 @@ export default function Home() {
       {/* 1. THE PROBLEM */}
       <section className="py-16 md:py-20 bg-background relative" id="problem">
         <div className="container mx-auto px-4 max-w-6xl text-center">
-          <h2 className="text-3xl md:text-5xl font-bold mb-8 font-drama text-foreground">Preach360 is an all-in-one, web-based sermon-building OS.</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-8 font-drama text-foreground">Preach360™ is an all-in-one, web-based sermon-building OS.</h2>
           
           <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-4xl mx-auto space-y-6">
             <div className="text-lg md:text-xl space-y-6 text-left md:text-center text-muted-foreground">
-              <p>As a Socratic preaching coach, Preach360 doesn't do the work for you. It does the work with you, guiding you down a pre-cleared path from raw exegesis to a complete draft in 4 hours or less.</p>
+              <p>As a Socratic preaching coach, Preach360™ doesn't do the work for you. It does the work with you, guiding you down a pre-cleared path from raw exegesis to a complete draft in 4 hours or less.</p>
               
               <div className="mt-12 relative rounded-2xl overflow-hidden shadow-2xl border border-border bg-white p-2">
                 <img 
@@ -107,7 +107,7 @@ export default function Home() {
                  Logos is powerful, but requires a steep learning curve and drowns you in too much data.
                </p>
                <div className="bg-brand-50/50 text-brand-900 p-4 rounded-xl text-sm font-medium border border-brand-100">
-                 Preach360 removes the need to wrestle with complicated software, giving you a streamlined path from exegesis to manuscript.
+                 Preach360™ removes the need to wrestle with complicated software, giving you a streamlined path from exegesis to manuscript.
                </div>
              </div>
              
@@ -118,7 +118,7 @@ export default function Home() {
                  Generic AI tools bypass the Holy Spirit and outsource your study, your heart, and your voice.
                </p>
                <div className="bg-brand-50/50 text-brand-900 p-4 rounded-xl text-sm font-medium border border-brand-100">
-                 Preach360 acts as a true assistant. Unlike standard AI, you don't prompt it. It prompts you so the message is truly yours for your people.
+                 Preach360™ acts as a true assistant. Unlike standard AI, you don't prompt it. It prompts you so the message is truly yours for your people.
                </div>
              </div>
 
@@ -129,7 +129,7 @@ export default function Home() {
                  Some tools highlight drag-and-drop editors but lack a distinctively theological foundation.
                </p>
                <div className="bg-brand-50/50 text-brand-900 p-4 rounded-xl text-sm font-medium border border-brand-100">
-                 Preach360 is built with the proven PPGR theological framework, ensuring every sermon preaches to and through the cross.
+                 Preach360™ is built with the proven PPGR theological framework, ensuring every sermon preaches to and through the cross.
                </div>
              </div>
           </div>
@@ -147,12 +147,12 @@ export default function Home() {
       <section className="pt-16 md:pt-20 pb-0 bg-brand-50/50 relative" id="roadmap">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="text-center">
-            <h2 className="text-3xl md:text-5xl font-bold mb-2 font-drama text-brand-950">The Preach360 4-Hour Roadmap</h2>
+            <h2 className="text-3xl md:text-5xl font-bold mb-2 font-drama text-brand-950">The Preach360™ 4-Hour Roadmap</h2>
           </div>
 
           <div className="text-center mb-10 max-w-3xl mx-auto">
             <h2 className="text-lg md:text-xl font-medium text-foreground font-sans">
-              <span className="text-brand-600">Preach360 provides the path. You just trust the process.</span><br className="hidden md:block" /> Because 4 hours of focused work beats 12 hours of distracted prep every time.
+              <span className="text-brand-600">Preach360™ provides the path. You just trust the process.</span><br className="hidden md:block" /> Because 4 hours of focused work beats 12 hours of distracted prep every time.
             </h2>
           </div>
 
@@ -263,7 +263,7 @@ export default function Home() {
       <section className="py-16 md:py-20 bg-background relative overflow-hidden" id="system">
         <div className="container mx-auto px-4 max-w-6xl relative z-10">
           <div className="text-center mb-16">
-             <h2 className="text-3xl md:text-5xl font-bold font-drama text-foreground">The Preach360 Difference</h2>
+             <h2 className="text-3xl md:text-5xl font-bold font-drama text-foreground">The Preach360™ Difference</h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12 relative">
@@ -303,14 +303,14 @@ export default function Home() {
                 The Solution
               </div>
               <h3 className="text-3xl font-bold mb-8 font-drama text-brand-700">
-                The Preach360 Way
+                The Preach360™ Way
               </h3>
               <ul className="space-y-8">
                 <li className="flex gap-4">
                   <div className="mt-1 min-w-6 text-brand-500 font-bold">✓</div>
                   <div>
                     <strong className="block text-brand-950 mb-2 text-2xl font-bold">MARGIN</strong>
-                    <p className="text-brand-950/80 text-base">Finish your message by noon on Wednesday—in hours, not days. Preach360 returns over 10 hours of margin to your week for a real day off and long-term ministry sustainability.</p>
+                    <p className="text-brand-950/80 text-base">Finish your message by noon on Wednesday—in hours, not days. Preach360™ returns over 10 hours of margin to your week for a real day off and long-term ministry sustainability.</p>
                   </div>
                 </li>
                 <li className="flex gap-4">
@@ -357,7 +357,7 @@ export default function Home() {
                   McKay Caston is a pastor with over 30 years of preaching experience.
                 </p>
                 <p>
-                  Having taught homiletics in seminary for ten years, he poured his PhD research into Preach360 to help solo pastors and church planters preach the gospel clearly and experience relief from the weekly pressure of sermon prep.
+                  Having taught homiletics in seminary for ten years, he poured his PhD research into Preach360™ to help solo pastors and church planters preach the gospel clearly and experience relief from the weekly pressure of sermon prep.
                 </p>
                 <p className="text-brand-900 font-medium text-2xl font-drama mt-8">
                   His ultimate goal? To help you live a sustainable life for a long-term, gospel preaching ministry.
@@ -397,7 +397,7 @@ export default function Home() {
                 <h3 className="text-xl font-bold mb-2 text-brand-50">Premium Upgrade</h3>
                 <div className="text-3xl font-bold mb-2 font-mono">$70<span className="text-base font-normal text-brand-200">/mo</span></div>
                 <p className="text-sm font-medium text-brand-100 mb-4">per user, or $700/yr (2 mos free)</p>
-                <p className="text-sm text-brand-100 mb-6">Includes the complete video training library, the comprehensive Preach360 Video Course, the full suite of specialized sermon prep apps, and weekly live group coaching via Zoom with Preach360 creator, McKay Caston.</p>
+                <p className="text-sm text-brand-100 mb-6">Includes the complete video training library, the comprehensive Preach360™ Video Course, the full suite of specialized sermon prep apps, and weekly live group coaching via Zoom with Preach360™ creator, McKay Caston.</p>
                 <div className="mt-auto pt-6 border-t border-brand-400">
                   <Button className="w-full bg-white text-brand-600 hover:bg-brand-50">Start 14-Day Free Trial</Button>
                   <p className="text-xs text-center text-brand-100 mt-2">No credit card required</p>
@@ -430,7 +430,7 @@ export default function Home() {
         
         <div className="container mx-auto px-4 relative z-10">
           <p className="text-2xl md:text-3xl text-brand-50 font-medium max-w-4xl mx-auto leading-relaxed">
-            Join a community of pastors from over 20 countries across 6 continents who are discovering the relief and freedom of Preach360.
+            Join a community of pastors from over 20 countries across 6 continents who are discovering the relief and freedom of Preach360™.
           </p>
         </div>
       </section>
@@ -442,7 +442,7 @@ export default function Home() {
             alt="Preach360 Logo" 
             className="h-16 mb-6 opacity-70 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
           />
-          <p>© {new Date().getFullYear()} Preach360. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Preach360™. All rights reserved.</p>
         </div>
       </footer>
     </div>

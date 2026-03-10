@@ -34,16 +34,13 @@ export default function Home() {
               transition={{ duration: 0.6 }}
               className="max-w-2xl"
             >
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-4 leading-[1.1]">
-                Prep in half the time.
+              <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-6 leading-[1.1]">
+                Solo pastors and church planters don't have the luxury to work on their sermons all week.
               </h1>
               
               <div className="mb-8 max-w-xl">
-                 <h2 className="text-2xl md:text-3xl font-drama text-brand-100 mb-3">
-                   Preach with twice the impact.
-                 </h2>
-                 <p className="text-lg text-brand-200/80">
-                   Helping solo pastors and church planters craft gospel-rich sermons in an afternoon.
+                 <p className="text-xl md:text-2xl font-medium text-brand-100/90 leading-relaxed">
+                   With Preach360, you'll craft gospel-rich sermons in a single afternoon.
                  </p>
               </div>
               

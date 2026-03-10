@@ -187,7 +187,7 @@ export default function Home() {
               <div className="font-mono text-lg text-brand-500 mb-2 font-bold tracking-wider">HOUR 3</div>
               <h3 className="text-xl font-bold mb-4 text-foreground">PPGR Movements</h3>
               <p className="text-muted-foreground flex-1 text-sm">
-                Develop the Four Movements (PPGR). A repeatable framework that structurally anchors every message in the clear redemptive progression.
+                Develop the Four Movements (PPGR). A repeatable, biblical framework that structurally anchors every message in the complete redemptive story.
               </p>
             </div>
 

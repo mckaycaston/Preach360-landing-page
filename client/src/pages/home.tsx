@@ -35,7 +35,7 @@ export default function Home() {
               className="max-w-2xl"
             >
               <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-6 leading-[1.1]">
-                Solo pastors and church planters don't have the luxury to work on their sermons all week.
+                If sermon prep is taking you all week...
               </h1>
               
               <div className="mb-8 max-w-xl">
@@ -86,10 +86,6 @@ export default function Home() {
           <h2 className="text-3xl md:text-5xl font-bold mb-8 font-drama text-foreground">Solo pastors and church planters don't have the luxury to work on their sermons all week.</h2>
           
           <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-4xl mx-auto space-y-6">
-            <div className="font-medium text-foreground">
-              <p>You have meetings, counseling appointments, hospital visits, etc. Not to mention crisis moments and family time.</p>
-              <p className="mt-4">Thankfully, with Preach360, you can craft theologically deep, gospel-focused sermons in one afternoon.</p>
-            </div>
             <div className="text-lg md:text-xl space-y-6 text-left md:text-center text-muted-foreground">
               <p>Preach360 is a web application that serves as a complete sermon-building operating system.</p>
               <p>As a Socratic preaching coach, Preach360 doesn't do the work for you. It does the work with you, guiding you down a pre-cleared path from raw exegesis to a complete draft in 4 hours or less.</p>

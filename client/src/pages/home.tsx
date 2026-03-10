@@ -196,7 +196,7 @@ export default function Home() {
                 <ShieldCheck size={28} />
               </div>
               <div className="font-mono text-lg text-brand-500 mb-2 font-bold tracking-wider">HOUR 4</div>
-              <h3 className="text-xl font-bold mb-4 text-foreground">Refine & Review</h3>
+              <h3 className="text-xl font-bold mb-4 text-foreground">Revise & Review</h3>
               <p className="text-muted-foreground flex-1 text-sm">
                 Review the manuscript with our proprietary optimization tool for targeted editing as you prepare for delivery.
               </p>

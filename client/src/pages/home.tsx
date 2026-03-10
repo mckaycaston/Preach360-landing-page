@@ -429,7 +429,7 @@ export default function Home() {
         <div className="absolute right-0 bottom-0 opacity-10 bg-[url('https://preach360.edgestack.space/images/solo_pastor.jpeg')] bg-cover w-full h-full mix-blend-luminosity pointer-events-none" />
         
         <div className="container mx-auto px-4 relative z-10">
-          <p className="text-2xl md:text-3xl text-brand-50 font-medium max-w-4xl mx-auto leading-relaxed">
+          <p className="text-2xl md:text-3xl text-brand-50 max-w-4xl mx-auto leading-relaxed">
             Join a community of pastors from over 20 countries across 6 continents who are discovering the relief and freedom of Preach360™.
           </p>
         </div>

@@ -35,7 +35,7 @@ export default function Home() {
               className="max-w-2xl"
             >
               <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-6 leading-[1.1]">
-                Solo pastors don't have the luxury of doing sermon prep every day.
+                Solo pastors don't have the luxury of doing sermon prep all week.
               </h1>
               
               <div className="mb-8 max-w-xl">

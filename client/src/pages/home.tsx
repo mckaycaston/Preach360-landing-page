@@ -88,7 +88,8 @@ export default function Home() {
           <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-4xl mx-auto space-y-6">
             <div className="text-lg md:text-xl space-y-6 text-left md:text-center text-muted-foreground">
               <p>As a Socratic preaching coach, Preach360™ doesn't do the work for you. It does the work with you—from raw exegesis to a complete draft in 4 hours or less.</p>
-              <p><strong>The secret?</strong> Rather than forcing your text into an artificial outline, you simply unfold the organic outline that's already there.</p>
+              <p><strong>The secret?</strong> Rather than forcing your text into an artificial outline, you unfold the organic outline that's already there.</p>
+              <p><strong>The bottom line.</strong> You'll follow a proven, redemptive sermon process within an intuitive software experience.</p>
               
               <div className="mt-12 relative rounded-2xl overflow-hidden shadow-2xl border border-border bg-white p-2">
                 <img 
@@ -137,7 +138,7 @@ export default function Home() {
           
           <div className="mt-16 max-w-3xl mx-auto text-center border-l-2 border-r-2 border-brand-500/30 px-6 py-2">
             <p className="text-xl md:text-2xl text-brand-900 font-drama italic mb-4">
-              "I look forward to sermon prep for the first time in 18 years."
+              "I can honestly say, this is the first time in 18 years that I look forward to sermon prep!"
             </p>
             <p className="text-brand-600 font-bold">— Kelly C.</p>
           </div>

@@ -166,7 +166,7 @@ export default function Home() {
               <h3 className="text-2xl font-bold mb-4 font-drama text-brand-900 text-center">Here's How It Works</h3>
               <p className="text-muted-foreground text-center text-lg space-y-4">
                 <span className="block">You don't need more time to prepare a faithful, gospel-centered sermon. You need a clearly defined process. By dividing your preparation into three distinct building blocks over four hours, you can step into the pulpit with confidence and enthusiasm, rested and ready to preach the wonder, beauty, and transforming power of God's grace in Jesus.</span>
-                <span className="block mt-4 font-medium text-brand-900">Preach360™ will guide you step by step through the process. No guesswork. Just trust the process.</span>
+                <span className="block mt-4 font-medium text-brand-900">Preach360™ will guide you step by step through the process. No guesswork. Just lock in and trust the process—because 4 hours of focused prep beats 12 hours of distracted prep every time.</span>
               </p>
             </div>
           </div>
@@ -231,12 +231,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
-
-          <div className="mt-20 mb-8 max-w-4xl mx-auto text-center px-4">
-            <p className="text-2xl md:text-3xl font-bold text-brand-950 font-drama leading-relaxed">
-              Just lock in and trust the process.<br className="hidden md:block" /> Because 4 hours of focused prep beats 12 hours of distracted prep every time.
-            </p>
           </div>
 
           <div className="mt-16 mb-24 max-w-3xl mx-auto text-center border-l-2 border-r-2 border-brand-500/30 px-6 py-2">

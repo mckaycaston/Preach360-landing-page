@@ -168,73 +168,68 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="max-w-5xl mx-auto space-y-8">
+          <div className="max-w-4xl mx-auto space-y-12">
             {/* Block 1 */}
-            <div className="bg-white rounded-3xl p-8 md:p-10 border border-border shadow-sm hover:shadow-md transition-shadow">
-              <div className="flex flex-col md:flex-row gap-8">
-                <div className="md:w-1/3">
-                  <div className="text-brand-500 font-bold mb-2 uppercase tracking-wider text-sm">Block 1</div>
-                  <h3 className="text-2xl font-bold text-brand-950 font-drama mb-4">Pour the Foundation</h3>
-                  <img src={foundationImg} alt="Pour the Foundation" className="w-full h-auto rounded-xl object-cover shadow-sm border border-brand-100" />
-                </div>
-                <div className="md:w-2/3 space-y-4">
-                  <div className="bg-brand-50/50 p-6 rounded-2xl border border-brand-100/50 flex gap-5">
-                    <div className="text-brand-500 mt-1 shrink-0"><BookOpen size={24}/></div>
-                    <div>
-                      <div className="font-mono text-sm text-brand-500 mb-1 font-bold tracking-wider">HOUR 1</div>
-                      <h4 className="text-xl font-bold mb-2 text-foreground">The Exegesis Guide</h4>
-                      <p className="text-base text-muted-foreground">We begin with the text. This hour helps you produce an in-depth exegetical analysis of your passage from a redemptive framework, ensuring you understand exactly what the text meant to its original audience.</p>
-                    </div>
+            <div className="bg-white rounded-[2.5rem] p-8 md:p-12 border border-border shadow-sm hover:shadow-md transition-shadow">
+              <div className="text-center mb-8">
+                <div className="text-brand-500 font-bold mb-2 uppercase tracking-wider text-sm">Block 1</div>
+                <h3 className="text-3xl md:text-4xl font-bold text-brand-950 font-drama mb-4">Pour the Foundation</h3>
+              </div>
+              
+              <div className="space-y-4">
+                <div className="bg-brand-50/50 p-6 md:p-8 rounded-3xl border border-brand-100/50 text-center">
+                  <div className="inline-flex text-brand-500 mb-4 shrink-0 bg-white p-3 rounded-2xl shadow-sm"><BookOpen size={28}/></div>
+                  <div>
+                    <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOUR 1</div>
+                    <h4 className="text-2xl font-bold mb-3 text-foreground font-drama">The Exegesis Guide</h4>
+                    <p className="text-base text-muted-foreground max-w-2xl mx-auto">We begin with the text. This hour helps you produce an in-depth exegetical analysis of your passage from a redemptive framework, ensuring you understand exactly what the text meant to its original audience.</p>
                   </div>
                 </div>
               </div>
             </div>
 
             {/* Block 2 */}
-            <div className="bg-white rounded-3xl p-8 md:p-10 border border-border shadow-sm hover:shadow-md transition-shadow">
-              <div className="flex flex-col md:flex-row gap-8">
-                <div className="md:w-1/3">
-                  <div className="text-brand-500 font-bold mb-2 uppercase tracking-wider text-sm">Block 2</div>
-                  <h3 className="text-2xl font-bold text-brand-950 font-drama mb-4">Build the Structure</h3>
-                  <img src={structureImg} alt="Build the Structure" className="w-full h-auto rounded-xl object-cover shadow-sm border border-brand-100" />
-                </div>
-                <div className="md:w-2/3 space-y-4">
-                  <div className="bg-brand-50/50 p-6 rounded-2xl border border-brand-100/50 flex gap-5">
-                    <div className="text-brand-500 mt-1 shrink-0"><Layers size={24}/></div>
-                    <div>
-                      <div className="font-mono text-sm text-brand-500 mb-1 font-bold tracking-wider">HOUR 2</div>
-                      <h4 className="text-xl font-bold mb-2 text-foreground">The Relevance Bridge</h4>
-                      <p className="text-base text-muted-foreground">Next, we bridge the gap. You will build the contextual connection between the original recipients and your modern listeners, revealing the pressing, present-day need for this specific text.</p>
-                    </div>
+            <div className="bg-white rounded-[2.5rem] p-8 md:p-12 border border-border shadow-sm hover:shadow-md transition-shadow">
+              <div className="text-center mb-8">
+                <div className="text-brand-500 font-bold mb-2 uppercase tracking-wider text-sm">Block 2</div>
+                <h3 className="text-3xl md:text-4xl font-bold text-brand-950 font-drama mb-4">Build the Structure</h3>
+              </div>
+              
+              <div className="space-y-6">
+                <div className="bg-brand-50/50 p-6 md:p-8 rounded-3xl border border-brand-100/50 text-center">
+                  <div className="inline-flex text-brand-500 mb-4 shrink-0 bg-white p-3 rounded-2xl shadow-sm"><Layers size={28}/></div>
+                  <div>
+                    <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOUR 2</div>
+                    <h4 className="text-2xl font-bold mb-3 text-foreground font-drama">The Relevance Bridge</h4>
+                    <p className="text-base text-muted-foreground max-w-2xl mx-auto">Next, we bridge the gap. You will build the contextual connection between the original recipients and your modern listeners, revealing the pressing, present-day need for this specific text.</p>
                   </div>
-                  <div className="bg-brand-50/50 p-6 rounded-2xl border border-brand-100/50 flex gap-5">
-                    <div className="text-brand-500 mt-1 shrink-0"><Zap size={24}/></div>
-                    <div>
-                      <div className="font-mono text-sm text-brand-500 mb-1 font-bold tracking-wider">HOUR 3</div>
-                      <h4 className="text-xl font-bold mb-2 text-foreground">The PPGR Movements</h4>
-                      <p className="text-base text-muted-foreground">You will develop your sermon through the four movements of the PPGR Preaching System®: Principle, Problem, Gospel, and Response. This repeatable, biblical framework structurally anchors every message in the complete redemptive story, moving your listeners from brokenness to grace.</p>
-                    </div>
+                </div>
+                
+                <div className="bg-brand-50/50 p-6 md:p-8 rounded-3xl border border-brand-100/50 text-center">
+                  <div className="inline-flex text-brand-500 mb-4 shrink-0 bg-white p-3 rounded-2xl shadow-sm"><Zap size={28}/></div>
+                  <div>
+                    <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOUR 3</div>
+                    <h4 className="text-2xl font-bold mb-3 text-foreground font-drama">The PPGR Movements</h4>
+                    <p className="text-base text-muted-foreground max-w-2xl mx-auto">You will develop your sermon through the four movements of the PPGR Preaching System®: Principle, Problem, Gospel, and Response. This repeatable, biblical framework structurally anchors every message in the complete redemptive story, moving your listeners from brokenness to grace.</p>
                   </div>
                 </div>
               </div>
             </div>
 
             {/* Block 3 */}
-            <div className="bg-white rounded-3xl p-8 md:p-10 border border-border shadow-sm hover:shadow-md transition-shadow">
-              <div className="flex flex-col md:flex-row gap-8">
-                <div className="md:w-1/3">
-                  <div className="text-brand-500 font-bold mb-2 uppercase tracking-wider text-sm">Block 3</div>
-                  <h3 className="text-2xl font-bold text-brand-950 font-drama mb-4">Seal the Cracks</h3>
-                  <img src={polishingImg} alt="Seal the Cracks" className="w-full h-auto rounded-xl object-cover shadow-sm border border-brand-100" />
-                </div>
-                <div className="md:w-2/3">
-                  <div className="bg-brand-50/50 p-6 rounded-2xl border border-brand-100/50 flex gap-5">
-                    <div className="text-brand-500 mt-1 shrink-0"><ShieldCheck size={24}/></div>
-                    <div>
-                      <div className="font-mono text-sm text-brand-500 mb-1 font-bold tracking-wider">HOUR 4</div>
-                      <h4 className="text-xl font-bold mb-2 text-foreground">Revise & Review</h4>
-                      <p className="text-base text-muted-foreground">You will review your finished manuscript using our proprietary optimization tool. This provides targeted editing, tightens your transitions, and refines your phrasing so you can step into the pulpit ready for delivery.</p>
-                    </div>
+            <div className="bg-white rounded-[2.5rem] p-8 md:p-12 border border-border shadow-sm hover:shadow-md transition-shadow">
+              <div className="text-center mb-8">
+                <div className="text-brand-500 font-bold mb-2 uppercase tracking-wider text-sm">Block 3</div>
+                <h3 className="text-3xl md:text-4xl font-bold text-brand-950 font-drama mb-4">Seal the Cracks</h3>
+              </div>
+              
+              <div className="space-y-4">
+                <div className="bg-brand-50/50 p-6 md:p-8 rounded-3xl border border-brand-100/50 text-center">
+                  <div className="inline-flex text-brand-500 mb-4 shrink-0 bg-white p-3 rounded-2xl shadow-sm"><ShieldCheck size={28}/></div>
+                  <div>
+                    <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOUR 4</div>
+                    <h4 className="text-2xl font-bold mb-3 text-foreground font-drama">Revise & Review</h4>
+                    <p className="text-base text-muted-foreground max-w-2xl mx-auto">You will review your finished manuscript using our proprietary optimization tool. This provides targeted editing, tightens your transitions, and refines your phrasing so you can step into the pulpit ready for delivery.</p>
                   </div>
                 </div>
               </div>

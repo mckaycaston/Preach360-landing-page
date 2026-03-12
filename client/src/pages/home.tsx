@@ -5,8 +5,9 @@ import { ArrowRight, Clock, BookOpen, Layers, ShieldCheck, Zap, Lock } from "luc
 import { Link } from "wouter";
 import roadmapProgress from "@assets/image_1772636322550.png";
 import aboutCreatorImage from "@assets/image_1772656745459.png";
-import engineImage from "@assets/image_1773081813789.png";
-import coachImage from "@assets/image_1773084579554.png";
+import foundationImg from "../assets/images/foundation.png";
+import structureImg from "../assets/images/structure.png";
+import polishingImg from "../assets/images/polishing.png";
 
 export default function Home() {
   return (
@@ -172,7 +173,7 @@ export default function Home() {
                 <div className="md:w-1/3">
                   <div className="text-brand-500 font-bold mb-2 uppercase tracking-wider text-sm">Block 1</div>
                   <h3 className="text-2xl font-bold text-brand-950 font-drama mb-4">Pour the Foundation</h3>
-                  <p className="text-muted-foreground">A strong sermon requires a bedrock of solid theology and clear contextual connection. In the first block, we do the heavy lifting of biblical study and pastoral application.</p>
+                  <img src={foundationImg} alt="Pour the Foundation" className="w-full h-auto rounded-xl object-cover shadow-sm border border-brand-100" />
                 </div>
                 <div className="md:w-2/3 space-y-4">
                   <div className="bg-brand-50/50 p-6 rounded-2xl border border-brand-100/50 flex gap-5">
@@ -193,7 +194,7 @@ export default function Home() {
                 <div className="md:w-1/3">
                   <div className="text-brand-500 font-bold mb-2 uppercase tracking-wider text-sm">Block 2</div>
                   <h3 className="text-2xl font-bold text-brand-950 font-drama mb-4">Build the Structure</h3>
-                  <p className="text-muted-foreground">With the foundation poured, it is time to frame the house. This is where your exegesis transforms into a compelling, communicable message.</p>
+                  <img src={structureImg} alt="Build the Structure" className="w-full h-auto rounded-xl object-cover shadow-sm border border-brand-100" />
                 </div>
                 <div className="md:w-2/3 space-y-4">
                   <div className="bg-brand-50/50 p-6 rounded-2xl border border-brand-100/50 flex gap-5">
@@ -222,7 +223,7 @@ export default function Home() {
                 <div className="md:w-1/3">
                   <div className="text-brand-500 font-bold mb-2 uppercase tracking-wider text-sm">Block 3</div>
                   <h3 className="text-2xl font-bold text-brand-950 font-drama mb-4">Seal the Cracks</h3>
-                  <p className="text-muted-foreground">A well-built structure still needs finishing work. The final block ensures your message is clear, polished, and ready for Sunday.</p>
+                  <img src={polishingImg} alt="Seal the Cracks" className="w-full h-auto rounded-xl object-cover shadow-sm border border-brand-100" />
                 </div>
                 <div className="md:w-2/3">
                   <div className="bg-brand-50/50 p-6 rounded-2xl border border-brand-100/50 flex gap-5">

@@ -153,7 +153,7 @@ export default function Home() {
 
           <div className="text-center mb-16 max-w-4xl mx-auto">
             <h2 className="text-xl md:text-2xl font-medium text-foreground font-sans mb-8">
-              <span className="text-brand-600">Pour the foundation, build the structure, and seal the cracks.</span><br className="hidden md:block" /> PPGR360™ guides you step-by-step, because 4 hours of focused work beats 12 hours of distracted prep every time.
+              <span className="text-brand-600">Pour the foundation, build the structure, and seal the cracks.</span>
             </h2>
             
             <div className="bg-white p-8 rounded-3xl border border-brand-100 shadow-sm text-left">

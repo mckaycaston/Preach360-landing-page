@@ -24,11 +24,6 @@ export function Navbar() {
           <Link href="/login">
             <Button variant="ghost" className="text-sm font-medium hidden sm:flex">Log In</Button>
           </Link>
-          <Link href="/login">
-            <Button className="rounded-full bg-brand-500 hover:bg-brand-600 text-white shadow-sm shadow-brand-500/20">
-              Get Started
-            </Button>
-          </Link>
         </div>
       </nav>
     </div>

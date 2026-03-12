@@ -186,7 +186,7 @@ export default function Home() {
                   <div>
                     <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOUR 1</div>
                     <h4 className="text-2xl font-bold mb-3 text-foreground font-drama">The Exegesis Guide</h4>
-                    <p className="text-base text-muted-foreground max-w-2xl mx-auto">We begin with the text. This hour helps you produce an in-depth exegetical analysis of your passage from a redemptive framework, ensuring you understand exactly what the text meant to its original audience.</p>
+                    <p className="text-base text-muted-foreground max-w-2xl mx-auto">We always begin with the text. Preach360™ guides you through an in-depth exegetical analysis of your passage from a redemptive framework. This will serve as the raw material for building the structure of the message.</p>
                   </div>
                 </div>
               </div>

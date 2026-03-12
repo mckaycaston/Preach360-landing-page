@@ -246,12 +246,6 @@ export default function Home() {
               <p className="text-foreground">
                 The core of our web app is built on a distinctively theological foundation called the PPGR Preaching System® (Principle, Problem, Gospel, Response).
               </p>
-              <p>
-                We have turned a proven, redemptive framework into an intuitive software experience.
-              </p>
-              <p>
-                Rather than forcing your text into an artificial outline, you'll simply unfold the organic, redemptive message that's already there.
-              </p>
             </div>
           </div>
 

@@ -44,7 +44,7 @@ export default function Home() {
               </h1>
               
               <div className="mb-8 max-w-xl">
-                 <p className="text-xl md:text-2xl font-medium text-brand-100/90 leading-relaxed">
+                 <p className="text-xl md:text-2xl font-medium text-brand-100/90 leading-tight">
                    without complicated Bible software, a stack of commentaries, or generic AI.
                  </p>
               </div>

@@ -204,7 +204,7 @@ export default function Home() {
                       <p className="text-base text-muted-foreground">Next, we bridge the gap. You will build the contextual connection between the original recipients and your modern listeners, revealing the pressing, present-day need for this specific text.</p>
                     </div>
                   </div>
-                  <div className="bg-brand-50/50 p-6 rounded-2xl border border-brand-100/50 flex gap-5 h-full">
+                  <div className="bg-brand-50/50 p-6 rounded-2xl border border-brand-100/50 flex gap-5">
                     <div className="text-brand-500 mt-1 shrink-0"><Zap size={24}/></div>
                     <div>
                       <div className="font-mono text-sm text-brand-500 mb-1 font-bold tracking-wider">HOUR 3</div>
@@ -225,7 +225,7 @@ export default function Home() {
                   <p className="text-muted-foreground">A well-built structure still needs finishing work. The final block ensures your message is clear, polished, and ready for Sunday.</p>
                 </div>
                 <div className="md:w-2/3">
-                  <div className="bg-brand-50/50 p-6 rounded-2xl border border-brand-100/50 flex gap-5 h-full">
+                  <div className="bg-brand-50/50 p-6 rounded-2xl border border-brand-100/50 flex gap-5">
                     <div className="text-brand-500 mt-1 shrink-0"><ShieldCheck size={24}/></div>
                     <div>
                       <div className="font-mono text-sm text-brand-500 mb-1 font-bold tracking-wider">HOUR 4</div>

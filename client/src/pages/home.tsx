@@ -202,20 +202,11 @@ export default function Home() {
               
               <div className="space-y-6">
                 <div className="bg-brand-50/50 p-6 md:p-8 rounded-3xl border border-brand-100/50 text-center">
-                  <div className="inline-flex text-brand-500 mb-4 shrink-0 bg-white p-3 rounded-2xl shadow-sm"><Layers size={28}/></div>
-                  <div>
-                    <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOUR 2</div>
-                    <h4 className="text-2xl font-bold mb-3 text-foreground font-drama">The Relevance Bridge</h4>
-                    <p className="text-base text-muted-foreground max-w-2xl mx-auto">Next, we bridge the gap. You will build the contextual connection between the original recipients and your modern listeners, revealing the pressing, present-day need for this specific text.</p>
-                  </div>
-                </div>
-                
-                <div className="bg-brand-50/50 p-6 md:p-8 rounded-3xl border border-brand-100/50 text-center">
                   <div className="inline-flex text-brand-500 mb-4 shrink-0 bg-white p-3 rounded-2xl shadow-sm"><Zap size={28}/></div>
                   <div>
-                    <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOUR 3</div>
+                    <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOURS 2 & 3</div>
                     <h4 className="text-2xl font-bold mb-3 text-foreground font-drama">The PPGR Movements</h4>
-                    <p className="text-base text-muted-foreground max-w-2xl mx-auto">You will develop your sermon through the four movements of the PPGR Preaching System®: Principle, Problem, Gospel, and Response. This repeatable, biblical framework structurally anchors every message in the complete redemptive story, moving your listeners from brokenness to grace.</p>
+                    <p className="text-base text-muted-foreground max-w-2xl mx-auto">To build the structure, we'll create a relevance bridge between the original recipients and our contemporary context, revealing the present need for the text which will be developed through four movements that mirror the complete redemptive story found in the biblical creation, fall, redemption, and restoration framework. We call these movements Principle, Problem, Gospel, and Response (PPGR).</p>
                   </div>
                 </div>
               </div>

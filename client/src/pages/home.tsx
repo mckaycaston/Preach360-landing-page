@@ -225,8 +225,8 @@ export default function Home() {
                   <div className="inline-flex text-brand-500 mb-4 shrink-0 bg-white p-3 rounded-2xl shadow-sm"><ShieldCheck size={28}/></div>
                   <div>
                     <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOUR 4</div>
-                    <h4 className="text-2xl font-bold mb-3 text-foreground font-drama">Revise & Review</h4>
-                    <p className="text-base text-muted-foreground max-w-2xl mx-auto">You will review your finished manuscript using our proprietary optimization tool. This provides targeted editing, tightens your transitions, and refines your phrasing so you can step into the pulpit ready for delivery.</p>
+                    <h4 className="text-2xl font-bold mb-3 text-foreground font-drama">The Optimization Process</h4>
+                    <p className="text-base text-muted-foreground max-w-2xl mx-auto">Once the structure is complete, you will review and review the manuscript, submitting it to our proprietary optimization process, which provides suggestions for targeted refinement for a ready to preach, redemptively clear sermon.</p>
                   </div>
                 </div>
               </div>

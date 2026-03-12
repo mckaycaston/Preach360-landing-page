@@ -140,7 +140,7 @@ export default function Home() {
             <p className="text-xl md:text-2xl text-brand-900 font-drama italic mb-4">
               "I can honestly say, this is the first time in 18 years that I look forward to sermon prep!"
             </p>
-            <p className="text-brand-600 font-bold">— Kelly C.</p>
+            <p className="text-brand-600 font-bold">— K.C.</p>
           </div>
         </div>
       </section>

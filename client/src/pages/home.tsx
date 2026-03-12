@@ -160,7 +160,7 @@ export default function Home() {
             <div className="bg-white p-8 rounded-3xl border border-brand-100 shadow-sm text-left">
               <h3 className="text-2xl font-bold mb-4 font-drama text-brand-900 text-center">How It Works: The 3-Block Framework</h3>
               <p className="text-muted-foreground text-center text-lg">
-                You don't need more time to prepare a faithful, gospel-centered sermon; you need a clearer process. By dividing your preparation into three distinct building blocks over four hours, you can step into the pulpit with complete confidence and reclaim your week.
+                You don't need more time to prepare a faithful, gospel-centered sermon. You need a clearly defined process. By dividing your preparation into three distinct building blocks over four hours, you can step into the pulpit with confidence and enthusiasm, rested and ready to preach the wonder, beauty, and transforming power of God's grace in Jesus.
               </p>
             </div>
           </div>

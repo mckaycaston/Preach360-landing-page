@@ -233,6 +233,12 @@ export default function Home() {
             </div>
           </div>
 
+          <div className="mt-20 mb-8 max-w-4xl mx-auto text-center px-4">
+            <p className="text-2xl md:text-3xl font-bold text-brand-950 font-drama leading-relaxed">
+              Just lock in and trust the process.<br className="hidden md:block" /> Because 4 hours of focused prep beats 12 hours of distracted prep every time.
+            </p>
+          </div>
+
           <div className="mt-16 mb-24 max-w-3xl mx-auto text-center border-l-2 border-r-2 border-brand-500/30 px-6 py-2">
             <p className="text-xl md:text-2xl text-brand-900 font-drama italic mb-4">
               "I've had more positive comments on my sermons this year than all my years of preaching combined."

@@ -41,11 +41,14 @@ export default function Home() {
               className="max-w-2xl"
             >
               <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-6 leading-[1.1]">
-                Craft biblically faithful, gospel-rich sermons in a single afternoon...
+                Solo pastors don't have the luxury of doing sermon prep all week.
               </h1>
               
-              <div className="mb-8 max-w-xl">
+              <div className="mb-8 max-w-xl space-y-2">
                  <p className="text-xl md:text-2xl font-medium text-brand-100/90 leading-relaxed">
+                   Craft biblically faithful, gospel-rich sermons in a single afternoon...
+                 </p>
+                 <p className="text-base md:text-lg text-brand-100/70 leading-relaxed">
                    without complicated Bible software, a stack of commentaries, or generic AI.
                  </p>
               </div>

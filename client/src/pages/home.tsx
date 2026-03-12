@@ -13,6 +13,8 @@ import foundationImg from "../assets/images/foundation.png";
 import structureImg from "../assets/images/structure.png";
 import polishingImg from "../assets/images/polishing.png";
 
+import heroImage from "@assets/image_1773336414733.png";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-background selection:bg-brand-200 selection:text-brand-900">
@@ -23,7 +25,10 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           {/* Heavy #f97316 (brand-500) gradient as requested in guidelines */}
           <div className="absolute inset-0 bg-gradient-to-br from-brand-950 via-brand-900 to-brand-500/40 mix-blend-overlay z-10" />
-          <div className="absolute inset-0 opacity-30 bg-[url('https://preach360.edgestack.space/images/solo-pastor.png')] bg-cover bg-center mix-blend-luminosity" />
+          <div 
+            className="absolute inset-0 opacity-30 bg-cover bg-center mix-blend-luminosity" 
+            style={{ backgroundImage: `url(${heroImage})` }}
+          />
           <div className="absolute top-0 right-0 w-full h-[600px] bg-brand-500/20 blur-[120px] rounded-full" />
           <div className="absolute bottom-0 left-0 w-3/4 h-[400px] bg-brand-500/10 blur-[100px] rounded-full" />
           

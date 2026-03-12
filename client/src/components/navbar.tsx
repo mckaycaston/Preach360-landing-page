@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
+import logoImage from "@assets/preach360_logo_(1400_x_790_px)_-_transparent_for_light_backgro_1773332156529.png";
 
 export function Navbar() {
   return (
@@ -7,7 +8,7 @@ export function Navbar() {
       <nav className="bg-background/95 backdrop-blur-md border-b border-border/50 shadow-sm px-6 py-4 flex items-center justify-between w-full transition-all duration-300">
         <Link href="/" className="flex items-center gap-2">
           <img 
-            src="https://preach360.edgestack.space/images/preach360-logo-transparent-for-light-background.png" 
+            src={logoImage} 
             alt="Preach360 Logo" 
             className="h-16 md:h-20 w-auto"
           />

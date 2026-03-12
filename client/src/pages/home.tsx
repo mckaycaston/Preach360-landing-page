@@ -41,22 +41,13 @@ export default function Home() {
               className="max-w-2xl"
             >
               <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-6 leading-[1.1]">
-                Solo pastors don't have the luxury of doing sermon prep all week.
+                Craft biblically faithful, gospel-rich sermons in a single afternoon...
               </h1>
               
-              <div className="mb-8 max-w-xl space-y-2">
+              <div className="mb-8 max-w-xl">
                  <p className="text-xl md:text-2xl font-medium text-brand-100/90 leading-relaxed">
-                   Craft biblically faithful, gospel-rich sermons in a single afternoon...
-                 </p>
-                 <p className="text-base md:text-lg text-brand-100/80 leading-relaxed font-normal">
                    without complicated Bible software, a stack of commentaries, or generic AI.
                  </p>
-              </div>
-              
-              <div className="flex flex-col sm:flex-row gap-4 mb-6">
-                <Button size="lg" className="rounded-full bg-brand-500 hover:bg-brand-600 text-white h-14 px-8 text-base shadow-lg shadow-brand-500/25">
-                  Start 4-Hour Prep <ArrowRight className="ml-2 h-5 w-5" />
-                </Button>
               </div>
             </motion.div>
 

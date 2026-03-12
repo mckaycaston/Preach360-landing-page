@@ -154,7 +154,7 @@ export default function Home() {
 
           <div className="text-center mb-10 max-w-3xl mx-auto">
             <h2 className="text-lg md:text-xl font-medium text-foreground font-sans">
-              <span className="text-brand-600">Preach360™ provides the path. You just trust the process.</span><br className="hidden md:block" /> Because 4 hours of focused work beats 12 hours of distracted prep every time.
+              <span className="text-brand-600">Preach360™ guides you step by step. You just trust the process.</span><br className="hidden md:block" /> Because 4 hours of focused work beats 12 hours of distracted prep every time.
             </h2>
           </div>
 

@@ -183,14 +183,6 @@ export default function Home() {
                       <p className="text-base text-muted-foreground">We begin with the text. This hour helps you produce an in-depth exegetical analysis of your passage from a redemptive framework, ensuring you understand exactly what the text meant to its original audience.</p>
                     </div>
                   </div>
-                  <div className="bg-brand-50/50 p-6 rounded-2xl border border-brand-100/50 flex gap-5">
-                    <div className="text-brand-500 mt-1 shrink-0"><Layers size={24}/></div>
-                    <div>
-                      <div className="font-mono text-sm text-brand-500 mb-1 font-bold tracking-wider">HOUR 2</div>
-                      <h4 className="text-xl font-bold mb-2 text-foreground">The Relevance Bridge</h4>
-                      <p className="text-base text-muted-foreground">Next, we bridge the gap. You will build the contextual connection between the original recipients and your modern listeners, revealing the pressing, present-day need for this specific text.</p>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -203,7 +195,15 @@ export default function Home() {
                   <h3 className="text-2xl font-bold text-brand-950 font-drama mb-4">Build the Structure</h3>
                   <p className="text-muted-foreground">With the foundation poured, it is time to frame the house. This is where your exegesis transforms into a compelling, communicable message.</p>
                 </div>
-                <div className="md:w-2/3">
+                <div className="md:w-2/3 space-y-4">
+                  <div className="bg-brand-50/50 p-6 rounded-2xl border border-brand-100/50 flex gap-5">
+                    <div className="text-brand-500 mt-1 shrink-0"><Layers size={24}/></div>
+                    <div>
+                      <div className="font-mono text-sm text-brand-500 mb-1 font-bold tracking-wider">HOUR 2</div>
+                      <h4 className="text-xl font-bold mb-2 text-foreground">The Relevance Bridge</h4>
+                      <p className="text-base text-muted-foreground">Next, we bridge the gap. You will build the contextual connection between the original recipients and your modern listeners, revealing the pressing, present-day need for this specific text.</p>
+                    </div>
+                  </div>
                   <div className="bg-brand-50/50 p-6 rounded-2xl border border-brand-100/50 flex gap-5 h-full">
                     <div className="text-brand-500 mt-1 shrink-0"><Zap size={24}/></div>
                     <div>

@@ -152,55 +152,89 @@ export default function Home() {
             <h2 className="text-3xl md:text-5xl font-bold mb-2 font-drama text-brand-950">The 4-Hour Sermon Roadmap</h2>
           </div>
 
-          <div className="text-center mb-10 max-w-3xl mx-auto">
-            <h2 className="text-lg md:text-xl font-medium text-foreground font-sans">
-              <span className="text-brand-600">Preach360™ guides you step by step. You just trust the process.</span><br className="hidden md:block" /> Because 4 hours of focused work beats 12 hours of distracted prep every time.
+          <div className="text-center mb-16 max-w-4xl mx-auto">
+            <h2 className="text-xl md:text-2xl font-medium text-foreground font-sans mb-8">
+              <span className="text-brand-600">Pour the foundation, build the structure, and seal the cracks.</span><br className="hidden md:block" /> PPGR360™ guides you step-by-step, because 4 hours of focused work beats 12 hours of distracted prep every time.
             </h2>
+            
+            <div className="bg-white p-8 rounded-3xl border border-brand-100 shadow-sm text-left">
+              <h3 className="text-2xl font-bold mb-4 font-drama text-brand-900 text-center">How It Works: The 3-Block Framework</h3>
+              <p className="text-muted-foreground text-center text-lg">
+                You don't need more time to prepare a faithful, gospel-centered sermon; you need a clearer process. By dividing your preparation into three distinct building blocks over four hours, you can step into the pulpit with complete confidence and reclaim your week.
+              </p>
+            </div>
           </div>
 
-          <div className="grid md:grid-cols-4 gap-6 items-stretch">
-            <div className="group relative bg-card border border-border hover:border-brand-300 transition-colors duration-300 rounded-3xl p-6 shadow-sm hover:shadow-xl hover:shadow-brand-500/5 flex flex-col h-full">
-              <div className="text-brand-500 mb-6 bg-brand-50 w-14 h-14 rounded-2xl flex items-center justify-center shadow-sm">
-                <BookOpen size={28} />
+          <div className="max-w-5xl mx-auto space-y-8">
+            {/* Block 1 */}
+            <div className="bg-white rounded-3xl p-8 md:p-10 border border-border shadow-sm hover:shadow-md transition-shadow">
+              <div className="flex flex-col md:flex-row gap-8">
+                <div className="md:w-1/3">
+                  <div className="text-brand-500 font-bold mb-2 uppercase tracking-wider text-sm">Block 1</div>
+                  <h3 className="text-2xl font-bold text-brand-950 font-drama mb-4">Pour the Foundation</h3>
+                  <p className="text-muted-foreground">A strong sermon requires a bedrock of solid theology and clear contextual connection. In the first block, we do the heavy lifting of biblical study and pastoral application.</p>
+                </div>
+                <div className="md:w-2/3 space-y-4">
+                  <div className="bg-brand-50/50 p-6 rounded-2xl border border-brand-100/50 flex gap-5">
+                    <div className="text-brand-500 mt-1 shrink-0"><BookOpen size={24}/></div>
+                    <div>
+                      <div className="font-mono text-sm text-brand-500 mb-1 font-bold tracking-wider">HOUR 1</div>
+                      <h4 className="text-xl font-bold mb-2 text-foreground">The Exegesis Guide</h4>
+                      <p className="text-base text-muted-foreground">We begin with the text. This hour helps you produce an in-depth exegetical analysis of your passage from a redemptive framework, ensuring you understand exactly what the text meant to its original audience.</p>
+                    </div>
+                  </div>
+                  <div className="bg-brand-50/50 p-6 rounded-2xl border border-brand-100/50 flex gap-5">
+                    <div className="text-brand-500 mt-1 shrink-0"><Layers size={24}/></div>
+                    <div>
+                      <div className="font-mono text-sm text-brand-500 mb-1 font-bold tracking-wider">HOUR 2</div>
+                      <h4 className="text-xl font-bold mb-2 text-foreground">The Relevance Bridge</h4>
+                      <p className="text-base text-muted-foreground">Next, we bridge the gap. You will build the contextual connection between the original recipients and your modern listeners, revealing the pressing, present-day need for this specific text.</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className="font-mono text-lg text-brand-500 mb-2 font-bold tracking-wider">HOUR 1</div>
-              <h3 className="text-xl font-bold mb-4 text-foreground">Exegesis Guide</h3>
-              <p className="text-muted-foreground flex-1 text-sm">
-                Generate the Exegesis Guide. A tool that helps you produce an in-depth exegetical analysis of the text from a redemptive framework.
-              </p>
             </div>
 
-            <div className="group relative bg-card border border-border hover:border-brand-300 transition-colors duration-300 rounded-3xl p-6 shadow-sm hover:shadow-xl hover:shadow-brand-500/5 flex flex-col h-full">
-              <div className="text-brand-500 mb-6 bg-brand-50 w-14 h-14 rounded-2xl flex items-center justify-center shadow-sm">
-                <Layers size={28} />
+            {/* Block 2 */}
+            <div className="bg-white rounded-3xl p-8 md:p-10 border border-border shadow-sm hover:shadow-md transition-shadow">
+              <div className="flex flex-col md:flex-row gap-8">
+                <div className="md:w-1/3">
+                  <div className="text-brand-500 font-bold mb-2 uppercase tracking-wider text-sm">Block 2</div>
+                  <h3 className="text-2xl font-bold text-brand-950 font-drama mb-4">Build the Structure</h3>
+                  <p className="text-muted-foreground">With the foundation poured, it is time to frame the house. This is where your exegesis transforms into a compelling, communicable message.</p>
+                </div>
+                <div className="md:w-2/3">
+                  <div className="bg-brand-50/50 p-6 rounded-2xl border border-brand-100/50 flex gap-5 h-full">
+                    <div className="text-brand-500 mt-1 shrink-0"><Zap size={24}/></div>
+                    <div>
+                      <div className="font-mono text-sm text-brand-500 mb-1 font-bold tracking-wider">HOUR 3</div>
+                      <h4 className="text-xl font-bold mb-2 text-foreground">The PPGR Movements</h4>
+                      <p className="text-base text-muted-foreground">You will develop your sermon through the four movements of the PPGR Preaching System®: Principle, Problem, Gospel, and Response. This repeatable, biblical framework structurally anchors every message in the complete redemptive story, moving your listeners from brokenness to grace.</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className="font-mono text-lg text-brand-500 mb-2 font-bold tracking-wider">HOUR 2</div>
-              <h3 className="text-xl font-bold mb-4 text-foreground">Relevance Bridge</h3>
-              <p className="text-muted-foreground flex-1 text-sm">
-                Build the Relevance Bridge. The contextual connection between the original recipients and modern listeners that reveals the present day need for the text.
-              </p>
             </div>
 
-            <div className="group relative bg-card border border-border hover:border-brand-300 transition-colors duration-300 rounded-3xl p-6 shadow-sm hover:shadow-xl hover:shadow-brand-500/5 flex flex-col h-full">
-              <div className="text-brand-500 mb-6 bg-brand-50 w-14 h-14 rounded-2xl flex items-center justify-center shadow-sm">
-                <Zap size={28} />
+            {/* Block 3 */}
+            <div className="bg-white rounded-3xl p-8 md:p-10 border border-border shadow-sm hover:shadow-md transition-shadow">
+              <div className="flex flex-col md:flex-row gap-8">
+                <div className="md:w-1/3">
+                  <div className="text-brand-500 font-bold mb-2 uppercase tracking-wider text-sm">Block 3</div>
+                  <h3 className="text-2xl font-bold text-brand-950 font-drama mb-4">Seal the Cracks</h3>
+                  <p className="text-muted-foreground">A well-built structure still needs finishing work. The final block ensures your message is clear, polished, and ready for Sunday.</p>
+                </div>
+                <div className="md:w-2/3">
+                  <div className="bg-brand-50/50 p-6 rounded-2xl border border-brand-100/50 flex gap-5 h-full">
+                    <div className="text-brand-500 mt-1 shrink-0"><ShieldCheck size={24}/></div>
+                    <div>
+                      <div className="font-mono text-sm text-brand-500 mb-1 font-bold tracking-wider">HOUR 4</div>
+                      <h4 className="text-xl font-bold mb-2 text-foreground">Revise & Review</h4>
+                      <p className="text-base text-muted-foreground">You will review your finished manuscript using our proprietary optimization tool. This provides targeted editing, tightens your transitions, and refines your phrasing so you can step into the pulpit ready for delivery.</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className="font-mono text-lg text-brand-500 mb-2 font-bold tracking-wider">HOUR 3</div>
-              <h3 className="text-xl font-bold mb-4 text-foreground">PPGR Movements</h3>
-              <p className="text-muted-foreground flex-1 text-sm">
-                Develop the Four Movements (PPGR). A repeatable, biblical framework that structurally anchors every message in the complete redemptive story.
-              </p>
-            </div>
-
-            <div className="group relative bg-card border border-border hover:border-brand-300 transition-colors duration-300 rounded-3xl p-6 shadow-sm hover:shadow-xl hover:shadow-brand-500/5 flex flex-col h-full">
-              <div className="text-brand-500 mb-6 bg-brand-50 w-14 h-14 rounded-2xl flex items-center justify-center shadow-sm">
-                <ShieldCheck size={28} />
-              </div>
-              <div className="font-mono text-lg text-brand-500 mb-2 font-bold tracking-wider">HOUR 4</div>
-              <h3 className="text-xl font-bold mb-4 text-foreground">Revise & Review</h3>
-              <p className="text-muted-foreground flex-1 text-sm">
-                Review the manuscript with our proprietary optimization tool for targeted editing as you prepare for delivery.
-              </p>
             </div>
           </div>
 

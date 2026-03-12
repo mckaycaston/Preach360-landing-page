@@ -13,7 +13,7 @@ import foundationImg from "../assets/images/foundation.png";
 import structureImg from "../assets/images/structure.png";
 import polishingImg from "../assets/images/polishing.png";
 
-import heroImage from "@assets/image_1773336414733.png";
+import heroImage from "@assets/image_1773336649735.png";
 
 export default function Home() {
   return (

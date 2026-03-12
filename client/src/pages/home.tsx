@@ -7,6 +7,7 @@ import roadmapProgress from "@assets/image_1772636322550.png";
 import aboutCreatorImage from "@assets/image_1772656745459.png";
 import coachImage from "@assets/image_1773084579554.png";
 import engineImage from "@assets/image_1773081813789.png";
+import foundationImage from "@assets/image_1773317291845.png";
 import foundationImg from "../assets/images/foundation.png";
 import structureImg from "../assets/images/structure.png";
 import polishingImg from "../assets/images/polishing.png";
@@ -174,6 +175,7 @@ export default function Home() {
               <div className="text-center mb-8">
                 <div className="text-brand-500 font-bold mb-2 uppercase tracking-wider text-sm">Block 1</div>
                 <h3 className="text-3xl md:text-4xl font-bold text-brand-950 font-drama mb-4">Pour the Foundation</h3>
+                <img src={foundationImage} alt="Pour the Foundation" className="w-full h-64 object-cover rounded-2xl mb-8 shadow-sm border border-brand-100" />
               </div>
               
               <div className="space-y-4">

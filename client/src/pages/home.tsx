@@ -5,6 +5,7 @@ import { ArrowRight, Clock, BookOpen, Layers, ShieldCheck, Zap, Lock } from "luc
 import { Link } from "wouter";
 import roadmapProgress from "@assets/image_1772636322550.png";
 import aboutCreatorImage from "@assets/image_1772656745459.png";
+import coachImage from "@assets/image_1773084579554.png";
 import foundationImg from "../assets/images/foundation.png";
 import structureImg from "../assets/images/structure.png";
 import polishingImg from "../assets/images/polishing.png";

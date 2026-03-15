@@ -91,7 +91,7 @@ export default function Home() {
           
           <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-4xl mx-auto space-y-6">
             <div className="text-lg md:text-xl space-y-6 text-left md:text-center text-muted-foreground">
-              <p>Preach360™ is the all-in-one, web-based sermon OS that provides focus to the process and returns bandwidth to your life.</p>
+              <p>Preach360™ is the all-in-one, web-based sermon studio that brings focus to the process and returns bandwidth to your life.</p>
               <p>As a Socratic preaching coach, Preach360™ doesn't do the work for you. It does the work with you—from raw exegesis to a complete draft in 4 hours or less.</p>
               <p><strong>The secret?</strong> Rather than forcing your text into an artificial outline, you simply unfold the organic, redemptive message that's already there.</p>
               

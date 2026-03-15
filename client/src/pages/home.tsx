@@ -274,7 +274,7 @@ export default function Home() {
                   <div className="mt-1 min-w-6 text-brand-400 font-light">✕</div>
                   <div>
                     <strong className="block text-foreground mb-2 text-2xl font-bold">SILENCE</strong>
-                    <p className="text-base text-muted-foreground">Wishing for a spiritual response to your sermons, but usually just getting the familiar "See you next week, Pastor."</p>
+                    <p className="text-base text-muted-foreground">Wishing to hear stories of impact from your sermons, you usually get the familiar "See you next week, Pastor."</p>
                   </div>
                 </li>
               </ul>
@@ -293,7 +293,7 @@ export default function Home() {
                   <div className="mt-1 min-w-6 text-brand-500 font-bold">✓</div>
                   <div>
                     <strong className="block text-brand-950 mb-2 text-2xl font-bold">MARGIN</strong>
-                    <p className="text-brand-950/80 text-base">Finish your message by noon on Wednesday—in hours, not days. Preach360™ returns over 10 hours of margin to your week for a real day off and long-term ministry sustainability.</p>
+                    <p className="text-brand-950/80 text-base">Finish your message in hours, not days. Preach360™ returns over 10 hours of margin to your week for a real day off.</p>
                   </div>
                 </li>
                 <li className="flex gap-4">

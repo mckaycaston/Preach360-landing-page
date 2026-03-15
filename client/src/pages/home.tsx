@@ -114,7 +114,7 @@ export default function Home() {
                </div>
                <h3 className="text-xl font-bold mb-4">Gospel Centrality</h3>
                <p className="text-muted-foreground mb-4 flex-1">
-                 You'll tether every text to the cross, showing how Jesus fulfills every longing and overcomes every problem.
+                 You'll tether every text to the cross, preaching grace as fuel for change, not just as a fallback for failure.
                </p>
              </div>
              
@@ -125,7 +125,7 @@ export default function Home() {
                </div>
                <h3 className="text-xl font-bold mb-4">Reclaimed Time</h3>
                <p className="text-muted-foreground mb-4 flex-1">
-                 You'll reclaim 10+ hours of margin per week, letting you finish your prep by Wednesday so you can actually pastor your people.
+                 You'll reclaim 10+ hours of margin per week, letting you finish your prep in hours vs days.
                </p>
              </div>
 
@@ -134,9 +134,9 @@ export default function Home() {
                <div className="w-12 h-12 bg-brand-100 text-brand-600 rounded-full flex items-center justify-center mb-6">
                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M12 8v4l3 3"/></svg>
                </div>
-               <h3 className="text-xl font-bold mb-4">Ministry Longevity</h3>
+               <h3 className="text-xl font-bold mb-4">Pastoral Longevity</h3>
                <p className="text-muted-foreground mb-4 flex-1">
-                 You'll discover what a sustainable ministry looks like, trading burnout for a life-giving rhythm of study and service.
+                 You'll discover a sustainable rhythm for life and ministry, trading burnout for long-term pastoral health.
                </p>
              </div>
           </div>

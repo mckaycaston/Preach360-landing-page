@@ -125,7 +125,7 @@ export default function Home() {
                </div>
                <h3 className="text-xl font-bold mb-4">Reclaimed Time</h3>
                <p className="text-muted-foreground mb-4 flex-1">
-                 You'll finish your prep in hours vs days, reclaiming 10+ hours of margin per week for other pastoral responsibilities.
+                 You'll finish your prep in hours vs days, reclaiming 10+ hours of margin for other pastoral responsibilities and a real day off.
                </p>
              </div>
 

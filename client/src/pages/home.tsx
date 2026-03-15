@@ -1,7 +1,7 @@
 import { Navbar } from "@/components/navbar";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import { ArrowRight, Clock, BookOpen, Layers, ShieldCheck, Zap, Lock } from "lucide-react";
+import { ArrowRight, Clock, BookOpen, Layers, ShieldCheck, Zap, Lock, Heart } from "lucide-react";
 import { Link } from "wouter";
 import roadmapProgress from "@assets/image_1772636322550.png";
 import aboutCreatorImage from "@assets/image_1772656745459.png";
@@ -125,14 +125,14 @@ export default function Home() {
                </div>
                <h3 className="text-xl font-bold mb-4">Reclaimed Time</h3>
                <p className="text-muted-foreground mb-4 flex-1">
-                 You'll reclaim 10+ hours of margin per week, letting you finish your prep in hours vs days.
+                 You'll finish your prep in hours vs days, reclaiming 10+ hours of margin per week for other pastoral responsibilities.
                </p>
              </div>
 
              {/* Sustainability */}
              <div className="bg-card border border-border p-8 rounded-2xl shadow-sm flex flex-col h-full items-center text-center">
                <div className="w-12 h-12 bg-brand-100 text-brand-600 rounded-full flex items-center justify-center mb-6">
-                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M12 8v4l3 3"/></svg>
+                 <Heart className="w-6 h-6" />
                </div>
                <h3 className="text-xl font-bold mb-4">Pastoral Longevity</h3>
                <p className="text-muted-foreground mb-4 flex-1">

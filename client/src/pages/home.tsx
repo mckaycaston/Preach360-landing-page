@@ -166,7 +166,7 @@ export default function Home() {
               <h3 className="text-2xl font-bold mb-4 font-drama text-brand-900 text-center">Here's How It Works</h3>
               <p className="text-muted-foreground text-center text-lg space-y-4">
                 <span className="block">By dividing your preparation into three distinct building blocks over four hours, you can step into the pulpit with confidence and enthusiasm, rested and ready to preach the wonder, beauty, and transforming power of God's grace in Jesus.</span>
-                <span className="block mt-4 font-medium text-brand-900">Preach360™ will guide you step by step. No guesswork. Just lock in and trust the process—because 4 hours of focused prep beats 12 hours of distracted prep every time.</span>
+                <span className="block mt-4 font-medium text-brand-900">Preach360™ will guide you step by step. No guesswork. Just trust the process.</span>
               </p>
             </div>
           </div>

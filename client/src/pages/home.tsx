@@ -94,7 +94,8 @@ export default function Home() {
               <p>The solution is Preach360™—the online sermon studio built with the PPGR sermon framework.</p>
               <p><strong className="text-foreground">A Simple Process.</strong> Rather than get lost in complicated Bible software, you just follow the prompts to craft biblically faithful, gospel-rich sermons in a single afternoon.</p>
               <p><strong className="text-foreground">A Guided Process.</strong> Unlike generic AI tools, it doesn't do the work for you. It does the work with you—guiding you through the blueprint from raw exegesis to a complete draft in 4 hours or less.</p>
-              <p><strong className="text-foreground">An Intuitive Process.</strong> Rather than inventing an artificial outline, you simply unfold the organic, redemptive message that's already there. Preach360™ guides you step by step. No guesswork. Just trust the process.</p>
+              <p><strong className="text-foreground">An Intuitive Process.</strong> Rather than inventing an artificial outline, you simply unfold the organic, redemptive message that's already there.</p>
+              <p>Preach360™ guides you step by step. No guesswork. Just trust the process.</p>
               
               <div className="mt-12 relative rounded-2xl overflow-hidden shadow-2xl border border-border bg-white p-2">
                 <img 

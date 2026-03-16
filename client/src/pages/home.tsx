@@ -91,7 +91,6 @@ export default function Home() {
           
           <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-4xl mx-auto space-y-6">
             <div className="text-lg md:text-xl space-y-6 text-left md:text-center text-muted-foreground">
-              <p>The problem isn't the lack of prep time but the lack of a prep system.</p>
               <p>The solution is Preach360™—the web-based sermon studio built with the PPGR sermon framework. It gives focus for the process and returns margin for life and ministry.</p>
               <p>Rather than get lost in complicated Bible software, you just follow the prompts to craft biblically faithful, gospel-rich sermons in a single afternoon.</p>
               <p>Unlike generic AI tools, it doesn't do the work for you. It does the work with you—guiding you through the blueprint.</p>

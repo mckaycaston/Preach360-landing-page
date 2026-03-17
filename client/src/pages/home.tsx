@@ -377,7 +377,7 @@ export default function Home() {
                 <div className="absolute top-0 right-0 transform translate-x-2 -translate-y-2">
                   <span className="bg-brand-950 text-brand-100 text-xs font-bold px-3 py-1 rounded-full">MOST POPULAR</span>
                 </div>
-                <h3 className="text-xl font-bold mb-2 text-brand-50">Premium Upgrade</h3>
+                <h3 className="text-xl font-bold mb-2 text-brand-50">Preach360 Premium</h3>
                 <div className="text-3xl font-bold mb-2 font-mono">$70<span className="text-base font-normal text-brand-200">/mo</span></div>
                 <p className="text-sm font-medium text-brand-100 mb-4">per user, or $700/yr (2 mos free)</p>
                 <p className="text-sm text-brand-100 mb-6">Includes the complete video training library, the comprehensive Preach360™ Video Course, the full suite of specialized sermon prep apps, and weekly live group coaching via Zoom with Preach360™ creator, McKay Caston.</p>

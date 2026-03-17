@@ -358,7 +358,7 @@ export default function Home() {
            <div className="text-center mb-16">
              <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-foreground">Start Your 4-Hour Prep Today</h2>
              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-               The all-in-one sermon OS. No other prep tools needed.
+               The complete, all-in-one sermon OS.
              </p>
            </div>
            

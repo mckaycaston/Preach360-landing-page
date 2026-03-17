@@ -367,7 +367,7 @@ export default function Home() {
                 <h3 className="text-xl font-bold mb-2">Preach360 Premium</h3>
                 <div className="text-3xl font-bold mb-2 font-mono">$35<span className="text-base font-normal text-muted-foreground">/mo</span></div>
                 <p className="text-sm font-medium text-brand-600 mb-4">per user, or $350/yr (2 mos free)</p>
-                <p className="text-sm text-muted-foreground mb-6">The core sermon preparation operating system designed to fit standard pastoral continuing education budgets.</p>
+                <p className="text-sm text-muted-foreground mb-6">The core sermon builder studio designed to fit standard pastoral continuing education budgets. Includes community access and bonus resources.</p>
                 <div className="mt-auto pt-6 border-t border-border">
                   <Button className="w-full" variant="outline">Start 14-Day Free Trial</Button>
                 </div>

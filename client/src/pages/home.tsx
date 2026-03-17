@@ -364,7 +364,7 @@ export default function Home() {
            
            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <div className="bg-card border border-border p-8 rounded-3xl flex flex-col">
-                <h3 className="text-xl font-bold mb-2">The Sermon Studio</h3>
+                <h3 className="text-xl font-bold mb-2">Preach360 Premium</h3>
                 <div className="text-3xl font-bold mb-2 font-mono">$35<span className="text-base font-normal text-muted-foreground">/mo</span></div>
                 <p className="text-sm font-medium text-brand-600 mb-4">per user, or $350/yr (2 mos free)</p>
                 <p className="text-sm text-muted-foreground mb-6">The core sermon preparation operating system designed to fit standard pastoral continuing education budgets.</p>
@@ -377,7 +377,7 @@ export default function Home() {
                 <div className="absolute top-0 right-0 transform translate-x-2 -translate-y-2">
                   <span className="bg-brand-950 text-brand-100 text-xs font-bold px-3 py-1 rounded-full">MOST POPULAR</span>
                 </div>
-                <h3 className="text-xl font-bold mb-2 text-brand-50">Preach360 Premium</h3>
+                <h3 className="text-xl font-bold mb-2 text-brand-50">Preach360 VIP Access</h3>
                 <div className="text-3xl font-bold mb-2 font-mono">$70<span className="text-base font-normal text-brand-200">/mo</span></div>
                 <p className="text-sm font-medium text-brand-100 mb-4">per user, or $700/yr (2 mos free)</p>
                 <p className="text-sm text-brand-100 mb-6">Includes the full suite of specialized Preach360 apps, in addition to the complete video training library, the comprehensive Preach360™ Video Course, and weekly live coaching via Zoom with Preach360™ creator, McKay Caston.</p>

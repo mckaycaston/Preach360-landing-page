@@ -370,7 +370,6 @@ export default function Home() {
                 <p className="text-sm text-muted-foreground mb-6">The core sermon preparation operating system designed to fit standard pastoral continuing education budgets.</p>
                 <div className="mt-auto pt-6 border-t border-border">
                   <Button className="w-full" variant="outline">Start 14-Day Free Trial</Button>
-                  <p className="text-xs text-center text-muted-foreground mt-2">No credit card required</p>
                 </div>
               </div>
               
@@ -384,7 +383,6 @@ export default function Home() {
                 <p className="text-sm text-brand-100 mb-6">Includes the complete video training library, the comprehensive Preach360™ Video Course, the full suite of specialized sermon prep apps, and weekly live group coaching via Zoom with Preach360™ creator, McKay Caston.</p>
                 <div className="mt-auto pt-6 border-t border-brand-400">
                   <Button className="w-full bg-white text-brand-600 hover:bg-brand-50">Start 14-Day Free Trial</Button>
-                  <p className="text-xs text-center text-brand-100 mt-2">No credit card required</p>
                 </div>
               </div>
               

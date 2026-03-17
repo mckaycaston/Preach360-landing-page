@@ -364,7 +364,7 @@ export default function Home() {
            
            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
               <div className="bg-card border border-border p-8 rounded-3xl flex flex-col">
-                <h3 className="text-xl font-bold mb-2">Basic Sermon Studio</h3>
+                <h3 className="text-xl font-bold mb-2">The Sermon Studio</h3>
                 <div className="text-3xl font-bold mb-2 font-mono">$35<span className="text-base font-normal text-muted-foreground">/mo</span></div>
                 <p className="text-sm font-medium text-brand-600 mb-4">per user, or $350/yr (2 mos free)</p>
                 <p className="text-sm text-muted-foreground mb-6">The core sermon preparation operating system designed to fit standard pastoral continuing education budgets.</p>

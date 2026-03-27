@@ -95,7 +95,7 @@ export default function Home() {
               <p><strong className="text-foreground">A Simple Process.</strong> Just follow the prompts.</p>
               <p><strong className="text-foreground">A Guided Process.</strong> Unlike generic AI tools, it doesn't do the work for you. It does the work with you.</p>
               <p><strong className="text-foreground">An Intuitive Process.</strong> Rather than inventing an artificial outline, you simply unfold the organic, redemptive message that's already in the text.</p>
-              <p>With Preach360, you just trust the process.</p>
+              <p>No guesswork. Just trust the process.</p>
               
               <div className="mt-12 max-w-3xl mx-auto text-center border-l-2 border-r-2 border-brand-500/30 px-6 py-2">
                 <p className="text-xl md:text-2xl text-brand-900 font-drama italic mb-4">

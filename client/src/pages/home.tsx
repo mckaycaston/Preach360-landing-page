@@ -93,7 +93,7 @@ export default function Home() {
             <div className="text-lg md:text-xl space-y-6 text-left md:text-center text-muted-foreground">
               <p>Thankfully, with the Preach360 online sermon studio, you can craft a biblically faithful sermon in a single afternoon.</p>
               <p><strong className="text-foreground">A Simple Process.</strong> Just follow the prompts.</p>
-              <p><strong className="text-foreground">A Guided Process.</strong> Unlike generic AI tools, it doesn't do the work for you. It does the work with you. Your study, your heart, and your voice.</p>
+              <p><strong className="text-foreground">A Guided Process.</strong> Unlike generic AI tools, it doesn't do the work for you. It does the work with you.</p>
               <p><strong className="text-foreground">An Intuitive Process.</strong> Rather than inventing an artificial outline, you simply unfold the organic, redemptive message that's already in the text.</p>
               <p>With Preach360, you just trust the process.</p>
               

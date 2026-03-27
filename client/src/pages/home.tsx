@@ -216,7 +216,7 @@ export default function Home() {
                 <p className="text-sm text-muted-foreground mb-6">The core sermon builder studio designed to fit standard pastoral continuing education budgets. Includes everything you need to craft biblically faithful, redemptive expository sermons in a single afternoon, from raw exegesis to full manuscript.</p>
                 <div className="mt-4 pt-6 border-t border-border">
                   <a href="#pricing" className="w-full">
-                    <Button className="w-full" variant="outline">Trust the process and reclaim your week.</Button>
+                    <Button className="w-full" variant="outline">Start Your Free 14-Day Trial</Button>
                   </a>
                 </div>
                 

@@ -15,12 +15,13 @@ export function Navbar() {
         </Link>
 
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
-          <a href="#roadmap" className="hover:text-foreground transition-colors">The 4-Hour Sermon Roadmap</a>
-          <a href="#system" className="hover:text-foreground transition-colors">The Preach360™ Difference</a>
-          <a href="#about" className="hover:text-foreground transition-colors">Meet McKay Caston</a>
+          <Link href="/roadmap" className="hover:text-foreground transition-colors">The 4-Hour Sermon Roadmap</Link>
+          <a href="/#system" className="hover:text-foreground transition-colors">The Preach360™ Difference</a>
+          <Link href="/about" className="hover:text-foreground transition-colors">Meet McKay Caston</Link>
         </div>
 
         <div className="flex items-center gap-4">
+          <a href="/#pricing" className="text-sm font-medium text-brand-600 hover:text-brand-700 transition-colors hidden sm:block">Pricing</a>
           <Link href="/login">
             <Button variant="ghost" className="text-sm font-medium hidden sm:flex">Log In</Button>
           </Link>

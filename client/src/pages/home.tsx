@@ -109,6 +109,11 @@ export default function Home() {
 
           <div className="mt-20 mb-8 text-center">
             <h2 className="text-3xl md:text-5xl font-bold font-drama text-foreground">Built for Pastors by a Pastor.</h2>
+            <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto space-y-6 mt-8 text-left md:text-center">
+              <p>My name is McKay Caston. As a pastor myself, I know the pressure and ministry stress you face—including the burnout.</p>
+              <p>So I poured my 30 years of preaching experience, ten years of teaching homilietics in seminary, and my PhD research into building Preach360, with the goal of helping you prep more efficiently and preach the gospel more effectively.</p>
+              <p className="font-medium text-brand-900">I guarantee you'll experience the difference with your first sermon.</p>
+            </div>
           </div>
           
           <div className="mt-16 max-w-3xl mx-auto text-center border-l-2 border-r-2 border-brand-500/30 px-6 py-2">
@@ -123,10 +128,6 @@ export default function Home() {
       {/* 3. THE PREACH360 DIFFERENCE */}
       <section className="py-16 md:py-20 bg-background relative overflow-hidden" id="system">
         <div className="container mx-auto px-4 max-w-6xl relative z-10">
-          <div className="text-center mb-16">
-             <h2 className="text-3xl md:text-5xl font-bold font-drama text-foreground">The Preach360™ Difference</h2>
-          </div>
-
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12 relative">
             {/* The Old Way */}
             <div className="bg-white border-2 border-brand-100/50 rounded-[2.5rem] p-8 lg:p-12 shadow-xl shadow-brand-900/5">

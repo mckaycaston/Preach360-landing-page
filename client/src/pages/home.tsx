@@ -215,7 +215,9 @@ export default function Home() {
                 <p className="text-sm font-medium text-brand-600 mb-4">per user, or $350/yr (2 mos free)</p>
                 <p className="text-sm text-muted-foreground mb-6">The core sermon builder studio designed to fit standard pastoral continuing education budgets. Includes everything you need to craft biblically faithful, redemptive expository sermons in a single afternoon, from raw exegesis to full manuscript.</p>
                 <div className="mt-4 pt-6 border-t border-border">
-                  <Button className="w-full" variant="outline">Start 14-Day Free Trial</Button>
+                  <a href="#pricing" className="w-full">
+                    <Button className="w-full" variant="outline">Trust the process and reclaim your week.</Button>
+                  </a>
                 </div>
                 
                 <div className="mt-8 pt-8 border-t border-border">

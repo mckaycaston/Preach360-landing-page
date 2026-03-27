@@ -222,7 +222,8 @@ export default function Home() {
                 
                 <div className="mt-8 pt-8 border-t border-border">
                   <h3 className="text-lg font-bold mb-1">Volume Pricing Option <span className="text-sm font-normal text-muted-foreground block mt-1">(Staffs/Networks/Organizations)</span></h3>
-                  <div className="text-2xl font-bold mb-3 font-mono">$15<span className="text-base font-normal text-muted-foreground">/mo</span></div>
+                  <div className="text-2xl font-bold mb-1 font-mono">$15<span className="text-base font-normal text-muted-foreground">/mo</span></div>
+                  <p className="text-sm font-medium text-brand-600 mb-3">per user, or $150/yr (2 mos free)</p>
                   <p className="text-sm text-muted-foreground">Any subscriber may purchase additional seats at the volume price for staffs, church planting networks, mission organizations, seminaries, etc.</p>
                 </div>
               </div>

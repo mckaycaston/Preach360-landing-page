@@ -85,7 +85,7 @@ export default function Home() {
       </section>
 
       {/* 1. THE PROBLEM */}
-      <section className="py-16 md:py-20 bg-background relative" id="problem">
+      <section className="pt-16 pb-0 md:pt-20 md:pb-0 bg-background relative" id="problem">
         <div className="container mx-auto px-4 max-w-6xl text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-8 font-drama text-foreground">Solo pastors don't have the luxury of doing sermon prep all week.</h2>
           
@@ -114,9 +114,9 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-20 mb-8 text-center">
+          <div className="mt-16 mb-8 md:mb-12 text-center">
             <h2 className="text-3xl md:text-5xl font-bold font-drama text-foreground">Built for Pastors by a Pastor.</h2>
-            <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto space-y-6 mt-8 text-left md:text-center">
+            <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto space-y-6 mt-8 text-left md:text-center pb-0">
               <p>My name is McKay Caston. As a pastor myself, I know the pressure and ministry stress you face—including the burnout.</p>
               <p>So I poured my 30 years of preaching experience, ten years of teaching homilietics in seminary, and my PhD research into building Preach360, with the goal of helping you prep more efficiently and preach the gospel more effectively.</p>
               <p className="font-medium text-brand-900">I guarantee you'll experience the difference with your first sermon.</p>
@@ -126,7 +126,7 @@ export default function Home() {
       </section>
 
       {/* 3. THE PREACH360 DIFFERENCE */}
-      <section className="py-16 md:py-20 bg-background relative overflow-hidden" id="system">
+      <section className="pt-4 md:pt-6 pb-16 md:pb-20 bg-background relative overflow-hidden" id="system">
         <div className="container mx-auto px-4 max-w-6xl relative z-10">
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12 relative">
             {/* The Old Way */}

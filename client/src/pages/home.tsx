@@ -107,40 +107,6 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6 items-stretch mt-16 text-left">
-             {/* Tether */}
-             <div className="bg-card border border-border p-8 rounded-2xl shadow-sm flex flex-col h-full items-center text-center">
-               <div className="w-12 h-12 bg-brand-100 text-brand-600 rounded-full flex items-center justify-center mb-6">
-                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22V2M5 9h14"/></svg>
-               </div>
-               <h3 className="text-xl font-bold mb-4">Gospel Centrality</h3>
-               <p className="text-muted-foreground mb-4 flex-1">
-                 You'll tether every text to the cross, preaching grace as fuel for change, not just as a fallback for failure.
-               </p>
-             </div>
-             
-             {/* Margin */}
-             <div className="bg-card border border-border p-8 rounded-2xl shadow-sm flex flex-col h-full items-center text-center">
-               <div className="w-12 h-12 bg-brand-100 text-brand-600 rounded-full flex items-center justify-center mb-6">
-                 <Clock className="w-6 h-6" />
-               </div>
-               <h3 className="text-xl font-bold mb-4">Reclaimed Time</h3>
-               <p className="text-muted-foreground mb-4 flex-1">
-                 You'll finish your prep in hours vs days, reclaiming margin for other pastoral responsibilities and a real day off.
-               </p>
-             </div>
-
-             {/* Sustainability */}
-             <div className="bg-card border border-border p-8 rounded-2xl shadow-sm flex flex-col h-full items-center text-center">
-               <div className="w-12 h-12 bg-brand-100 text-brand-600 rounded-full flex items-center justify-center mb-6">
-                 <Heart className="w-6 h-6" />
-               </div>
-               <h3 className="text-xl font-bold mb-4">Pastoral Longevity</h3>
-               <p className="text-muted-foreground mb-4 flex-1">
-                 You'll discover a sustainable rhythm for life and ministry, trading burnout for long-term pastoral health.
-               </p>
-             </div>
-          </div>
           
           <div className="mt-16 max-w-3xl mx-auto text-center border-l-2 border-r-2 border-brand-500/30 px-6 py-2">
             <p className="text-xl md:text-2xl text-brand-900 font-drama italic mb-4">

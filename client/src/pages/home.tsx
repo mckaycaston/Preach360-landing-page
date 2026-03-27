@@ -114,7 +114,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-16 mb-8 md:mb-12 text-center">
+          <div className="mt-16 mb-8 md:mb-12 text-center" id="built-for-pastors">
             <h2 className="text-3xl md:text-5xl font-bold font-drama text-foreground">Built for Pastors by a Pastor.</h2>
             <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto space-y-6 mt-8 text-left md:text-center pb-0">
               <p>My name is McKay Caston. As a pastor myself, I know the pressure and ministry stress you face—including the burnout.</p>

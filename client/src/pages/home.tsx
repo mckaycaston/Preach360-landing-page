@@ -108,6 +108,9 @@ export default function Home() {
             </div>
           </div>
 
+          <div className="mt-20 mb-8 text-center">
+            <h2 className="text-3xl md:text-5xl font-bold font-drama text-foreground">Built for Pastors by a Pastor.</h2>
+          </div>
           
           <div className="mt-16 max-w-3xl mx-auto text-center border-l-2 border-r-2 border-brand-500/30 px-6 py-2">
             <p className="text-xl md:text-2xl text-brand-900 font-drama italic mb-4">

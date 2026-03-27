@@ -91,7 +91,7 @@ export default function Home() {
           
           <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-4xl mx-auto space-y-6">
             <div className="text-lg md:text-xl space-y-6 text-left md:text-center text-muted-foreground">
-              <p>Thankfully, with Preach360, you can prep a biblically faithful sermon in a single afternoon.</p>
+              <p>Thankfully, with Preach360, you can craft a biblically faithful sermon in a single afternoon.</p>
               <p>Preach360 is the online sermon studio built for pastors by a pastor.</p>
               <p><strong className="text-foreground">A Simple Process.</strong> Just follow the prompts.</p>
               <p><strong className="text-foreground">A Guided Process.</strong> Unlike generic AI tools, it doesn't do the work for you. It does the work with you.</p>

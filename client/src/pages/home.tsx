@@ -211,7 +211,7 @@ export default function Home() {
              </p>
            </div>
            
-           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
+           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               <div className="bg-card border border-border p-8 rounded-3xl flex flex-col">
                 <h3 className="text-xl font-bold mb-2">Preach360 Sermon Studio</h3>
                 <div className="text-3xl font-bold mb-2 font-mono">$35<span className="text-base font-normal text-muted-foreground">/mo</span></div>
@@ -222,18 +222,6 @@ export default function Home() {
                 </div>
               </div>
               
-              <div className="bg-brand-500 text-white p-8 rounded-3xl flex flex-col relative shadow-xl shadow-brand-500/20 transform scale-105">
-                <div className="absolute top-0 right-0 transform translate-x-2 -translate-y-2">
-                  <span className="bg-brand-950 text-brand-100 text-xs font-bold px-3 py-1 rounded-full">MOST POPULAR</span>
-                </div>
-                <h3 className="text-xl font-bold mb-2 text-brand-50">Preach360 VIP Access</h3>
-                <div className="text-3xl font-bold mb-2 font-mono">$70<span className="text-base font-normal text-brand-200">/mo</span></div>
-                <p className="text-sm font-medium text-brand-100 mb-4">per user, or $700/yr (2 mos free)</p>
-                <p className="text-sm text-brand-100 mb-6">Includes the full suite of specialized Preach360 apps, in addition to the complete video training library, the comprehensive Preach360™ Video Course, and weekly live coaching via Zoom with Preach360™ creator, McKay Caston.</p>
-                <div className="mt-auto pt-6 border-t border-brand-400">
-                  <Button className="w-full bg-white text-brand-600 hover:bg-brand-50">Start 14-Day Free Trial</Button>
-                </div>
-              </div>
               
               <div className="bg-card border border-border p-8 rounded-3xl flex flex-col">
                 <h3 className="text-xl font-bold mb-2">Volume Pricing <span className="text-sm font-normal text-muted-foreground block mt-1">(Staffs/Networks/Organizations)</span></h3>

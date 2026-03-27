@@ -97,6 +97,13 @@ export default function Home() {
               <p><strong className="text-foreground">An Intuitive Process.</strong> Rather than inventing an artificial outline, you simply unfold the organic, redemptive message that's already in the text.</p>
               <p>With Preach360, you just trust the process.</p>
               
+              <div className="mt-12 max-w-3xl mx-auto text-center border-l-2 border-r-2 border-brand-500/30 px-6 py-2">
+                <p className="text-xl md:text-2xl text-brand-900 font-drama italic mb-4">
+                  "I can honestly say, this is the first time in 18 years that I look forward to sermon prep!"
+                </p>
+                <p className="text-brand-600 font-bold">— K.C.</p>
+              </div>
+              
               <div className="mt-12 relative rounded-2xl overflow-hidden shadow-2xl border border-border bg-white p-2">
                 <img 
                   src={coachImage} 
@@ -114,13 +121,6 @@ export default function Home() {
               <p>So I poured my 30 years of preaching experience, ten years of teaching homilietics in seminary, and my PhD research into building Preach360, with the goal of helping you prep more efficiently and preach the gospel more effectively.</p>
               <p className="font-medium text-brand-900">I guarantee you'll experience the difference with your first sermon.</p>
             </div>
-          </div>
-          
-          <div className="mt-16 max-w-3xl mx-auto text-center border-l-2 border-r-2 border-brand-500/30 px-6 py-2">
-            <p className="text-xl md:text-2xl text-brand-900 font-drama italic mb-4">
-              "I can honestly say, this is the first time in 18 years that I look forward to sermon prep!"
-            </p>
-            <p className="text-brand-600 font-bold">— K.C.</p>
           </div>
         </div>
       </section>

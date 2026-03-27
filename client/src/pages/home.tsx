@@ -204,7 +204,7 @@ export default function Home() {
            <div className="text-center mb-16">
              <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-foreground">Trust the process and reclaim your week.</h2>
              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-               Get started today with your complete, all-in-one sermon studio.
+               Get started with your complete, all-in-one sermon studio today. Free trial. Cancel anytime.
              </p>
            </div>
            

@@ -91,7 +91,7 @@ export default function Home() {
           
           <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-4xl mx-auto space-y-6">
             <div className="text-lg md:text-xl space-y-6 text-left md:text-center text-muted-foreground">
-              <p>Thankfully, with the Preach360 online sermon studio, you can craft a biblically faithful sermon in a single afternoon.</p>
+              <p>Thankfully, with the Preach360 online sermon studio, you can craft a biblically faithful, redemptive, expository sermon in a single afternoon.</p>
               <p><strong className="text-foreground">A Simple Process.</strong> Just follow the prompts.</p>
               <p><strong className="text-foreground">A Guided Process.</strong> Unlike generic AI tools, it doesn't do the work for you. It does the work with you.</p>
               <p><strong className="text-foreground">An Intuitive Process.</strong> Rather than inventing an artificial outline, you simply unfold the organic, redemptive message that's already in the text.</p>
@@ -119,7 +119,7 @@ export default function Home() {
               <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto space-y-6 mt-8 text-left md:text-center pb-0">
                 <p>My name is McKay Caston. As a pastor myself, I know the pressure and ministry stress you face—including the burnout.</p>
                 <p>But you don't have to burn out. You can pastor with a weekly rhythm that includes margin for life and a real day off, which is critical for long-term pastoral health.</p>
-                <p>So I poured my 30 years of preaching experience, ten years of teaching homilietics in seminary, and my PhD research into building Preach360, with the goal of helping you prep more efficiently and preach the gospel more effectively.</p>
+                <p>I poured my 30 years of preaching experience, ten years of teaching homilietics in seminary, and my PhD research into building Preach360, with the goal of helping you prep more efficiently and preach the gospel more effectively.</p>
               </div>
             </div>
         </div>

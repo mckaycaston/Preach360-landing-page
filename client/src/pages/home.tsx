@@ -114,20 +114,14 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-16 mb-8 md:mb-12 text-center" id="built-for-pastors">
-            <h2 className="text-3xl md:text-5xl font-bold font-drama text-foreground">Built for Pastors by a Pastor.</h2>
-            <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto space-y-6 mt-8 text-left md:text-center pb-0">
-              <p>My name is McKay Caston. As a pastor myself, I know the pressure and ministry stress you face—including the burnout.</p>
-              <p>But you don't have to burn out. You can pastor with a weekly rhythm that includes margin for life and a real day off, which is critical for long-term pastoral health.</p>
-              <p>So I poured my 30 years of preaching experience, ten years of teaching homilietics in seminary, and my PhD research into building Preach360, with the goal of helping you prep more efficiently and preach the gospel more effectively.</p>
-            <div className="mt-12 max-w-3xl mx-auto text-center border-l-2 border-r-2 border-brand-500/30 px-6 py-2">
-              <p className="text-xl md:text-2xl text-brand-900 font-drama italic mb-4">
-                "I've had more positive feedback on my sermons this year than all my previous years of preaching combined!"
-              </p>
-              <p className="text-brand-600 font-bold">— Rodney B.</p>
+            <div className="mt-16 mb-8 md:mb-12 text-center" id="built-for-pastors">
+              <h2 className="text-3xl md:text-5xl font-bold font-drama text-foreground">Built for Pastors by a Pastor.</h2>
+              <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto space-y-6 mt-8 text-left md:text-center pb-0">
+                <p>My name is McKay Caston. As a pastor myself, I know the pressure and ministry stress you face—including the burnout.</p>
+                <p>But you don't have to burn out. You can pastor with a weekly rhythm that includes margin for life and a real day off, which is critical for long-term pastoral health.</p>
+                <p>So I poured my 30 years of preaching experience, ten years of teaching homilietics in seminary, and my PhD research into building Preach360, with the goal of helping you prep more efficiently and preach the gospel more effectively.</p>
+              </div>
             </div>
-            </div>
-          </div>
         </div>
       </section>
 

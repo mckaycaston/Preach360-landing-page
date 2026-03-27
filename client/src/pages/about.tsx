@@ -1,4 +1,5 @@
 import { Navbar } from "@/components/navbar";
+import { Clock, Heart } from "lucide-react";
 
 export default function About() {
   return (
@@ -35,6 +36,53 @@ export default function About() {
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 3 Core Values Section */}
+        <section className="py-16 md:py-20 bg-brand-50/50">
+          <div className="container mx-auto px-4 max-w-6xl">
+            <div className="grid md:grid-cols-3 gap-6">
+              {/* Gospel Centrality */}
+              <div className="bg-white border-2 border-brand-100 rounded-[2rem] p-8 shadow-sm text-center">
+                <div className="w-12 h-12 rounded-full bg-brand-50 flex items-center justify-center mx-auto mb-6">
+                  <div className="text-brand-500 font-bold text-xl">+</div>
+                </div>
+                <h3 className="font-bold text-xl text-brand-900 mb-4 font-drama">Gospel Centrality</h3>
+                <p className="text-brand-700 text-sm">
+                  You'll tether every text to the cross, preaching grace as fuel for change, not just as a fallback for failure.
+                </p>
+              </div>
+
+              {/* Reclaimed Time */}
+              <div className="bg-white border-2 border-brand-100 rounded-[2rem] p-8 shadow-sm text-center">
+                <div className="w-12 h-12 rounded-full bg-brand-50 flex items-center justify-center mx-auto mb-6">
+                  <Clock className="w-5 h-5 text-brand-500" />
+                </div>
+                <h3 className="font-bold text-xl text-brand-900 mb-4 font-drama">Reclaimed Time</h3>
+                <p className="text-brand-700 text-sm">
+                  You'll finish your prep in hours vs days, reclaiming margin for other pastoral responsibilities and a real day off.
+                </p>
+              </div>
+
+              {/* Pastoral Longevity */}
+              <div className="bg-white border-2 border-brand-100 rounded-[2rem] p-8 shadow-sm text-center">
+                <div className="w-12 h-12 rounded-full bg-brand-50 flex items-center justify-center mx-auto mb-6">
+                  <Heart className="w-5 h-5 text-brand-500" />
+                </div>
+                <h3 className="font-bold text-xl text-brand-900 mb-4 font-drama">Pastoral Longevity</h3>
+                <p className="text-brand-700 text-sm">
+                  You'll discover a sustainable rhythm for life and ministry, trading burnout for long-term pastoral health.
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-16 max-w-3xl mx-auto text-center border-l-2 border-r-2 border-brand-500/30 px-6 py-2">
+              <p className="text-xl md:text-2xl text-brand-900 font-drama italic mb-4">
+                "I can honestly say, this is the first time in 18 years that I look forward to sermon prep!"
+              </p>
+              <p className="text-brand-600 font-bold">— K.C.</p>
             </div>
           </div>
         </section>

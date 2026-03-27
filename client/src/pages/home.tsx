@@ -225,11 +225,8 @@ export default function Home() {
               
               <div className="bg-card border border-border p-8 rounded-3xl flex flex-col">
                 <h3 className="text-xl font-bold mb-2">Volume Pricing <span className="text-sm font-normal text-muted-foreground block mt-1">(Staffs/Networks/Organizations)</span></h3>
-                <div className="text-2xl font-bold mb-4 font-mono">$15-$25<span className="text-base font-normal text-muted-foreground">/mo</span></div>
-                <p className="text-sm text-muted-foreground mb-6">Those who purchase a basic or premium subscription may purchase additional seats at the volume price for staffs, church planting networks, mission organizations, seminaries, etc. Volume pricing is $15/mo (billed annually) for the basic studio and $25/mo for premium.</p>
-                <div className="mt-auto pt-6 border-t border-border">
-                  <Button className="w-full" variant="outline">Contact Sales</Button>
-                </div>
+                <div className="text-3xl font-bold mb-4 font-mono">$15<span className="text-base font-normal text-muted-foreground">/mo</span></div>
+                <p className="text-sm text-muted-foreground mb-6">Any subscriber may purchase additional seats at the volume price for staffs, church planting networks, mission organizations, seminaries, etc.</p>
               </div>
            </div>
 

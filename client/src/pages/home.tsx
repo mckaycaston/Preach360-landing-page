@@ -119,7 +119,7 @@ export default function Home() {
             <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto space-y-6 mt-8 text-left md:text-center pb-0">
               <p>My name is McKay Caston. As a pastor myself, I know the pressure and ministry stress you face—including the burnout.</p>
               <p>So I poured my 30 years of preaching experience, ten years of teaching homilietics in seminary, and my PhD research into building Preach360, with the goal of helping you prep more efficiently and preach the gospel more effectively.</p>
-              <p className="font-medium text-brand-900">I guarantee you'll experience the difference with your first sermon.</p>
+              <p className="font-medium text-brand-900 italic">"I've had more positive feedback on my sermons this year than all my previous years of preaching combined!"—Rodney B.</p>
             </div>
           </div>
         </div>

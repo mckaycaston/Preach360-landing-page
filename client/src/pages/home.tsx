@@ -211,22 +211,21 @@ export default function Home() {
              </p>
            </div>
            
-           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+           <div className="max-w-2xl mx-auto">
               <div className="bg-card border border-border p-8 rounded-3xl flex flex-col">
                 <h3 className="text-xl font-bold mb-2">Preach360 Sermon Studio</h3>
                 <div className="text-3xl font-bold mb-2 font-mono">$35<span className="text-base font-normal text-muted-foreground">/mo</span></div>
                 <p className="text-sm font-medium text-brand-600 mb-4">per user, or $350/yr (2 mos free)</p>
                 <p className="text-sm text-muted-foreground mb-6">The core sermon builder studio designed to fit standard pastoral continuing education budgets. Includes everything you need to craft biblically faithful, redemptive expository sermons in a single afternoon, from raw exegesis to full manuscript.</p>
-                <div className="mt-auto pt-6 border-t border-border">
+                <div className="mt-4 pt-6 border-t border-border">
                   <Button className="w-full" variant="outline">Start 14-Day Free Trial</Button>
                 </div>
-              </div>
-              
-              
-              <div className="bg-card border border-border p-8 rounded-3xl flex flex-col">
-                <h3 className="text-xl font-bold mb-2">Volume Pricing <span className="text-sm font-normal text-muted-foreground block mt-1">(Staffs/Networks/Organizations)</span></h3>
-                <div className="text-3xl font-bold mb-4 font-mono">$15<span className="text-base font-normal text-muted-foreground">/mo</span></div>
-                <p className="text-sm text-muted-foreground mb-6">Any subscriber may purchase additional seats at the volume price for staffs, church planting networks, mission organizations, seminaries, etc.</p>
+                
+                <div className="mt-8 pt-8 border-t border-border">
+                  <h3 className="text-lg font-bold mb-1">Volume Pricing Option <span className="text-sm font-normal text-muted-foreground block mt-1">(Staffs/Networks/Organizations)</span></h3>
+                  <div className="text-2xl font-bold mb-3 font-mono">$15<span className="text-base font-normal text-muted-foreground">/mo</span></div>
+                  <p className="text-sm text-muted-foreground">Any subscriber may purchase additional seats at the volume price for staffs, church planting networks, mission organizations, seminaries, etc.</p>
+                </div>
               </div>
            </div>
 

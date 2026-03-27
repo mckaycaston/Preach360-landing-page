@@ -130,7 +130,7 @@ export default function Home() {
         <div className="container mx-auto px-4 max-w-6xl relative z-10">
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12 relative">
             {/* The Old Way */}
-            <div className="bg-white border-2 border-brand-100/50 rounded-[2.5rem] p-8 lg:p-12 shadow-xl shadow-brand-900/5">
+            <div className="bg-white border-2 border-brand-300 rounded-[2.5rem] p-8 lg:p-12 shadow-xl shadow-brand-900/5">
               <h3 className="text-3xl font-bold mb-8 font-drama text-brand-900 opacity-70">
                 The Old Way
               </h3>

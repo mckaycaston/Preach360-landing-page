@@ -50,7 +50,7 @@ export default function Home() {
               
               <div className="mb-8 max-w-xl">
                  <p className="text-xl md:text-2xl font-medium text-brand-100/90 leading-tight">
-                   without complicated Bible software, a stack of commentaries, or generic AI.
+                   without getting lost in complicated Bible software or falling back on generic AI.
                  </p>
               </div>
             </motion.div>

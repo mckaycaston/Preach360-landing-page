@@ -167,9 +167,6 @@ export default function Home() {
 
             {/* The Preach360 Way */}
             <div className="bg-brand-50 border-2 border-brand-300 rounded-[2.5rem] p-8 lg:p-12 relative shadow-2xl shadow-brand-500/10 transform scale-105">
-              <div className="absolute top-0 right-8 -translate-y-1/2 bg-brand-500 text-white px-5 py-1.5 rounded-full text-sm font-bold shadow-lg">
-                The Solution
-              </div>
               <h3 className="text-3xl font-bold mb-8 font-drama text-brand-700">
                 The Preach360™ Way
               </h3>

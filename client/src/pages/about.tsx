@@ -34,6 +34,9 @@ export default function About() {
                   <p>
                     Having poured his experience and PhD research into Preach360™ to help solo pastors and church planters preach the fullness of God's grace in Jesus.
                   </p>
+                  <p className="text-brand-900 font-medium text-2xl font-drama mt-8">
+                    His ultimate goal? To help you live a sustainable life for a long-term, gospel preaching ministry.
+                  </p>
                 </div>
               </div>
             </div>

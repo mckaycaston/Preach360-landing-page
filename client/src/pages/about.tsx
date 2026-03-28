@@ -29,10 +29,10 @@ export default function About() {
                     McKay Caston is a pastor with over 30 years of preaching experience.
                   </p>
                   <p>
-                    Having taught homiletics in seminary for ten years, he poured his PhD research into Preach360™ to help solo pastors and church planters preach the fullness of God's grace in Jesus with clarity, confidence, and enthusiasm.
+                    The author of numerous books, including <em>I Am Not the Christ: Pastoral Identity in View of the Cross</em> and <em>Galatians: Navigating All of Life in View of the Cross</em>, he has taught homiletics in seminary for ten years. 
                   </p>
-                  <p className="text-brand-900 font-medium text-2xl font-drama mt-8">
-                    His ultimate goal? To help you live a sustainable life for a long-term, gospel preaching ministry.
+                  <p>
+                    Having poured his experience and PhD research into Preach360™ to help solo pastors and church planters preach the fullness of God's grace in Jesus.
                   </p>
                 </div>
               </div>

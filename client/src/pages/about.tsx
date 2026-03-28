@@ -32,10 +32,7 @@ export default function About() {
                     The author of numerous books, including <em>I Am Not the Christ: Pastoral Identity in View of the Cross</em> and <em>Galatians: Navigating All of Life in View of the Cross</em>, he has taught homiletics in seminary for ten years. 
                   </p>
                   <p>
-                    Having poured his experience and PhD research into Preach360™ to help solo pastors and church planters preach the fullness of God's grace in Jesus.
-                  </p>
-                  <p className="text-brand-900 font-medium text-2xl font-drama mt-8">
-                    His ultimate goal? To help you live a sustainable life for a long-term, gospel preaching ministry.
+                    Having poured his experience and PhD research into Preach360™ to help solo pastors and church planters preach the fullness of God's grace in Jesus, his ultimate goal is to help you live a sustainable life for a long-term, gospel preaching ministry.
                   </p>
                 </div>
               </div>

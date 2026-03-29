@@ -3,6 +3,7 @@ import { BookOpen, ShieldCheck, Zap } from "lucide-react";
 import foundationImage from "@assets/image_1773317291845.png";
 import structureImage from "@assets/image_1773317393134.png";
 import polishingImage from "@assets/image_1773317517502.png";
+import ppgrImage from "@assets/Screenshot_2026-03-28_at_9.08.03_PM_1774746536127.png";
 
 export default function Roadmap() {
   return (
@@ -64,7 +65,8 @@ export default function Roadmap() {
                     <div>
                       <div className="font-mono text-sm text-brand-500 mb-2 font-bold tracking-wider">HOURS 2 & 3</div>
                       <h4 className="text-2xl font-bold mb-3 text-foreground font-drama">The PPGR Movements</h4>
-                      <p className="text-base text-muted-foreground max-w-2xl mx-auto">To build the structure, we'll create a relevance bridge between the original recipients and our contemporary context, revealing the present need for the text which will be developed through four movements that mirror the complete redemptive story found in the biblical creation, fall, redemption, and restoration framework. We call these movements Principle, Problem, Gospel, and Response (PPGR).</p>
+                      <p className="text-base text-muted-foreground max-w-2xl mx-auto mb-8">To build the structure, we'll create a relevance bridge between the original recipients and our contemporary context, revealing the present need for the text which will be developed through four movements that mirror the complete redemptive story found in the biblical creation, fall, redemption, and restoration framework. We call these movements Principle, Problem, Gospel, and Response (PPGR).</p>
+                      <img src={ppgrImage} alt="PPGR Movements: Principle, Problem, Gospel, Response" className="w-full max-w-lg mx-auto h-auto rounded-xl border border-brand-100/50" />
                     </div>
                   </div>
                 </div>

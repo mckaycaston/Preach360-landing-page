@@ -182,7 +182,7 @@ export default function Home() {
                   <div className="mt-1 min-w-6 text-brand-500 font-bold">✓</div>
                   <div>
                     <strong className="block text-brand-950 mb-2 text-2xl font-bold">IMPACT</strong>
-                    <p className="text-brand-950/80 text-base">You'll preach grace as fuel for new life, not just as a fallback for failure—and start to see people change from the inside out.</p>
+                    <p className="text-brand-950/80 text-base">You'll preach grace as fuel for new life, not just as a fallback for failure—and start hearing stories of real change.</p>
                   </div>
                 </li>
               </ul>

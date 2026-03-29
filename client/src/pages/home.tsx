@@ -168,7 +168,7 @@ export default function Home() {
                   <div className="mt-1 min-w-6 text-brand-500 font-bold">✓</div>
                   <div>
                     <strong className="block text-brand-950 mb-2 text-2xl font-bold">MARGIN</strong>
-                    <p className="text-brand-950/80 text-base">Finish your message in hours, not days. Preach360™ returns over 10 hours of margin to your week, including a real day off.</p>
+                    <p className="text-brand-950/80 text-base">Finish your message in hours, not days. Preach360™ returns margin to your week, including a real day off.</p>
                   </div>
                 </li>
                 <li className="flex gap-4">

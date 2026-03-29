@@ -175,7 +175,7 @@ export default function Home() {
                   <div className="mt-1 min-w-6 text-brand-500 font-bold">✓</div>
                   <div>
                     <strong className="block text-brand-950 mb-2 text-2xl font-bold">CONFIDENCE</strong>
-                    <p className="text-brand-950/80 text-base">Rather than invent an artificial outline, you'll simply unfold the gospel organically from the text using the PPGR framework.</p>
+                    <p className="text-brand-950/80 text-base">Rather than invent an artificial outline, you'll simply unfold the gospel organically from the text.</p>
                   </div>
                 </li>
                 <li className="flex gap-4">

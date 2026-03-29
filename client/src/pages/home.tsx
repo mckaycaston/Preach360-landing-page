@@ -207,7 +207,7 @@ export default function Home() {
                 <h3 className="text-xl font-bold mb-2">Preach360 Sermon Studio</h3>
                 <div className="text-3xl font-bold mb-2 font-mono">$35<span className="text-base font-normal text-muted-foreground">/mo</span></div>
                 <p className="text-sm font-medium text-brand-600 mb-4">per user, or $350/yr (2 mos free)</p>
-                <p className="text-sm text-muted-foreground mb-6">The core sermon builder studio designed to fit standard pastoral continuing education budgets. Includes everything you need to craft biblically faithful, redemptive expository sermons in a single afternoon, from raw exegesis to full manuscript.</p>
+                <p className="text-sm text-muted-foreground mb-6">The sermon studio includes everything you need to craft biblically faithful, redemptive expository sermons in a single afternoon, from raw exegesis to full manuscript.</p>
                 <div className="mt-4 pt-6 border-t border-border">
                   <a href="#pricing" className="w-full">
                     <Button className="w-full" variant="outline">Start Your Free 14-Day Trial</Button>

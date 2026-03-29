@@ -152,7 +152,7 @@ export default function Home() {
                   <div className="mt-1 min-w-6 text-brand-400 font-light">✕</div>
                   <div>
                     <strong className="block text-foreground mb-2 text-2xl font-bold">SILENCE</strong>
-                    <p className="text-base text-muted-foreground">Wishing to hear stories of impact from your sermons, you usually get the familiar "See you next week."</p>
+                    <p className="text-base text-muted-foreground">Wishing to hear stories of impact from your sermons, you usually get the familiar, "See you next week."</p>
                   </div>
                 </li>
               </ul>

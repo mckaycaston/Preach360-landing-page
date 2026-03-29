@@ -197,9 +197,10 @@ export default function Home() {
         <div className="container mx-auto px-4 max-w-6xl">
            <div className="text-center mb-16">
              <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-foreground">Trust the process and reclaim your week.</h2>
-             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-               Get started with your complete, all-in-one sermon studio today. Free trial. Cancel anytime.
-             </p>
+             <div className="text-lg text-muted-foreground max-w-2xl mx-auto space-y-2">
+               <p>Get started with your complete, all-in-one sermon OS today.</p>
+               <p className="text-sm font-medium">Free Trial. Cancel anytime.</p>
+             </div>
            </div>
            
            <div className="max-w-2xl mx-auto">

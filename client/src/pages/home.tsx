@@ -103,10 +103,6 @@ export default function Home() {
           
           <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-4xl mx-auto space-y-6">
             <div className="text-lg md:text-xl space-y-6 text-left md:text-center text-muted-foreground">
-              <p><strong className="text-foreground">Guided.</strong> Unlike generic AI tools, it doesn't do the work for you. It does the work with you. You don't prompt it. It prompts you.</p>
-              <p><strong className="text-foreground">Intuitive.</strong> Rather than inventing an artificial outline, you simply unfold the organic, redemptive message that's already in the text.</p>
-              <p><strong className="text-foreground">Simple.</strong> No guesswork. Just trust the process.</p>
-              
               <div className="mt-12 max-w-3xl mx-auto text-center border-l-2 border-r-2 border-brand-500/30 px-6 py-2">
                 <p className="text-xl md:text-2xl text-brand-900 font-drama italic mb-4">
                   "I can honestly say, this is the first time in 18 years that I look forward to sermon prep!"
@@ -123,6 +119,12 @@ export default function Home() {
               </div>
               
               <h3 className="text-3xl md:text-5xl font-bold mt-16 mb-8 font-drama text-foreground">Just trust the process.</h3>
+              
+              <div className="text-lg md:text-xl space-y-6 text-left md:text-center text-muted-foreground mt-8">
+                <p><strong className="text-foreground">Guided.</strong> Unlike generic AI tools, it doesn't do the work for you. It does the work with you. You don't prompt it. It prompts you.</p>
+                <p><strong className="text-foreground">Intuitive.</strong> Rather than inventing an artificial outline, you simply unfold the organic, redemptive message that's already in the text.</p>
+                <p><strong className="text-foreground">Simple.</strong> No guesswork. Just trust the process.</p>
+              </div>
             </div>
           </div>
 

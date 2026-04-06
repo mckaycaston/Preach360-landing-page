@@ -6,6 +6,7 @@ import { Link } from "wouter";
 import roadmapProgress from "@assets/image_1772636322550.png";
 import aboutCreatorImage from "@assets/image_1772656745459.png";
 import coachImage from "@assets/image_1773084579554.png";
+import workspaceImage from "@assets/image_1775484387233.png";
 import foundationImage from "@assets/image_1773317291845.png";
 import structureImage from "@assets/image_1773317393134.png";
 import polishingImage from "@assets/image_1773317517502.png";
@@ -115,11 +116,13 @@ export default function Home() {
               
               <div className="mt-12 relative rounded-2xl overflow-hidden shadow-2xl border border-border bg-white p-2">
                 <img 
-                  src={coachImage} 
-                  alt="Preach360 Coaching Interface" 
+                  src={workspaceImage} 
+                  alt="Preach360 Sermon Studio Workspace" 
                   className="w-full h-auto rounded-xl"
                 />
               </div>
+              
+              <h3 className="text-3xl md:text-5xl font-bold mt-16 mb-8 font-drama text-foreground">Just trust the process.</h3>
             </div>
           </div>
 

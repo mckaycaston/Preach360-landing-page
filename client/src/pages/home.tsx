@@ -254,7 +254,7 @@ export default function Home() {
         
         <div className="container mx-auto px-4 relative z-10">
           <p className="text-2xl md:text-3xl text-brand-50 max-w-4xl mx-auto leading-tight">
-            Join a community of pastors from over 20 countries across 6 continents experiencing a sustainable, life-giving ministry with Preach360™.
+            Join a community of pastors from over 20 countries across 6 continents reclaiming their weeks and renewing their lives with Preach360™.
           </p>
         </div>
       </section>

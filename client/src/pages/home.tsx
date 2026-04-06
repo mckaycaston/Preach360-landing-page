@@ -212,8 +212,8 @@ export default function Home() {
         <div className="container mx-auto px-4 max-w-6xl">
            <div className="text-center mb-16">
              <h2 className="text-3xl md:text-5xl font-bold mb-6 font-drama text-foreground">Reclaim your week. Renew your life.</h2>
-             <div className="text-lg text-muted-foreground max-w-2xl mx-auto space-y-2">
-               <p className="text-sm font-medium">Free Trial. Cancel anytime.</p>
+             <div className="text-muted-foreground max-w-2xl mx-auto space-y-2">
+               <p className="text-lg font-medium">Start your free trial and cancel anytime.</p>
              </div>
            </div>
            

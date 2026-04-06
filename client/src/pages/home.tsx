@@ -121,9 +121,9 @@ export default function Home() {
               <h3 className="text-3xl md:text-5xl font-bold mt-16 mb-8 font-drama text-foreground">Just trust the process.</h3>
               
               <div className="text-lg md:text-xl space-y-6 text-left md:text-center text-muted-foreground mt-8">
-                <p><strong className="text-foreground">Guided.</strong> Unlike generic AI tools, it doesn't do the work for you. It does the work with you. You don't prompt it. It prompts you.</p>
-                <p><strong className="text-foreground">Intuitive.</strong> Rather than inventing an artificial outline, you simply unfold the organic, redemptive message that's already in the text.</p>
-                <p><strong className="text-foreground">Simple.</strong> No guesswork. Just trust the process.</p>
+                <p><strong className="text-foreground">A Guided Process.</strong> Unlike generic AI tools, it doesn't do the work for you. It does the work with you. You don't prompt it. It prompts you.</p>
+                <p><strong className="text-foreground">An Intuitive Process.</strong> Rather than inventing an artificial outline, you simply unfold the organic, redemptive message that's already in the text.</p>
+                <p><strong className="text-foreground">A Simple Process.</strong> No guesswork—from raw exegesis to full manuscript. Just trust the process.</p>
               </div>
             </div>
           </div>

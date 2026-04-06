@@ -91,9 +91,13 @@ export default function Home() {
           
           <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-4xl mx-auto space-y-6 mb-12">
             <div className="text-lg md:text-xl space-y-6 text-left md:text-center text-muted-foreground">
-              <p>My name is McKay Caston. As a pastor myself, I know the pressure and ministry stress you face—including the burnout.</p>
-              <p>But you don't have to burn out. You can pastor with a weekly rhythm that includes margin for life and a real day off, which is critical for long-term pastoral health.</p>
-              <p>I poured my 30 years of preaching experience, ten years of teaching homilietics in seminary, and my PhD research into building Preach360, with the goal of helping you prep more efficiently and preach the gospel more effectively.</p>
+              <p>My name is McKay Caston. As a pastor myself, I know the unrelenting pressure.</p>
+              <p>Without healthy rhythms, burnout can feel just one Sunday away.</p>
+              <p>But you don't have to burn out. You can pastor with a weekly rhythm that includes margin for ministry and a real day off.</p>
+              <p>You don't have to survive. You really can thrive.</p>
+              <p>To that end, I poured my 30 years of preaching experience, ten years of teaching homiletics in seminary, and my PhD research into building Preach360.</p>
+              <p>This is how you'll reclaim your week by drafting your Sunday message in a single afternoon.</p>
+              <p>Not only will you prep in far less time, you'll preach with far more impact. Guaranteed.</p>
             </div>
           </div>
           

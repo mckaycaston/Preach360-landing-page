@@ -87,7 +87,7 @@ export default function Home() {
       {/* 1. THE PROBLEM */}
       <section className="pt-16 pb-0 md:pt-20 md:pb-0 bg-background relative" id="problem">
         <div className="container mx-auto px-4 max-w-6xl text-center">
-          <h2 className="text-3xl md:text-5xl font-bold mb-8 font-drama text-foreground">Solo pastors don't have the luxury of doing sermon prep all week.</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-8 font-drama text-foreground">Introducing Preach360™—Built by a Pastor for Pastors</h2>
           
           <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-4xl mx-auto space-y-6">
             <div className="text-lg md:text-xl space-y-6 text-left md:text-center text-muted-foreground">

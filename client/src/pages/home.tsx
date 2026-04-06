@@ -89,6 +89,14 @@ export default function Home() {
         <div className="container mx-auto px-4 max-w-6xl text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-8 font-drama text-foreground">Introducing Preach360™—Built by a Pastor for Pastors</h2>
           
+          <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-4xl mx-auto space-y-6 mb-12">
+            <div className="text-lg md:text-xl space-y-6 text-left md:text-center text-muted-foreground">
+              <p>My name is McKay Caston. As a pastor myself, I know the pressure and ministry stress you face—including the burnout.</p>
+              <p>But you don't have to burn out. You can pastor with a weekly rhythm that includes margin for life and a real day off, which is critical for long-term pastoral health.</p>
+              <p>I poured my 30 years of preaching experience, ten years of teaching homilietics in seminary, and my PhD research into building Preach360, with the goal of helping you prep more efficiently and preach the gospel more effectively.</p>
+            </div>
+          </div>
+          
           <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-4xl mx-auto space-y-6">
             <div className="text-lg md:text-xl space-y-6 text-left md:text-center text-muted-foreground">
               <p>Thankfully, with the Preach360 online sermon studio, you can craft a biblically faithful, redemptive, expository sermon in a single afternoon.</p>
@@ -114,12 +122,6 @@ export default function Home() {
           </div>
 
             <div className="mt-16 mb-8 md:mb-12 text-center" id="built-for-pastors">
-              <h2 className="text-3xl md:text-5xl font-bold font-drama text-foreground">Built for Pastors by a Pastor.</h2>
-              <div className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto space-y-6 mt-8 text-left md:text-center pb-0">
-                <p>My name is McKay Caston. As a pastor myself, I know the pressure and ministry stress you face—including the burnout.</p>
-                <p>But you don't have to burn out. You can pastor with a weekly rhythm that includes margin for life and a real day off, which is critical for long-term pastoral health.</p>
-                <p>I poured my 30 years of preaching experience, ten years of teaching homilietics in seminary, and my PhD research into building Preach360, with the goal of helping you prep more efficiently and preach the gospel more effectively.</p>
-              </div>
             </div>
         </div>
       </section>

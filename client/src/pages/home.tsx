@@ -125,6 +125,13 @@ export default function Home() {
                 <p><strong className="text-foreground">An Intuitive Process.</strong> Rather than inventing an artificial outline, you simply unfold the organic, redemptive message that's already in the text.</p>
                 <p><strong className="text-foreground">A Simple Process.</strong> No guesswork—from raw exegesis to full manuscript. Just trust the process.</p>
               </div>
+
+              <div className="mt-12 max-w-3xl mx-auto text-center border-l-2 border-r-2 border-brand-500/30 px-6 py-2">
+                <p className="text-xl md:text-2xl text-brand-900 font-drama italic mb-4">
+                  "I've had more positive comments on my sermons this year than all my years of preaching combined."
+                </p>
+                <p className="text-brand-600 font-bold">— Rodney B.</p>
+              </div>
             </div>
           </div>
 

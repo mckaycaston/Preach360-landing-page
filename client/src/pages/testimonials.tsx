@@ -13,6 +13,16 @@ const testimonials = [
       "My prep time has been drastically reduced. Most weeks, I have a first draft done by Tuesday. This has freed me up for other ministry tasks and allowed me to take a true day off. So grateful!",
   },
   {
+    author: "David H.",
+    quote:
+      "I was chronically finishing my sermon early Sunday mornings, but now have it completed  by Wednesday every week.",
+  },
+  {
+    author: "Erik O.",
+    quote:
+      "Just wanted to say how helpful this new way of sermon prep has been for me. Can't imagine my life now without it.",
+  },
+  {
     author: "Nate B.",
     quote: "Simply put, Preach360 has revolutionized by life and ministry!",
   },

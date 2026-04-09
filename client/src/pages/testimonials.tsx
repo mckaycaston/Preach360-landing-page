@@ -8,6 +8,11 @@ const testimonials = [
       "I've had more positive comments on my sermons this year than all my years of preaching combined.",
   },
   {
+    author: "Rodney B.",
+    quote:
+      "My prep time has been drastically reduced. Most weeks, I have a first draft done by Tuesday. This has freed me up for other ministry tasks and allowed me to take a true day off. So grateful!",
+  },
+  {
     author: "Nate B.",
     quote: "Simply put, Preach360 has revolutionized by life and ministry!",
   },

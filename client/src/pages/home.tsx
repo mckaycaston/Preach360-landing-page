@@ -128,9 +128,9 @@ export default function Home() {
 
               <div className="mt-12 max-w-3xl mx-auto text-center border-l-2 border-r-2 border-brand-500/30 px-6 py-2">
                 <p className="text-xl md:text-2xl text-brand-900 font-drama italic mb-4">
-                  "I've had more positive comments on my sermons this year than all my years of preaching combined."
+                  "I'm getting quicker at my prep time! And my feedback on my sermons since starting Preach360 has been my best yet!"
                 </p>
-                <p className="text-brand-600 font-bold">— Rodney B.</p>
+                <p className="text-brand-600 font-bold">— Ross R.</p>
               </div>
             </div>
           </div>

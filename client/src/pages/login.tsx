@@ -76,7 +76,7 @@ export default function Login() {
                 <div className="space-y-2">
                   <div className="flex items-center justify-between">
                     <Label htmlFor="password" className="text-xs font-bold uppercase tracking-wider text-muted-foreground">Password</Label>
-                    <a href="#" className="text-xs font-medium text-brand-600 hover:text-brand-700 transition-colors">Forgot password?</a>
+                    <a href="#" className="text-xs font-medium text-brand-700 hover:text-brand-800 transition-colors">Forgot password?</a>
                   </div>
                   <Input 
                     id="password" 
@@ -108,7 +108,7 @@ export default function Login() {
               <div className="mt-8 pt-6 border-t border-border text-center text-sm">
                 <p className="text-muted-foreground">
                   Don't have an account?{" "}
-                  <a href="#" className="font-semibold text-brand-600 hover:text-brand-700">Get Started</a>
+                  <a href="#" className="font-semibold text-brand-700 hover:text-brand-800">Get Started</a>
                 </p>
               </div>
             </div>

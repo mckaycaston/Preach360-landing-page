@@ -91,7 +91,7 @@ export default function Testimonials() {
                   </div>
 
                   <p
-                    className="mt-6 text-brand-600 font-bold text-base"
+                    className="mt-6 text-brand-700 font-bold text-base"
                     data-testid={`text-testimonial-author-${index}`}
                   >
                     — {testimonial.author}

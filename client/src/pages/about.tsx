@@ -50,7 +50,7 @@ export default function About() {
                   <div className="text-brand-500 font-bold text-xl">+</div>
                 </div>
                 <h3 className="font-bold text-xl text-brand-900 mb-4 font-drama">Gospel Centrality</h3>
-                <p className="text-brand-700 text-sm">
+                <p className="text-brand-800 text-sm">
                   You'll tether every text to the cross, preaching grace as fuel for change, not just as a fallback for failure.
                 </p>
               </div>
@@ -61,7 +61,7 @@ export default function About() {
                   <Clock className="w-5 h-5 text-brand-500" />
                 </div>
                 <h3 className="font-bold text-xl text-brand-900 mb-4 font-drama">Reclaimed Time</h3>
-                <p className="text-brand-700 text-sm">
+                <p className="text-brand-800 text-sm">
                   You'll finish your prep in hours vs days, reclaiming margin for other pastoral responsibilities and a real day off.
                 </p>
               </div>
@@ -72,7 +72,7 @@ export default function About() {
                   <Heart className="w-5 h-5 text-brand-500" />
                 </div>
                 <h3 className="font-bold text-xl text-brand-900 mb-4 font-drama">Pastoral Longevity</h3>
-                <p className="text-brand-700 text-sm">
+                <p className="text-brand-800 text-sm">
                   You'll discover a sustainable rhythm for life and ministry, trading burnout for long-term pastoral health.
                 </p>
               </div>
@@ -82,7 +82,7 @@ export default function About() {
               <p className="text-xl md:text-2xl text-brand-900 font-drama italic mb-4">
                 "You just don’t know what Preach360 has done to help me grow and progress. And I feel like I’m just getting started. I really look forward to both sermon prep and preaching more than ever."
               </p>
-              <p className="text-brand-600 font-bold">— Chris T.</p>
+              <p className="text-brand-700 font-bold">— Chris T.</p>
             </div>
           </div>
         </section>

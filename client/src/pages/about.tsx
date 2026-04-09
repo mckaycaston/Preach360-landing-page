@@ -80,9 +80,9 @@ export default function About() {
 
             <div className="mt-16 max-w-3xl mx-auto text-center border-l-2 border-r-2 border-brand-500/30 px-6 py-2">
               <p className="text-xl md:text-2xl text-brand-900 font-drama italic mb-4">
-                "I can honestly say, this is the first time in 18 years that I look forward to sermon prep!"
+                "You just don’t know what Preach360 has done to help me grow and progress. And I feel like I’m just getting started. I really look forward to both sermon prep and preaching more than ever."
               </p>
-              <p className="text-brand-600 font-bold">— K.C.</p>
+              <p className="text-brand-600 font-bold">— Chris T.</p>
             </div>
           </div>
         </section>

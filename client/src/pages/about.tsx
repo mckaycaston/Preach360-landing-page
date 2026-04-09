@@ -6,7 +6,7 @@ export default function About() {
     <div className="min-h-screen bg-background selection:bg-brand-200 selection:text-brand-900">
       <Navbar />
       <main className="pt-32 pb-20">
-        <section className="py-16 md:py-20" id="about">
+        <section className="pt-16 pb-8 md:pt-20 md:pb-10" id="about">
           <div className="container mx-auto px-4 max-w-6xl">
             <div className="text-center mb-12">
                <h2 className="text-3xl md:text-5xl font-bold font-drama text-brand-950">Meet McKay Caston</h2>
@@ -41,7 +41,7 @@ export default function About() {
         </section>
 
         {/* 3 Core Values Section */}
-        <section className="py-16 md:py-20 bg-brand-50/50">
+        <section className="pt-8 pb-16 md:pt-10 md:pb-20 bg-brand-50/50">
           <div className="container mx-auto px-4 max-w-6xl">
             <div className="grid md:grid-cols-3 gap-6">
               {/* Gospel Centrality */}

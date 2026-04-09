@@ -50,14 +50,11 @@ export default function Testimonials() {
         <section className="pt-16 pb-20 md:pt-20 md:pb-24">
           <div className="container mx-auto px-4 max-w-6xl">
             <div className="max-w-3xl mx-auto text-center mb-14 md:mb-16">
-              <p className="text-sm md:text-base font-mono uppercase tracking-[0.24em] text-brand-500 mb-4" data-testid="text-testimonials-eyebrow">
-                Social Proof
-              </p>
               <h1 className="text-4xl md:text-6xl font-bold font-drama text-brand-950" data-testid="text-page-title">
                 What Pastors Say
               </h1>
               <p className="mt-6 text-lg md:text-xl text-muted-foreground leading-relaxed" data-testid="text-page-description">
-                Real feedback from pastors who are reclaiming their weeks and preaching with greater clarity through Preach360™.
+                Real feedback from pastors reclaiming their weeks, renewing their lives, and preaching grace with greater clarity with Preach360™.
               </p>
             </div>
 

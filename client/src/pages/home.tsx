@@ -97,7 +97,6 @@ export default function Home() {
               <p>But you don't have to burn out. You can pastor with a weekly rhythm that includes margin for ministry and a real day off.</p>
               <p>You don't have to survive. You really can thrive.</p>
               <p>To that end, I poured my 30 years of preaching experience, 10 years of teaching homiletics in seminary, and my PhD research into building Preach360.</p>
-              <p>Not only will you prep in far less time, you'll preach with far more impact. Guaranteed.</p>
             </div>
           </div>
           

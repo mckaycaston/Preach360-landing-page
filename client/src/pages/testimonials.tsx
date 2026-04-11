@@ -23,6 +23,11 @@ const testimonials = [
       "Just wanted to say how helpful this new way of sermon prep has been for me. Can't imagine my life now without it.",
   },
   {
+    author: "Mike R.",
+    quote:
+      "I love the gospel-centered structure of the preaching system. This is the most important aspect for me.",
+  },
+  {
     author: "Nate B.",
     quote: "Simply put, Preach360 has revolutionized by life and ministry!",
   },

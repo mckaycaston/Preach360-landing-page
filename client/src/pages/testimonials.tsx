@@ -54,6 +54,10 @@ const testimonials = [
     quote:
       "The Preach360 method of seeing this gospel DNA in the text has made me feel like Edmond Dantes felt when he finally escaped the Chateau D'if!",
   },
+  {
+    author: "Kelly C.",
+    quote: "I can't recommend Preach360 enough!",
+  },
 ];
 
 export default function Testimonials() {

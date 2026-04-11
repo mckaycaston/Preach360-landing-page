@@ -62,6 +62,14 @@ const testimonials = [
     author: "Adam T.",
     quote: "Pastors, don't miss this. An invaluable resource!",
   },
+  {
+    author: "Scott N.",
+    quote: "This is the most effective sermon prep I've experienced in 35 years!",
+  },
+  {
+    author: "Demetrius W.",
+    quote: "This is the best sermon tool I've ever seen.",
+  },
 ];
 
 export default function Testimonials() {

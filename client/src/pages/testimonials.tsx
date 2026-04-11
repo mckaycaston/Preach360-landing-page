@@ -58,6 +58,10 @@ const testimonials = [
     author: "Kelly C.",
     quote: "I can't recommend Preach360 enough!",
   },
+  {
+    author: "Adam T.",
+    quote: "Pastors, don't miss this. An invaluable resource!",
+  },
 ];
 
 export default function Testimonials() {

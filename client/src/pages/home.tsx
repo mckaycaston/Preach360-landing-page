@@ -126,9 +126,9 @@ export default function Home() {
 
               <div className="mt-12 max-w-3xl mx-auto text-center border-l-2 border-r-2 border-brand-500/30 px-6 py-2">
                 <p className="text-xl md:text-2xl text-brand-900 font-drama italic mb-4">
-                  "I've had more positive comments on my sermons this year than all my years of preaching combined."
+                  "I'm getting quicker at my prep time! And this is the best feedback I’ve ever had on my preaching.”
                 </p>
-                <p className="text-brand-700 font-bold">— Rodney B.</p>
+                <p className="text-brand-700 font-bold">— Ross R.</p>
               </div>
             </div>
           </div>

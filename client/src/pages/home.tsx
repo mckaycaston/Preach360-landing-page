@@ -96,7 +96,7 @@ export default function Home() {
               <p>Without healthy rhythms, burnout can feel just one Sunday away.</p>
               <p>But you don't have to burn out. You can pastor with a weekly rhythm that includes margin for ministry and a real day off.</p>
               <p>You don't have to survive. You really can thrive.</p>
-              <p>To that end, I poured my 30 years of preaching experience, 10 years of teaching homiletics in seminary, and my PhD research into building Preach360.</p>
+              <p>To that end, I poured my 30 years of preaching experience, 10 years of teaching homiletics in seminary, and my PhD research into building Preach360—a one-of-a-kind, web based sermon studio.</p>
             </div>
           </div>
           
